@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <!-- <style>
+        *,
+        *::after,
+        *::before {
+            box-sizing: border-box;
+            /* border: 1px solid white; */
+        }
+
+        :root {
+            font-size: 62.5%;
+            --card-hq: rgb(54, 54, 54);
+        }
+
+        body {
+            color: white;
+            background-color: black;
+            font-size: 1.6rem;
+        }
+
+        /* Card styles */
+        #float-card {
+            border: 2px solid white;
+            border-radius: 20px;
+            min-height: 250px;
+            width: 170px;
+        }
+
+        .card-hq {
+            background-color: var(--card-hq);
+
+        }
+
+        /* #card-footer {} */
+        /* #card-body {} */
+        #card-footer {
+            transform: rotate(180deg);
+        }
+    </style> -->
+    <title>float-card</title>
+</head>
+
+<body>
+    <!-- Descreption:
+    - card-spec: speciality
+    - card-year: year
+    - card-sem: semester
+    - card-day: week day
+    - card-hour: hour
+    - card-class: current class
+    - card-grp: group numbers and current class
+     -->
+
+    <div id="float-card">
+        <div id="card-header" class="card-hq">
+            <p id="card-q">Q</p>
+            <p><span id="card-year"></span><span id="card-spec"></span></p>
+        </div>
+
+        <div id="card-body" class="">
+            <ul>
+                <li>Year: <span id="card-year"></span></li>
+                <li>Sem: <span id="card-sem"></span></li>
+                <li>Day: <span id="card-day"></span></li>
+                <li>Hour: <span id="card-hour"></span></li>
+                <div id="class-div">
+                    <li>Class: <span id="card-class"></span></li>
+                </div>
+                <div id="class-div">
+                    <li>Grp-1: <span id="card-grp1"></span></li>
+                    <li>Grp-2: <span id="card-grp2"></span></li>
+                </div>
+            </ul>
+        </div>
+
+        <div id="card-footer" class="card-hq">
+            <p id="card-q">Q</p>
+            <p><span id="card-year"></span><span id="card-spec"></span></p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
