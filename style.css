@@ -1,0 +1,120 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  /* border: 1px solid white; */
+}
+
+:root {
+  font-size: 62.5%;
+
+  --main-bg-color: #5f9ea0;
+  --inner-color: rgb(255, 255, 255, 0.2);
+}
+
+/* General */
+h1 {
+  margin: 0;
+  margin-top: 1rem;
+}
+.inline-block-display {
+  display: inline-block;
+}
+
+.btn {
+  letter-spacing: 0.2rem;
+  background-color: var(--main-bg-color);
+  border: 0;
+  outline: 0;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: rgb(127, 177, 179);
+  /* background-color: var(--main-bg-color); */
+  cursor: pointer;
+  transform: rotate(360deg) scale(1.2);
+}
+
+/* // */
+body {
+  font-family: serif;
+  font-size: 1.6rem;
+  color: white;
+  background-color: rgb(0, 0, 0);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Svg and path */
+path {
+  fill: none;
+  stroke: black;
+  pointer-events: all;
+}
+
+path:hover {
+  z-index: 5;
+  background-color: gold;
+  border: 3px solid orange;
+  /* transform: scale(2); */
+}
+
+/* Form styles */
+
+/* #form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  max-width: 450px;
+} */
+
+label {
+  display: inline-block;
+  margin: 0.5rem 0;
+}
+
+select {
+  background-color: var(--inner-color);
+  width: 100%;
+  padding: 0.5rem;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+}
+
+option {
+  background-color: rgb(95, 158, 160, 0.8);
+  border: 0;
+  outline: 0;
+}
+option:hover {
+  background-color: black;
+  /* background-color: rgb(81, 129, 131); */
+}
+
+/* option {
+    padding: 0.3rem;
+    background-color: rgb(95, 158, 160, 0.2);
+} */
+
+.first-group {
+  width: 49%;
+}
+
+.group {
+  background-color: var(--main-bg-color);
+  padding: 1rem;
+  margin: 1rem 0;
+  min-width: 390px;
+  max-width: 400px;
+  border-radius: 10px;
+}

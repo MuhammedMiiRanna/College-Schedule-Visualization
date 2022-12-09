@@ -1,0 +1,11 @@
+Visuelle sur la map par 
+- créneau horaire pour une 
+- journée donnée et 
+- semestre donné). 
+
+Indiquez la matière, 
+le numéro de salle, 
+le numéro du groupe et/ou la section, et 
+l’enseignant.
+
+Ajouter la visualisation des locaux utilisés par un enseignant donné.
