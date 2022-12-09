@@ -2,8 +2,8 @@
   "year": "2",
   "Semestre": "1",
   "days": {
-    "Sam": [],
-    "Dim": [
+    "Saturday": [],
+    "Sunday": [
       {
         "cours": {},
         "groups": {
@@ -15,7 +15,7 @@
           },
           "G2": {
             "Time": "08:00 - 09:30",
-            "Subject": "TH JEU",
+            "Subject": "TH Thursday",
             "loc": "118",
             "prof": "DAHMANI"
           }
@@ -68,7 +68,7 @@
         }
       }
     ],
-    "Lun": [
+    "Monday": [
       {
         "cours": {
           "Time": "08:00 - 09:30",
@@ -124,7 +124,7 @@
         }
       }
     ],
-    "Mar": [
+    "Tuesday": [
       {
         "cours": {
           "Time": "08:00 - 09:30",
@@ -189,13 +189,13 @@
         }
       }
     ],
-    "Mer": [
+    "Wednesday": [
       {
         "cours": {},
         "groups": {
           "G1": {
             "Time": "08:00 - 09:30",
-            "Subject": "TH JEU",
+            "Subject": "TH Thursday",
             "loc": "402",
             "prof": "DAHMANI"
           },
@@ -219,7 +219,7 @@
       {
         "cours": {
           "Time": "11:20 - 12:50",
-          "Subject": "TH JEU",
+          "Subject": "TH Thursday",
           "loc": "D5",
           "prof": "DAHMANI"
         },
@@ -230,7 +230,7 @@
         "groups": {
           "G1": {
             "Time": "13:00 - 14:30",
-            "Subject": "TH JEU",
+            "Subject": "TH Thursday",
             "loc": "TP.C5",
             "prof": ""
           },
@@ -247,13 +247,13 @@
         "groups": {
           "G2": {
             "Time": "14:40 - 16:10",
-            "Subject": "TH JEU",
+            "Subject": "TH Thursday",
             "loc": "TP.C3A",
             "prof": "no name"
           }
         }
       }
     ],
-    "Jeu": []
+    "Thursday": []
   }
 }

@@ -2,8 +2,8 @@
   "year": "1",
   "Semestre": "1",
   "days": {
-    "Sam": [],
-    "Dim": [
+    "Saturday": [],
+    "Sunday": [
       {
         "cours": {},
         "groups": {
@@ -74,7 +74,7 @@
         }
       }
     ],
-    "Lun": [
+    "Monday": [
       {
         "cours": {},
         "groups": {
@@ -130,7 +130,7 @@
         }
       }
     ],
-    "Mar": [
+    "Tuesday": [
       {
         "cours": {
           "Time": "08:00 - 09:30",
@@ -195,7 +195,7 @@
         }
       }
     ],
-    "Mer": [
+    "Wednesday": [
       {
         "cours": {
           "Time": "08:00 - 09:30",
@@ -240,6 +240,6 @@
         }
       }
     ],
-    "Jeu": []
+    "Thursday": []
   }
 }
