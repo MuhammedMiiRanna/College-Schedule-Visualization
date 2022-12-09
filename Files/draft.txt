@@ -6,3 +6,47 @@
 		// console.log('>> semester:', semesterValue);
 		// console.log('>> day:', dayValue);
 		// console.log('>> teacher:', teacherValue);
+
+
+// import data from '/data/test.json';
+// console.log(data);
+
+//
+
+// fetch("/data/data M1.json")
+//   .then((response) => response.json())
+//   .then((json) => (data = json));
+
+// console.log(data);
+
+
+
+function getData(form) {
+  var formData = new FormData(form);
+
+  // iterate through entries...
+  // for (var pair of formData.entries()) {
+  //   console.log(pair[0] + ": " + pair[1]);
+  // }
+  // ...or output as an object
+  // console.log(Object.fromEntries(formData));
+  const submitedData = Object.fromEntries(formData);
+  // console.log(submitedData);
+  // {year: '1', semester: '1', day: 'Saturday'}
+  // console.log(dataM1);
+
+  if (Object.keys(submitedData).length === 3) {
+    if (submitedData["year"] == "1") {
+      console.log(dataM1['days']['day']);
+    } else {
+      console.log(dataM2['days']['day']);
+    }
+  } else {
+    console.log(Object.keys(submitedData).length);
+  }
+}
+
+document.getElementById("form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  getData(e.target);
+});
