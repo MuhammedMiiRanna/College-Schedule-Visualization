@@ -10,6 +10,8 @@
 
   --main-bg-color: #5f9ea0;
   --inner-color: rgb(255, 255, 255, 0.2);
+
+  --card-hq: rgb(54, 54, 54);
 }
 
 /* General */
@@ -19,6 +21,10 @@ h1 {
 }
 .inline-block-display {
   display: inline-block;
+}
+
+ul {
+  list-style: none;
 }
 
 .btn {
@@ -41,11 +47,10 @@ h1 {
 
 /* // */
 body {
-  font-family: serif;
+  font-family: "Noto Serif", serif;
   font-size: 1.6rem;
   color: white;
-  background-color: rgb(0, 0, 0);
-
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,7 +111,7 @@ option:hover {
     background-color: rgb(95, 158, 160, 0.2);
 } */
 
-.first-group {
+.sub-group {
   width: 49%;
 }
 
@@ -117,4 +122,28 @@ option:hover {
   min-width: 390px;
   max-width: 400px;
   border-radius: 10px;
+}
+
+/* Card styles */
+#float-card {
+  border-radius: 20px;
+  min-height: 250px;
+  width: 220px;
+  position: absolute;
+  visibility: hidden;
+  /* display: none; */
+  overflow: hidden;
+}
+
+.card-hq {
+  background-color: var(--card-hq);
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* #card-footer {} */
+/* #card-body {} */
+#card-footer {
+  transform: rotate(180deg);
 }
