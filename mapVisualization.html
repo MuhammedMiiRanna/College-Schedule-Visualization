@@ -4,8 +4,15 @@
 <head>
 	<meta charset="utf-8">
 	<title> USTHB MAP </title>
-	<script type="text/javascript" src="../d3/d3.v3.js"></script>
-	<link rel="stylesheet" href="../style.css">
+	<script type="text/javascript" src="/d3/d3.v3.js"></script>
+	<link rel="stylesheet" href="/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+		rel="stylesheet">
+	<!-- <script type="text/javascript" src="/data/data M1.json"></script>
+	<script type="text/javascript" src="/data/data M2.json"></script> -->
+
 	<style>
 		.cl1 {
 			fill: white;
@@ -19,14 +26,43 @@
 
 	<div id="main-container">
 		<h1>"MIV's Schedule USTHB"</h1>
+		<div id="float-card">
+			<div id="card-header" class="card-hq">
+				<p id="card-q">Q</p>
+				<p><span id="card-year"></span><span id="card-spec"></span></p>
+			</div>
+			<div id="card-body" class="">
+				<ul>
+					<li>Year: <span id="card-year"></span></li>
+					<li>Sem: <span id="card-sem"></span></li>
+					<li>Day: <span id="card-day"></span></li>
+					<li>Hour: <span id="card-hour"></span></li>
+					<div id="class-div">
+						<li>Class: <span id="card-class"></span></li>
+					</div>
+					<div id="class-div">
+						<li>Grp-1: <span id="card-grp1"></span></li>
+						<li>Grp-2: <span id="card-grp2"></span></li>
+					</div>
+				</ul>
+			</div>
+			<div id="card-footer" class="card-hq">
+				<p id="card-q">Q</p>
+				<p><span id="card-year"></span><span id="card-spec"></span></p>
+			</div>
+
+		</div>
 		<!-- <h1>"Université des Sciences et Techniques Houari Boumediene"</h1> -->
 	</div>
 
-	<div id="form-container" class="inline-block-display">
+	<div id="form" class="inline-block-display form">
 		<!-- onSubmit="return false" -->
-		<form action="" id="form-container">
+		<!-- FIRST FORM -->
+		<form action="" id="form">
+			<!-- YEAR + SEMESTER -->
 			<div class="group">
-				<div class="first-group inline-block-display">
+				<!-- YEAR -->
+				<div class="sub-group inline-block-display">
 					<label for="year">Year</label>
 					<br>
 					<select name="year" id="year">
@@ -34,7 +70,8 @@
 						<option value="2">Master 2</option>
 					</select>
 				</div>
-				<div class="first-group inline-block-display">
+				<!-- SEMESTER -->
+				<div class="sub-group inline-block-display">
 					<label for="semester">Semester</label>
 					<br>
 					<select name="semester" id="semester">
@@ -43,25 +80,66 @@
 					</select>
 				</div>
 			</div>
+			<!-- DAY + TIMING -->
 			<div class="group">
-				<div class="inline-block-display">
+				<!-- DAY -->
+				<div class="sub-group inline-block-display">
 					<label for="day">Day</label>
 					<br>
 					<select name="day" id="day">
-						<option value="1">Monday</option>
-						<option value="2">Tuesday</option>
-						<option value="3">Wednesday</option>
-						<option value="4">Thursday</option>
-						<option value="5">Friday</option>
-						<option value="6">Saturday</option>
-						<option value="7">Sunday</option>
+						<option value="Saturday">Saturday</option>
+						<option value="Sunday" selected>Sunday</option>
+						<option value="Monday">Monday</option>
+						<option value="Tuesday">Tuesday</option>
+						<option value="Wednesday">Wednesday</option>
+						<option value="Thursday">Thursday</option>
+						<!-- <option value="Friday">Friday</option> -->
+					</select>
+				</div>
+				<!-- TIMING -->
+				<div class="sub-group inline-block-display">
+					<!-- you can call it time gap/slot or just time, hour -->
+					<label for="timing">Timing</label>
+					<br>
+					<select name="timing" id="timing">
+						<option value="1">08:00 - 09:30</option>
+						<option value="2">09:40 - 11:10</option>
+						<option value="3">11:20 - 12:50</option>
+						<option value="4">13:00 - 14:30</option>
+						<option value="5">14:40 - 16:10</option>
+						<option value="6">14:40 - 16:10</option>
+						<option value="7">16:20 - 17:50</option>
+						<!-- <option value="Friday">Friday</option> -->
 					</select>
 				</div>
 			</div>
 			<button type="submit" class="btn">Search</button>
-			<!-- </form>
+		</form>
 
-		<form action="" id="form-container" class="form> -->
+		<!-- TEACHERS FORM -->
+		<form action="" id="teachersForm" class="form">
+			<div class="group">
+				<div class="sub-group inline-block-display">
+					<label for="teacher">Teacher</label>
+					<br>
+					<select name="teacher" id="teacher">
+						<option value="1">BOUDEFASSA</option>
+						<option value="2">KESSI</option>
+						<option value="3">SETITRA</option>
+						<option value="4">SEBAI</option>
+						<option value="5">DJIROUNE</option>
+						<option value="6">BENCHAIBA</option>
+						<option value="7">LARABI</option>
+						<option value="7">DRIAS</option>
+						<option value="7">MESSAOUDI</option>
+					</select>
+				</div>
+			</div>
+			<button type="submit" class="btn">Search</button>
+		</form>
+		<!-- EVENTS FORM -->
+		<!-- 
+		<form action="" id="eventsForm" class="form">
 			<div class="group">
 				<div class="inline-block-display">
 					<label for="teacher">Teacher</label>
@@ -78,108 +156,15 @@
 						<option value="7">MESSAOUDI</option>
 					</select>
 				</div>
-				<!-- <div class="inline-block-display">
-						<label for="day">Timing</label>
-		
-						<select name="timing" id="timing">
-							<option value="1">08:00</option>
-							<option value="1">09:30</option>
-							<option value="1">11:20</option>
-							<option value="1">13:00</option>
-							<option value="1">14:40</option>
-							<option value="1">16:10</option>
-						</select>
-					</div> -->
 			</div>
 			<button type="submit" class="btn">Search</button>
-		</form>
-		<p id="log"></p>
+		</form> -->
 	</div>
 
-	<script type="text/javascript">
+	<script type="text/javascript" src="/scripts/map.js"></script>
+	<script type="module" src="/scripts/formEvents.js"></script>
+	<!-- <script type="module" src="/scripts/dataManip.js"></script> -->
 
-		//Width and height
-		var w = 900;
-		var h = 700;
-
-		// Define map projection
-		var proj = d3.geo.mercator()
-			.translate([0, 0])
-			.scale([1]);
-
-		// Define path generator
-		var path = d3.geo.path()
-			.projection(proj);
-
-
-		var svg = d3.select("#main-container")
-			.append("svg")
-			.attr("width", w)
-			.attr("height", h);
-
-		// const mainHeading = document.createElement("h1");
-		// mainHeading.innerText("Université des Sciences et Techniques Houari Boumediene");
-
-		// const mainContainer = document.selectElementById('main-container');
-		// mainContainer.appendChild(mainHeading);
-
-		// const svg = document.createElement("svg");
-		// svgElement.setAttribute("width", w);
-		// svgElement.setAttribute("height", h);
-		// mainContainer.appendChild(svgElement);
-
-
-		// var svg = d3.select("body")
-		// 	.append("div")
-		// 	.attr("id", "main-container");
-		// 	.append("svg")
-		// 	.attr("width", w)
-		// 	.attr("height", h);
-
-
-		d3.json("USTHB map/usthbBrut2.geojson", function (json) {
-			var b = path.bounds(json);
-			console.log(b);
-			s = .99 / Math.max((b[1][0] - b[0][0]) / w, (b[1][1] - b[0][1]) / h);
-			t = [(w - s * (b[1][0] + b[0][0])) / 2, (h - s * (b[1][1] + b[0][1])) / 2];
-			console.log(s, t);
-			proj.translate(t).scale(s);
-
-			// svg.append("text")
-			// 	.text("Université des Sciences et Techniques Houari Boumediene")
-			// 	.attr("x", "25")
-			// 	.attr("y", "20")
-			// 	.attr("font-size", "25px");
-
-			var map = svg.selectAll("path")
-				.data(json.features);
-			map.enter()
-				.append("path")
-				.attr("d", path)
-				.attr("class", "cl1")
-				.attr("id", (d) => d.properties.name);
-			console.log(json)
-		});
-
-
-		function logSubmit(event) {
-			event.preventDefault();
-			log.textContent = `Form Submitted! Time stamp: ${event.timeStamp}`;
-		}
-
-		// const form = document.getElementsByClass('form-container');
-		// const log = document.getElementById('log');
-		// form.addEventListener('submit', logSubmit);
-		// var nameValue = document.getElementById("year").value;
-		var yearValue = document.getElementById("year").value;
-		var semesterValue = document.getElementById("semester").value;
-		var dayValue = document.getElementById("day").value;
-		var teacherValue = document.getElementById("teacher").value;
-		console.log('>> year:', yearValue);
-		console.log('>> semester:', semesterValue);
-		console.log('>> day:', dayValue);
-		console.log('>> teacher:', teacherValue);
-	</script>
 </body>
 
 </html>
