@@ -1,0 +1,8 @@
+		// var yearValue = document.getElementById("year").value;
+		// var semesterValue = document.getElementById("semester").value;
+		// var dayValue = document.getElementById("day").value;
+		// var teacherValue = document.getElementById("teacher").value;
+		// console.log('>> year:', yearValue);
+		// console.log('>> semester:', semesterValue);
+		// console.log('>> day:', dayValue);
+		// console.log('>> teacher:', teacherValue);
