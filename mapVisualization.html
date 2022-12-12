@@ -28,27 +28,15 @@
 		<h1>"MIV's Schedule USTHB"</h1>
 		<div id="float-card">
 			<div id="card-header" class="card-hq">
-				<p id="card-q">Q</p>
-				<p><span id="card-year"></span><span id="card-spec"></span></p>
+				<p class="card-q">Q</p>
+				<p><span class="card-spec"></span><span class="card-year"></span></p>
 			</div>
 			<div id="card-body" class="">
-				<ul>
-					<li>Year: <span id="card-year"></span></li>
-					<li>Sem: <span id="card-sem"></span></li>
-					<li>Day: <span id="card-day"></span></li>
-					<li>Hour: <span id="card-hour"></span></li>
-					<div id="class-div">
-						<li>Class: <span id="card-class"></span></li>
-					</div>
-					<div id="class-div">
-						<li>Grp-1: <span id="card-grp1"></span></li>
-						<li>Grp-2: <span id="card-grp2"></span></li>
-					</div>
-				</ul>
+				<!-- we'll add this dynamically -->
 			</div>
 			<div id="card-footer" class="card-hq">
-				<p id="card-q">Q</p>
-				<p><span id="card-year"></span><span id="card-spec"></span></p>
+				<p class="card-q">Q</p>
+				<p><span class="card-spec"></span><span class="card-year"></span></p>
 			</div>
 
 		</div>
@@ -68,6 +56,8 @@
 					<select name="year" id="year">
 						<option value="1">Master 1</option>
 						<option value="2">Master 2</option>
+						<!-- <option value="3">License 2</option>
+						<option value="4">License 3</option> -->
 					</select>
 				</div>
 				<!-- SEMESTER -->
@@ -102,18 +92,18 @@
 					<label for="timing">Timing</label>
 					<br>
 					<select name="timing" id="timing">
-						<option value="1">08:00 - 09:30</option>
-						<option value="2">09:40 - 11:10</option>
-						<option value="3">11:20 - 12:50</option>
-						<option value="4">13:00 - 14:30</option>
+						<option value="0">08:00 - 09:30</option>
+						<option value="1">09:40 - 11:10</option>
+						<option value="2">11:20 - 12:50</option>
+						<option value="3">13:00 - 14:30</option>
+						<option value="4">14:40 - 16:10</option>
 						<option value="5">14:40 - 16:10</option>
-						<option value="6">14:40 - 16:10</option>
-						<option value="7">16:20 - 17:50</option>
+						<option value="6">16:20 - 17:50</option>
 						<!-- <option value="Friday">Friday</option> -->
 					</select>
 				</div>
 			</div>
-			<button type="submit" class="btn">Search</button>
+			<button type="submit" class="btn btn-primary">Search</button>
 		</form>
 
 		<!-- TEACHERS FORM -->
@@ -123,19 +113,19 @@
 					<label for="teacher">Teacher</label>
 					<br>
 					<select name="teacher" id="teacher">
-						<option value="1">BOUDEFASSA</option>
-						<option value="2">KESSI</option>
-						<option value="3">SETITRA</option>
-						<option value="4">SEBAI</option>
-						<option value="5">DJIROUNE</option>
-						<option value="6">BENCHAIBA</option>
-						<option value="7">LARABI</option>
+						<option value="0">BOUDEFASSA</option>
+						<option value="1">KESSI</option>
+						<option value="2">SETITRA</option>
+						<option value="3">SEBAI</option>
+						<option value="4">DJIROUNE</option>
+						<option value="5">BENCHAIBA</option>
+						<option value="6">LARABI</option>
 						<option value="7">DRIAS</option>
-						<option value="7">MESSAOUDI</option>
+						<option value="8">MESSAOUDI</option>
 					</select>
 				</div>
 			</div>
-			<button type="submit" class="btn">Search</button>
+			<button type="submit" class="btn btn-primary">Search</button>
 		</form>
 		<!-- EVENTS FORM -->
 		<!-- 
@@ -160,6 +150,9 @@
 			<button type="submit" class="btn">Search</button>
 		</form> -->
 	</div>
+
+	<nav id="nav-btns">
+	</nav>
 
 	<script type="text/javascript" src="/scripts/map.js"></script>
 	<script type="module" src="/scripts/formEvents.js"></script>
