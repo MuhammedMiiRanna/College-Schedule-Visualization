@@ -9,41 +9,61 @@
   font-size: 62.5%;
 
   --main-bg-color: #5f9ea0;
+  --main-bg-hover-color: rgb(127, 177, 179);
   --inner-color: rgb(255, 255, 255, 0.2);
 
   --card-hq: rgb(54, 54, 54);
+  /* rgb(127, 177, 179) */
 }
 
 /* General */
 h1 {
   margin: 0;
-  margin-top: 1rem;
+  margin-top: 0rem;
 }
 .inline-block-display {
   display: inline-block;
 }
-
 ul {
   list-style: none;
 }
 
 .btn {
-  letter-spacing: 0.2rem;
   background-color: var(--main-bg-color);
-  border: 0;
-  outline: 0;
-  margin: 1rem 0;
   padding: 1rem 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-radius: 15px;
   transition: all 0.5s;
 }
+.btn-primary {
+  letter-spacing: 0.2rem;
+  border: 0;
+  outline: 0;
+}
+#nav-btns {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+.nav-btn {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  /* height: 15px;
+  width: 70px; */
+}
 
 .btn:hover {
-  background-color: rgb(127, 177, 179);
-  /* background-color: var(--main-bg-color); */
+  background-color: var(--main-bg-hover-color);
   cursor: pointer;
-  transform: rotate(360deg) scale(1.2);
+  transform: scale(1.2);
 }
+.btn-primary:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+/* .nav-btn:hover {
+  } */
 
 /* // */
 body {
