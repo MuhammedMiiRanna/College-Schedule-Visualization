@@ -1,0 +1,139 @@
+{
+    "LARABI": {
+        "Sunday": {
+            "2": {
+                "day": "Sunday",
+                "session_num": "N-2",
+                "session": "11:20 - 12:50",
+                "section": "data M1",
+                "module": "RÃ©solution de problÃ¨mes"
+            },
+            "1": {
+                "day": "Sunday",
+                "session_num": "N-1",
+                "session": "09:40 - 11:10",
+                "section": "data M2",
+                "module": "Visualisation de DonnÃ©es"
+            }
+        },
+        "Tuesday": {
+            "1": {
+                "day": "Tuesday",
+                "session_num": "N-1",
+                "session": "09:40 - 11:10",
+                "section": "data M1",
+                "module": "MultimÃ©dia"
+            }
+        }
+    },
+    "SETITRA": {
+        "Sunday": {
+            "3": {
+                "day": "Sunday",
+                "session_num": "N-3",
+                "session": "13:00 - 14:30",
+                "section": "data M1",
+                "module": "TAI"
+            }
+        }
+    },
+    "DJIROUNE": {
+        "Monday": {
+            "1": {
+                "day": "Monday",
+                "session_num": "N-1",
+                "session": "09:40 - 11:10",
+                "section": "data M1",
+                "module": "ABDD"
+            }
+        }
+    },
+    "BENCHAIBA": {
+        "Tuesday": {
+            "0": {
+                "day": "Tuesday",
+                "session_num": "N-0",
+                "session": "08:00 - 09:30",
+                "section": "data M1",
+                "module": "Syst"
+            }
+        }
+    },
+    "DRIAS": {
+        "Wednesday": {
+            "0": {
+                "day": "Wednesday",
+                "session_num": "N-0",
+                "session": "08:00 - 09:30",
+                "section": "data M1",
+                "module": "Algo"
+            }
+        }
+    },
+    "OURAHMOUNE": {
+        "Sunday": {
+            "2": {
+                "day": "Sunday",
+                "session_num": "N-2",
+                "session": "11:20 - 12:50",
+                "section": "data M2",
+                "module": "SystÃ¨me d'Exploitation Mobile"
+            }
+        }
+    },
+    "EL NAGGER": {
+        "Monday": {
+            "0": {
+                "day": "Monday",
+                "session_num": "N-0",
+                "session": "08:00 - 09:30",
+                "section": "data M2",
+                "module": "PROG RES"
+            }
+        }
+    },
+    "HACHEMI": {
+        "Tuesday": {
+            "0": {
+                "day": "Tuesday",
+                "session_num": "N-0",
+                "session": "08:00 - 09:30",
+                "section": "data M2",
+                "module": "GP-"
+            }
+        }
+    },
+    "Dahmane": {
+        "Tuesday": {
+            "1": {
+                "day": "Tuesday",
+                "session_num": "N-1",
+                "session": "09:40 - 11:10",
+                "section": "data M2",
+                "module": "SynthÃ¨se d'Image"
+            }
+        }
+    },
+    "KHELLAF": {
+        "Wednesday": {
+            "1": {
+                "day": "Wednesday",
+                "session_num": "N-1",
+                "session": "09:40 - 11:10",
+                "section": "data M2",
+                "module": "Connaissances et Raisonnement"
+            }
+        }
+    },
+    "DAHMANI": {
+        "Wednesday": {
+            "2": {
+                "day": "Wednesday",
+                "session_num": "N-2",
+                "session": "11:20 - 12:50",
+                "section": "data M2",
+                "module": "TH Thursday"
+            }
+        }
+    }
+}
