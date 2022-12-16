@@ -11,6 +11,8 @@
                 <select name="year" id="year">
                     <option value="1">Master 1</option>
                     <option value="2">Master 2</option>
+                    <!-- <option value="3">License 2</option>
+                    <option value="4">License 3</option> -->
                 </select>
             </div>
             <!-- SEMESTER -->
@@ -42,21 +44,21 @@
             <!-- TIMING -->
             <div class="sub-group inline-block-display">
                 <!-- you can call it time gap/slot or just time, hour -->
-                <label for="timing">Timing</label>
+                <label for="session">Timing</label>
                 <br>
-                <select name="timing" id="timing">
-                    <option value="1">08:00 - 09:30</option>
-                    <option value="2">09:40 - 11:10</option>
-                    <option value="3">11:20 - 12:50</option>
-                    <option value="4">13:00 - 14:30</option>
+                <select name="session" id="session">
+                    <option value="0">08:00 - 09:30</option>
+                    <option value="1">09:40 - 11:10</option>
+                    <option value="2">11:20 - 12:50</option>
+                    <option value="3">13:00 - 14:30</option>
+                    <option value="4" selected>14:40 - 16:10</option>
                     <option value="5">14:40 - 16:10</option>
-                    <option value="6">14:40 - 16:10</option>
-                    <option value="7">16:20 - 17:50</option>
+                    <option value="6">16:20 - 17:50</option>
                     <!-- <option value="Friday">Friday</option> -->
                 </select>
             </div>
         </div>
-        <button type="submit" class="btn">Search</button>
+        <button type="submit" class="btn btn-primary">Search</button>
     </form>
 
     <!-- TEACHERS FORM -->
@@ -66,19 +68,19 @@
                 <label for="teacher">Teacher</label>
                 <br>
                 <select name="teacher" id="teacher">
-                    <option value="1">BOUDEFASSA</option>
-                    <option value="2">KESSI</option>
-                    <option value="3">SETITRA</option>
-                    <option value="4">SEBAI</option>
-                    <option value="5">DJIROUNE</option>
-                    <option value="6">BENCHAIBA</option>
-                    <option value="7">LARABI</option>
+                    <option value="0">BOUDEFASSA</option>
+                    <option value="1">KESSI</option>
+                    <option value="2">SETITRA</option>
+                    <option value="3">SEBAI</option>
+                    <option value="4">DJIROUNE</option>
+                    <option value="5">BENCHAIBA</option>
+                    <option value="6">LARABI</option>
                     <option value="7">DRIAS</option>
-                    <option value="7">MESSAOUDI</option>
+                    <option value="8">MESSAOUDI</option>
                 </select>
             </div>
         </div>
-        <button type="submit" class="btn">Search</button>
+        <button type="submit" class="btn btn-primary">Search</button>
     </form>
     <!-- EVENTS FORM -->
     <!-- 
