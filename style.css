@@ -25,7 +25,8 @@ h1 {
   display: inline-block;
 }
 ul {
-  list-style: none;
+  /* list-style: none; */
+  padding-left: 2rem;
 }
 
 .btn {
@@ -146,9 +147,10 @@ option:hover {
 
 /* Card styles */
 #float-card {
+  background-color: black;
   border-radius: 20px;
   min-height: 250px;
-  width: 220px;
+  width: 250px;
   position: absolute;
   visibility: hidden;
   /* display: none; */
