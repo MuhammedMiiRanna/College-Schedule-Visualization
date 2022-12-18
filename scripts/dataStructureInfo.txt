@@ -1,0 +1,53 @@
+>> teachersData[teachersList[submitedData['teachers']]]: {Sunday: {…}}
+>> teachersDays: {Sunday: {…}}
+>> teachersList: (21) ['BOUDEFASSA', 'KESSI', 'DELLOUL', 'LARABI', 'SETITRA', 'SEBAI', 'BENCHAIBA', 'DJIROUNE', 'MESSAOUDI', 'DRIAS', 'OURAHMOUNE', 'DAHMANI', 'Ms Kh', 'EL NAGGER', 'KHELLAF', 'Dahmane', 'HACHEMI', 'BENSALAH', 'Ms Bouachi', 'Mr sahnoune', 'belhadi hiba']
+>> teacherFirstDaySessions: ['Sunday'] BUG SOLVED
+>> teacherFirstDaySessions: Sunday
+>> teachersDays[teacherFirstDaySessions]: {0: {…}, 1: {…}}
+//////////////////////////////////////////////////////////////////////////
+
+- dataM1:
+{
+  "year": "1",
+  "Semestre": "1",
+  "days": {
+    "Saturday": [],....
+
+
+- submitedData:
+// submitedData {year: '1', semester: '1', day: 'Sunday'; session: '1'}
+
+
+- sessions:
+// [{…}, {…}, {…}, {…}, {…}]
+// 0: {cours: {…}, groups: {…}}
+// ....
+
+
+// '  		<div id="class-div">' +
+// '  			<li>Grp-1: <span id="card-grp1">'+ submitedData[] +'</span></li>' +
+// '  			<li>Grp-2: <span id="card-grp2">'+ submitedData[] +'</span></li>' +
+// "  		</div>" +
+// G1: {Time: '08:00 - 09:30', Subject: 'Anglais', loc: 'LABO LANG', prof: 'BOUDEFASSA'}
+// G2: {Time: '08:00 - 09:30', Subject: 'ABDD', loc: 'TP.C3A', prof: 'KESSI'}
+
+
+- session:
+//  {
+//   "cours": {},
+//  //
+//   "groups": {
+//     "G1": {
+//       "Time": "14:40 - 16:10",
+//       "Subject": "RÃ©solution de problÃ¨mes",
+//       "loc": "TP129",
+//       "prof": "SEBAI"
+//     },
+//     "G2": {
+//       "Time": "14:40 - 16:10",
+//       "Subject": "TAI",
+//       "loc": "D5",
+//       "prof": "SETITRA"
+//     }
+//   }
+// }
