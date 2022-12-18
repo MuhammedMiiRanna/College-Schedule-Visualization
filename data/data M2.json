@@ -15,7 +15,7 @@
           },
           "G2": {
             "Time": "08:00 - 09:30",
-            "Subject": "TH Thursday",
+            "Subject": "THJ",
             "loc": "118",
             "prof": "DAHMANI"
           }
@@ -46,7 +46,7 @@
             "Time": "13:00 - 14:30",
             "Subject": "Visualisation de DonnÃ©es",
             "loc": "TP128",
-            "prof": ""
+            "prof": "Ms Kh"
           },
           "G2": {
             "Time": "13:00 - 14:30",
@@ -63,7 +63,7 @@
             "Time": "14:40 - 16:10",
             "Subject": "Visualisation de DonnÃ©es",
             "loc": "TP130",
-            "prof": "Mr Kh"
+            "prof": "Ms Kh"
           }
         }
       }
@@ -195,7 +195,7 @@
         "groups": {
           "G1": {
             "Time": "08:00 - 09:30",
-            "Subject": "TH Thursday",
+            "Subject": "THJ",
             "loc": "402",
             "prof": "DAHMANI"
           },
@@ -219,7 +219,7 @@
       {
         "cours": {
           "Time": "11:20 - 12:50",
-          "Subject": "TH Thursday",
+          "Subject": "THJ",
           "loc": "D5",
           "prof": "DAHMANI"
         },
@@ -230,9 +230,9 @@
         "groups": {
           "G1": {
             "Time": "13:00 - 14:30",
-            "Subject": "TH Thursday",
+            "Subject": "THJ",
             "loc": "TP.C5",
-            "prof": ""
+            "prof": "Mr sahnoune"
           },
           "G2": {
             "Time": "13:00 - 14:30",
@@ -247,9 +247,9 @@
         "groups": {
           "G2": {
             "Time": "14:40 - 16:10",
-            "Subject": "TH Thursday",
+            "Subject": "THJ",
             "loc": "TP.C3A",
-            "prof": "Mr sahnoune karim"
+            "prof": "Mr sahnoune"
           }
         }
       }

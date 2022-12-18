@@ -1,4 +1,62 @@
 {
+    "BOUDEFASSA": {
+        "Sunday": {
+            "0": {
+                "day": "Sunday",
+                "session_num": "N-0",
+                "session": "08:00 - 09:30",
+                "section": "data M1 G1",
+                "module": "Anglais"
+            },
+            "1": {
+                "day": "Sunday",
+                "session_num": "N-1",
+                "session": "09:40 - 11:10",
+                "section": "data M1 G2",
+                "module": "Anglais"
+            }
+        }
+    },
+    "KESSI": {
+        "Sunday": {
+            "0": {
+                "day": "Sunday",
+                "session_num": "N-0",
+                "session": "08:00 - 09:30",
+                "section": "data M1 G2",
+                "module": "ABDD"
+            }
+        },
+        "Tuesday": {
+            "3": {
+                "day": "Tuesday",
+                "session_num": "N-3",
+                "session": "13:00 - 14:30",
+                "section": "data M1 G1",
+                "module": "ABDD"
+            }
+        }
+    },
+    "DELLOUL": {
+        "Sunday": {
+            "1": {
+                "day": "Sunday",
+                "session_num": "N-1",
+                "session": "09:40 - 11:10",
+                "section": "data M1 G1",
+                "module": "TAI"
+            }
+        },
+        "Monday": {
+            "0": {
+                "day": "Monday",
+                "session_num": "N-0",
+                "session": "08:00 - 09:30",
+                "section": "data M1 G2",
+                "module": "TAI"
+            }
+        }
+    },
     "LARABI": {
         "Sunday": {
             "2": {
@@ -24,6 +82,22 @@
                 "section": "data M1",
                 "module": "MultimÃ©dia"
             }
+        },
+        "Monday": {
+            "1": {
+                "day": "Monday",
+                "session_num": "N-1",
+                "session": "09:40 - 11:10",
+                "section": "data M2 G2",
+                "module": "Atelier CrÃ©atif"
+            },
+            "2": {
+                "day": "Monday",
+                "session_num": "N-2",
+                "session": "11:20 - 12:50",
+                "section": "data M2 G1",
+                "module": "Atelier CrÃ©atif"
+            }
         }
     },
     "SETITRA": {
@@ -34,6 +108,99 @@
                 "session": "13:00 - 14:30",
                 "section": "data M1",
                 "module": "TAI"
+            },
+            "4": {
+                "day": "Sunday",
+                "session_num": "N-5",
+                "session": "14:40 - 16:10",
+                "section": "data M1 G2",
+                "module": "TAI"
+            }
+        },
+        "Monday": {
+            "2": {
+                "day": "Monday",
+                "session_num": "N-2",
+                "session": "11:20 - 12:50",
+                "section": "data M1 G1",
+                "module": "TAI"
+            }
+        }
+    },
+    "SEBAI": {
+        "Sunday": {
+            "4": {
+                "day": "Sunday",
+                "session_num": "N-5",
+                "session": "14:40 - 16:10",
+                "section": "data M1 G1",
+                "module": "RÃ©solution de problÃ¨mes"
+            }
+        },
+        "Tuesday": {
+            "2": {
+                "day": "Tuesday",
+                "session_num": "N-2",
+                "session": "11:20 - 12:50",
+                "section": "data M1 G2",
+                "module": "RÃ©solution de problÃ¨mes"
+            }
+        },
+        "Wednesday": {
+            "1": {
+                "day": "Wednesday",
+                "session_num": "N-1",
+                "session": "09:40 - 11:10",
+                "section": "data M1 G2",
+                "module": "MultimÃ©dia"
+            },
+            "2": {
+                "day": "Wednesday",
+                "session_num": "N-2",
+                "session": "11:20 - 12:50",
+                "section": "data M1 G1",
+                "module": "MultimÃ©dia"
+            }
+        }
+    },
+    "BENCHAIBA": {
+        "Monday": {
+            "0": {
+                "day": "Monday",
+                "session_num": "N-0",
+                "session": "08:00 - 09:30",
+                "section": "data M1 G1",
+                "module": "Syst"
+            },
+            "2": {
+                "day": "Monday",
+                "session_num": "N-2",
+                "session": "11:20 - 12:50",
+                "section": "data M1 G2",
+                "module": "Syst"
+            },
+            "3": {
+                "day": "Monday",
+                "session_num": "N-3",
+                "session": "13:00 - 14:30",
+                "section": "data M1 G2",
+                "module": "Syst"
+            }
+        },
+        "Tuesday": {
+            "0": {
+                "day": "Tuesday",
+                "session_num": "N-0",
+                "session": "08:00 - 09:30",
+                "section": "data M1",
+                "module": "Syst"
+            },
+            "2": {
+                "day": "Tuesday",
+                "session_num": "N-2",
+                "session": "11:20 - 12:50",
+                "section": "data M1 G1",
+                "module": "Syst"
             }
         }
     },
@@ -48,14 +215,37 @@
             }
         }
     },
-    "BENCHAIBA": {
+    "MESSAOUDI": {
         "Tuesday": {
-            "0": {
+            "3": {
                 "day": "Tuesday",
-                "session_num": "N-0",
-                "session": "08:00 - 09:30",
-                "section": "data M1",
-                "module": "Syst"
+                "session_num": "N-3",
+                "session": "13:00 - 14:30",
+                "section": "data M1 G2",
+                "module": "Algo"
+            },
+            "4": {
+                "day": "Tuesday",
+                "session_num": "N-5",
+                "session": "14:40 - 16:10",
+                "section": "data M1 G1",
+                "module": "Algo"
+            }
+        },
+        "Wednesday": {
+            "1": {
+                "day": "Wednesday",
+                "session_num": "N-1",
+                "session": "09:40 - 11:10",
+                "section": "data M1 G1",
+                "module": "Algo"
+            },
+            "2": {
+                "day": "Wednesday",
+                "session_num": "N-2",
+                "session": "11:20 - 12:50",
+                "section": "data M1 G2",
+                "module": "Algo"
             }
         }
     },
@@ -72,12 +262,89 @@
     },
     "OURAHMOUNE": {
         "Sunday": {
+            "0": {
+                "day": "Sunday",
+                "session_num": "N-0",
+                "session": "08:00 - 09:30",
+                "section": "data M2 G1",
+                "module": "SystÃ¨me d'Exploitation Mobile"
+            },
             "2": {
                 "day": "Sunday",
                 "session_num": "N-2",
                 "session": "11:20 - 12:50",
                 "section": "data M2",
                 "module": "SystÃ¨me d'Exploitation Mobile"
+            },
+            "3": {
+                "day": "Sunday",
+                "session_num": "N-3",
+                "session": "13:00 - 14:30",
+                "section": "data M2 G2",
+                "module": "SystÃ¨me d'Exploitation Mobile"
+            }
+        },
+        "Tuesday": {
+            "2": {
+                "day": "Tuesday",
+                "session_num": "N-2",
+                "session": "11:20 - 12:50",
+                "section": "data M2 G1",
+                "module": "SystÃ¨me d'Exploitation Mobile"
+            }
+        },
+        "Wednesday": {
+            "0": {
+                "day": "Wednesday",
+                "session_num": "N-0",
+                "session": "08:00 - 09:30",
+                "section": "data M2 G2",
+                "module": "SystÃ¨me d'Exploitation Mobile"
+            }
+        }
+    },
+    "DAHMANI": {
+        "Sunday": {
+            "0": {
+                "day": "Sunday",
+                "session_num": "N-0",
+                "session": "08:00 - 09:30",
+                "section": "data M2 G2",
+                "module": "THJ"
+            }
+        },
+        "Wednesday": {
+            "0": {
+                "day": "Wednesday",
+                "session_num": "N-0",
+                "session": "08:00 - 09:30",
+                "section": "data M2 G1",
+                "module": "THJ"
+            },
+            "2": {
+                "day": "Wednesday",
+                "session_num": "N-2",
+                "session": "11:20 - 12:50",
+                "section": "data M2",
+                "module": "THJ"
+            }
+        }
+    },
+    "Ms Kh": {
+        "Sunday": {
+            "3": {
+                "day": "Sunday",
+                "session_num": "N-3",
+                "session": "13:00 - 14:30",
+                "section": "data M2 G1",
+                "module": "Visualisation de DonnÃ©es"
+            },
+            "4": {
+                "day": "Sunday",
+                "session_num": "N-5",
+                "session": "14:40 - 16:10",
+                "section": "data M2 G2",
+                "module": "Visualisation de DonnÃ©es"
             }
         }
     },
@@ -92,6 +359,53 @@
             }
         }
     },
+    "KHELLAF": {
+        "Monday": {
+            "1": {
+                "day": "Monday",
+                "session_num": "N-1",
+                "session": "09:40 - 11:10",
+                "section": "data M2 G1",
+                "module": "Connaissances et Raisonnement"
+            }
+        },
+        "Wednesday": {
+            "1": {
+                "day": "Wednesday",
+                "session_num": "N-1",
+                "session": "09:40 - 11:10",
+                "section": "data M2",
+                "module": "Connaissances et Raisonnement"
+            }
+        }
+    },
+    "Dahmane": {
+        "Monday": {
+            "2": {
+                "day": "Monday",
+                "session_num": "N-2",
+                "session": "11:20 - 12:50",
+                "section": "data M2 G2",
+                "module": "SynthÃ¨se d'Image"
+            },
+            "3": {
+                "day": "Monday",
+                "session_num": "N-3",
+                "session": "13:00 - 14:30",
+                "section": "data M2 G1",
+                "module": "SynthÃ¨se d'Image"
+            }
+        },
+        "Tuesday": {
+            "1": {
+                "day": "Tuesday",
+                "session_num": "N-1",
+                "session": "09:40 - 11:10",
+                "section": "data M2",
+                "module": "SynthÃ¨se d'Image"
+            }
+        }
+    },
     "HACHEMI": {
         "Tuesday": {
             "0": {
@@ -103,36 +417,68 @@
             }
         }
     },
-    "Dahmane": {
+    "BENSALAH": {
         "Tuesday": {
-            "1": {
-                "day": "Tuesday",
-                "session_num": "N-1",
-                "session": "09:40 - 11:10",
-                "section": "data M2",
-                "module": "SynthÃ¨se d'Image"
-            }
-        }
-    },
-    "KHELLAF": {
-        "Wednesday": {
-            "1": {
-                "day": "Wednesday",
-                "session_num": "N-1",
-                "session": "09:40 - 11:10",
-                "section": "data M2",
-                "module": "Connaissances et Raisonnement"
-            }
-        }
-    },
-    "DAHMANI": {
-        "Wednesday": {
             "2": {
-                "day": "Wednesday",
+                "day": "Tuesday",
                 "session_num": "N-2",
                 "session": "11:20 - 12:50",
-                "section": "data M2",
-                "module": "TH Thursday"
+                "section": "data M2 G2",
+                "module": "GP-"
+            },
+            "4": {
+                "day": "Tuesday",
+                "session_num": "N-5",
+                "session": "14:40 - 16:10",
+                "section": "data M2 G1",
+                "module": "GP"
+            }
+        }
+    },
+    "Ms Bouachi": {
+        "Tuesday": {
+            "3": {
+                "day": "Tuesday",
+                "session_num": "N-3",
+                "session": "13:00 - 14:30",
+                "section": "data M2 G1",
+                "module": "PROG RES"
+            },
+            "4": {
+                "day": "Tuesday",
+                "session_num": "N-5",
+                "session": "14:40 - 16:10",
+                "section": "data M2 G2",
+                "module": "PROG RES"
+            }
+        }
+    },
+    "Mr sahnoune": {
+        "Wednesday": {
+            "3": {
+                "day": "Wednesday",
+                "session_num": "N-3",
+                "session": "13:00 - 14:30",
+                "section": "data M2 G1",
+                "module": "THJ"
+            },
+            "4": {
+                "day": "Wednesday",
+                "session_num": "N-5",
+                "session": "14:40 - 16:10",
+                "section": "data M2 G2",
+                "module": "THJ"
+            }
+        }
+    },
+    "belhadi hiba": {
+        "Wednesday": {
+            "3": {
+                "day": "Wednesday",
+                "session_num": "N-3",
+                "session": "13:00 - 14:30",
+                "section": "data M2 G2",
+                "module": "Connaissances et Raisonnement"
             }
         }
     }
