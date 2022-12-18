@@ -2,8 +2,8 @@
 //
 
 //Width and height
-var w = 900;
-var h = 700;
+var w = 740;
+var h = w;
 
 // Define map projection
 var proj = d3.geo.mercator().translate([0, 0]).scale([1]);
