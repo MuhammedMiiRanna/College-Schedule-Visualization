@@ -101,7 +101,8 @@ path {
 }
 
 path:hover {
-  z-index: 5;
+  /* z-index: 5; */
+  /* fill: gold; */
   background-color: gold;
   border: 3px solid orange;
   /* transform: scale(2); */
@@ -168,12 +169,17 @@ option:hover {
   min-height: 250px;
   width: 250px;
   position: absolute;
+  top: 5rem;
   visibility: hidden;
   /* display: none; */
   overflow: hidden;
 }
 
+/* .card-hq p:first-child {
+  font-size: 2.5rem;
+} */
 .card-hq {
+  font-size: 2rem;
   background-color: var(--card-hq);
   padding: 0.5rem 2rem;
   display: flex;
