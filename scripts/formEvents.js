@@ -3,7 +3,6 @@ import dataM1 from "/data/data M1.json" assert { type: "json" };
 import dataM2 from "/data/data M2.json" assert { type: "json" };
 import teachersData from "/data/teachersData.json" assert { type: "json" };
 
-
 const data = {
   1: dataM1,
   2: dataM2,
@@ -27,7 +26,7 @@ function getSessionsData(form) {
 
   removeChilds(navBtns); // remove all childs of the div
   fillFloatCard(submitedData, sessions); // add the info of the selected session to the float-card
-  addNavButtons(navBtns, sessions.length, submitedData,); // adding the navigation buttons
+  addNavButtons(navBtns, sessions.length); // adding the navigation buttons
   floatCard.style.visibility = "visible"; // making the float-card visible
 
   navBtns.addEventListener('click', getSessionData); // add the EventListener
@@ -45,59 +44,66 @@ function getTeachersData(form) {
   const submitedData = Object.fromEntries(formData);
   const teachersList = Object.keys(teachersData);
   const teachersDays = teachersData[teachersList[submitedData['teachers']]]; // getting the days where the selected teachers will have classes
-  const teacherFirstDaySessions = Object.keys(teachersDays)[0];
+  const teacherFirstDay = Object.keys(teachersDays)[0];
   // >> submitedData: {teacher: '0'} teacher: "0"[Prototype]]: Object
 
   // Selection part:
+  const teacherCard = document.getElementById("teacher-card");
   const teachersNav = document.getElementById('teachers-nav');
-  const weekDays = document.createElement('div');
-  const daySessions = document.createElement('div');
   const weekDaysHeading = document.createElement('h2');
   const daySessionsHeading = document.createElement('h2');
+  let weekDays = document.createElement('div');
+  const daySessions = document.createElement('div');
+  {
+    // adding t-nav elements id:
+    const headingsTab = ["Days", "N-:"];
+    const tNavComponents = [weekDays, daySessions];
+    const ids = ["day-sessions", "week-days"]
+    for (let index = 0; index < headingsTab.length; index++) {
+      const tempDiv = document.createElement('div');
+      tempDiv.innerText = headingsTab[index];
+      tNavComponents[index].id = ids[index];
+      tempDiv.appendChild(tNavComponents[index]);
+      teachersNav.appendChild(tempDiv);
+      console.log(tempDiv.innerHTML);
+      console.log(teachersNav.innerHTML);
 
-  {// adding t-nav elements id:
-    weekDays.id = "week-days";
-    daySessions.id = "day-sessions";
+    }
+  }
+  // console.log(">> rana hna wroh", teachersDays); // object of teacher's schedule
+  // console.log(">> rana hna wroh", teacherFirstDay); sunday
+  // console.log(">> rana hna wroh", teachersDays[teacherFirstDay]);
+  // console.log(">> rana hna wroh", teachersDays[teacherFirstDay][Object.keys(teachersDays[teacherFirstDay])[0]]);
+  removeChilds(weekDays);
+  removeChilds(daySessions);
+  fillTeacherCard(teachersDays[teacherFirstDay]);
+  addTeacherNavBtns(weekDays, daySessions, teachersDays, teacherFirstDay);
+  teacherCard.style.visibility = "visible"; // making the float-card visible
 
-    // add headings :
-    weekDaysHeading.innerText = "Days";
-    daySessionsHeading.innerText = "N-:";
-    // append the headings
-    weekDays.appendChild(weekDaysHeading);
-    daySessions.appendChild(daySessionsHeading);
-  }
 
-  // TODO: rigel sessions id (
-  // - like asq tebda mel 0 or mel 1
-  // - and asq yselecti session li rah yafichiha bel innerText 
-  //    or bel id li ykon 0 or bel id li ykon 3la hsab number te3 session.
-  // TODO: consider changing the values of the teachers in the form to their names.
-  // (from evernote todo list)
-  // adding weekDays
-  let index = 0;
-  for (let key in teachersDays) {
-    const tNavBtn = document.createElement('div');
-    tNavBtn.id = 'week-days-' + index++;
-    tNavBtn.className = "btn t-nav-btn";
-    tNavBtn.innerText = key;
-    weekDays.appendChild(tNavBtn);
-  }
-  // adding daySessions
-  index = 0;
-  console.log(">> teacherFirstDaySessions:", teacherFirstDaySessions);
-  console.log(">> teachersDays[teacherFirstDaySessions]:", teachersDays[teacherFirstDaySessions]);
-  for (let key in teachersDays[teacherFirstDaySessions]) {
-    const tSessionNavBtn = document.createElement('div');
-    tSessionNavBtn.id = 'day-session-' + key++;
-    tSessionNavBtn.className = "btn t-session-nav-btn";
-    tSessionNavBtn.innerText = index++;
-    daySessions.appendChild(tSessionNavBtn);
-  }
+  weekDays.addEventListener('click', function (evt) {
+    const dayIndex = evt.target.id.split("-")[2];
+    // console.log(">> Day Index:", dayIndex);
+    // console.log(">> teachersDays[dayIndex]:", teachersDays[dayIndex]);
+    removeChilds(daySessions);
+    addTeacherNavBtns(weekDays, daySessions, null, teacherFirstDay);
+    fillTeacherCard(teachersDays[dayIndex]);
+
+  });
+
+  daySessions.addEventListener('click', function (evt) {
+    const sessionIndex = evt.target.id.split("-")[2];
+    const dayIndex = document.getElementById('t-card-day').innerText;
+    console.log(">> (just in here) teachersDays:", teachersDays);
+    console.log(">> (just in here) Day Index:", dayIndex);
+    console.log(">> (just in here) Session Index:", sessionIndex);
+    console.log(">> (just in here) evt.target.id.split:", evt.target.id);
+    fillTeacherCard(teachersDays[dayIndex], sessionIndex);
+
+    // fillTeacherCard()
+  });
 
   // 
-  removeChilds(teachersNav);
-  teachersNav.appendChild(weekDays);
-  teachersNav.appendChild(daySessions);
   teachersNav.style.visibility = "visible"
 }
 
@@ -112,7 +118,7 @@ function removeChilds(navBtns) {
   }
 }
 
-function addNavButtons(navBtns, length, submitedData) {
+function addNavButtons(navBtns, length) {
   // adding the navigation buttons to nav element
   for (let index = 0; index < length; index++) {
     const navBtn = document.createElement("div");
@@ -121,6 +127,37 @@ function addNavButtons(navBtns, length, submitedData) {
     navBtn.innerText = "Session N-" + (index + 1);
     navBtns.appendChild(navBtn);
   }
+}
+
+function addTeacherNavBtns(weekDays, daySessions, teachersDays, teacherFirstDay) {
+  // TODO: check the parameters (too long)
+  // TODO: rigel sessions id (
+  // - like asq tebda mel 0 or mel 1
+  // - and asq yselecti session li rah yafichiha bel innerText 
+  //    or bel id li ykon 0 or bel id li ykon 3la hsab number te3 session.
+  // TODO: consider changing the values of the teachers in the form to their names.
+  // (from evernote todo list)
+  // adding week Days (days):
+  // let index = 0;
+  for (let key in teachersDays) {
+    const tNavBtn = document.createElement('div');
+    tNavBtn.id = 'week-days-' + key;
+    tNavBtn.className = "btn t-nav-btn";
+    tNavBtn.innerText = key;
+    weekDays.appendChild(tNavBtn);
+  }
+  // adding day Sessions:
+  let index = 0;
+  for (let key in teachersDays[teacherFirstDay]) {
+    const tSessionNavBtn = document.createElement('div');
+    tSessionNavBtn.id = 'day-session-' + key;
+    console.log('key:', key);
+    tSessionNavBtn.className = "btn t-session-nav-btn";
+    tSessionNavBtn.innerText = index++;
+    daySessions.appendChild(tSessionNavBtn);
+  }
+
+
 }
 
 function fillFloatCard(submitedData, sessions) {
@@ -189,6 +226,39 @@ function fillFloatCard(submitedData, sessions) {
   }
 }
 
+function fillTeacherCard(sessionData, sessionIndex) {
+  const cardBody = document.querySelector("#t-card-body");
+  // fill card body
+  console.log(">> sessionData:", sessionData);
+  console.log(">> sessionIndex:", sessionIndex);
+  console.log(">> Object.keys(sessionData):", Object.keys(sessionData));
+
+  sessionIndex = typeof sessionIndex === "undefined" ? sessionIndex = Object.keys(sessionData)[0] : 0;
+  // if (sessionIndex === -1){
+  //   sessionIndex = Object.keys(sessionData)[0];
+  // }
+  cardBody.innerHTML =
+    '  <ul>' +
+    '    <li>Day: <span id="t-card-day">' + sessionData[sessionIndex]["day"] + '</span></li>' +
+    '    <li>Session: <span id="t-card-session">' + sessionData[sessionIndex]["session_num"] + '</span></li>' +
+    '    <li>Time: <span id="t-card-session">' + sessionData[sessionIndex]["session"] + '</span></li>' +
+    '    <li>Section: <span id="t-card-section">' + sessionData[sessionIndex]["section"] + '</span></li>' +
+    '    <li>Module: <span id="t-card-module">' + sessionData[sessionIndex]["module"] + '</span></li>' +
+    '  </ul>';
+
+  // if (parseInt(submitedData["session"]) + 1 > sessions.length) {
+  //   var notAvailText;
+  //   (sessions.length === 0) ? notAvailText = "PS: Day's-off" : notAvailText = "PS: Done for today";
+  //   console.log(">> PS: Section is Not available");
+  //   // alert(">> PS: Section is Not available");
+  //   const notAvail = document.createElement("li");
+  //   notAvail.innerText = notAvailText;
+  //   cardBody.firstElementChild.appendChild(notAvail);
+  //   return;
+  // }
+
+}
+
 // EventListeners section:
 // event test
 // document.getElementById("nav-btns").addEventListener("click", function (evt) {
@@ -215,8 +285,11 @@ document.getElementById("teachers-submit").addEventListener("click", function (e
 
 document.getElementById("schedule-clear").addEventListener("click", function (evt) {
   document.getElementById('float-card').style.visibility = "hidden";
+  document.getElementById('teacher-card').style.visibility = "hidden";
   removeChilds(document.getElementById('nav-btns'));
+  removeChilds(document.getElementById('teachers-nav'));
   console.log("Page Cleared!!");
 });
+
 
 
