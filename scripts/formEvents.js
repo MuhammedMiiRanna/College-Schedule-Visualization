@@ -50,33 +50,29 @@ function getTeachersData(form) {
   // Selection part:
   const teacherCard = document.getElementById("teacher-card");
   const teachersNav = document.getElementById('teachers-nav');
+  const weekDays = document.createElement('div');
+  const daySessions = document.createElement('div');
   const weekDaysHeading = document.createElement('h2');
   const daySessionsHeading = document.createElement('h2');
-  let weekDays = document.createElement('div');
-  const daySessions = document.createElement('div');
-  {
-    // adding t-nav elements id:
-    const headingsTab = ["Days", "N-:"];
-    const tNavComponents = [weekDays, daySessions];
-    const ids = ["day-sessions", "week-days"]
-    for (let index = 0; index < headingsTab.length; index++) {
-      const tempDiv = document.createElement('div');
-      tempDiv.innerText = headingsTab[index];
-      tNavComponents[index].id = ids[index];
-      tempDiv.appendChild(tNavComponents[index]);
-      teachersNav.appendChild(tempDiv);
-      console.log(tempDiv.innerHTML);
-      console.log(teachersNav.innerHTML);
 
-    }
+  {// adding t-nav elements id:
+    // TODO check the functionlity of the other function
+    weekDays.id = "week-days";
+    daySessions.id = "day-sessions";
+
+    // add headings :
+    weekDaysHeading.innerText = "Days";
+    daySessionsHeading.innerText = "N-:";
+    // append the headings
+    weekDays.appendChild(weekDaysHeading);
+    daySessions.appendChild(daySessionsHeading);
   }
   // console.log(">> rana hna wroh", teachersDays); // object of teacher's schedule
   // console.log(">> rana hna wroh", teacherFirstDay); sunday
   // console.log(">> rana hna wroh", teachersDays[teacherFirstDay]);
   // console.log(">> rana hna wroh", teachersDays[teacherFirstDay][Object.keys(teachersDays[teacherFirstDay])[0]]);
-  removeChilds(weekDays);
-  removeChilds(daySessions);
   fillTeacherCard(teachersDays[teacherFirstDay]);
+  removeChilds(teachersNav);
   addTeacherNavBtns(weekDays, daySessions, teachersDays, teacherFirstDay);
   teacherCard.style.visibility = "visible"; // making the float-card visible
 
@@ -85,8 +81,9 @@ function getTeachersData(form) {
     const dayIndex = evt.target.id.split("-")[2];
     // console.log(">> Day Index:", dayIndex);
     // console.log(">> teachersDays[dayIndex]:", teachersDays[dayIndex]);
-    removeChilds(daySessions);
-    addTeacherNavBtns(weekDays, daySessions, null, teacherFirstDay);
+    removeChilds(daySessions, 1);
+    removeChilds(weekDays, 1);
+    addTeacherNavBtns(weekDays, daySessions, teachersDays, teacherFirstDay);
     fillTeacherCard(teachersDays[dayIndex]);
 
   });
@@ -103,19 +100,24 @@ function getTeachersData(form) {
     // fillTeacherCard()
   });
 
+
   // 
+  teachersNav.appendChild(weekDays);
+  teachersNav.appendChild(daySessions);
   teachersNav.style.visibility = "visible"
 }
-
 //
 // /////////////// FUNCTIONS section ///////////////
 //
-
-function removeChilds(navBtns) {
+function removeChilds(navBtns, leaveChild) {
   // remove all childs of the navBtns element
-  while (navBtns.firstChild) {
-    navBtns.removeChild(navBtns.firstChild);
+  leaveChild = typeof leaveChild === 'undefined' ? 0 : leaveChild;
+  while (navBtns.childNodes.length > leaveChild) {
+    navBtns.removeChild(navBtns.lastChild);
   }
+  // while (navBtns. ) {
+  //   navBtns.removeChild(navBtns.firstChild);
+  // }
 }
 
 function addNavButtons(navBtns, length) {
@@ -139,6 +141,7 @@ function addTeacherNavBtns(weekDays, daySessions, teachersDays, teacherFirstDay)
   // (from evernote todo list)
   // adding week Days (days):
   // let index = 0;
+
   for (let key in teachersDays) {
     const tNavBtn = document.createElement('div');
     tNavBtn.id = 'week-days-' + key;
