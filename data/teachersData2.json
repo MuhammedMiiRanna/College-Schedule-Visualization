@@ -1,0 +1,1730 @@
+{
+    "BOUDEFASSA": {
+        "Dim": {
+            "0": {
+                "day": "Dim",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_MIV G1",
+                "module": "Anglais"
+            },
+            "1": {
+                "day": "Dim",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_MIV G2",
+                "module": "Anglais"
+            },
+            "2": {
+                "day": "Dim",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_RSD G3",
+                "module": "Anglais"
+            },
+            "3": {
+                "day": "Dim",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_RSD G2",
+                "module": "Anglais"
+            }
+        },
+        "Lun": {
+            "3": {
+                "day": "Lun",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_RSD G1",
+                "module": "Anglais"
+            },
+            "2": {
+                "day": "Lun",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_RSD G1",
+                "module": "ANGLAIS"
+            }
+        },
+        "Mar": {
+            "0": {
+                "day": "Mar",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_RSD G3",
+                "module": "ANGLAIS"
+            },
+            "1": {
+                "day": "Mar",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_RSD G2",
+                "module": "ANGLAIS"
+            }
+        }
+    },
+    "KESSI": {
+        "Dim": {
+            "0": {
+                "day": "Dim",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_MIV G2",
+                "module": "ABDD"
+            }
+        },
+        "Mar": {
+            "3": {
+                "day": "Mar",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_MIV G1",
+                "module": "ABDD"
+            }
+        }
+    },
+    "DELLOUL": {
+        "Dim": {
+            "1": {
+                "day": "Dim",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_MIV G1",
+                "module": "TAI"
+            }
+        },
+        "Lun": {
+            "0": {
+                "day": "Lun",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_MIV G2",
+                "module": "TAI"
+            }
+        }
+    },
+    "LARABI": {
+        "Dim": {
+            "2": {
+                "day": "Dim",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_MIV",
+                "module": "Résolution de problèmes"
+            },
+            "1": {
+                "day": "Dim",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_MIV",
+                "module": "Visualisation de Données"
+            }
+        },
+        "Mar": {
+            "1": {
+                "day": "Mar",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_MIV",
+                "module": "Multimédia"
+            }
+        },
+        "Lun": {
+            "1": {
+                "day": "Lun",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_MIV G2",
+                "module": "Atelier Créatif"
+            },
+            "2": {
+                "day": "Lun",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_MIV G1",
+                "module": "Atelier Créatif"
+            }
+        }
+    },
+    "SETITRA": {
+        "Dim": {
+            "3": {
+                "day": "Dim",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_MIV",
+                "module": "TAI"
+            },
+            "4": {
+                "day": "Dim",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M1_MIV G2",
+                "module": "TAI"
+            }
+        },
+        "Lun": {
+            "2": {
+                "day": "Lun",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_MIV G1",
+                "module": "TAI"
+            }
+        }
+    },
+    "SEBAI": {
+        "Dim": {
+            "4": {
+                "day": "Dim",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M1_MIV G1",
+                "module": "Résolution de problèmes"
+            }
+        },
+        "Mar": {
+            "2": {
+                "day": "Mar",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_MIV G2",
+                "module": "Résolution de problèmes"
+            }
+        },
+        "Mer": {
+            "1": {
+                "day": "Mer",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_MIV G2",
+                "module": "Multimédia"
+            },
+            "2": {
+                "day": "Mer",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_MIV G1",
+                "module": "Multimédia"
+            }
+        }
+    },
+    "BENCHAIBA": {
+        "Lun": {
+            "0": {
+                "day": "Lun",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_MIV G1",
+                "module": "Syst"
+            },
+            "2": {
+                "day": "Lun",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_MIV G2",
+                "module": "Syst"
+            },
+            "3": {
+                "day": "Lun",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_MIV G2",
+                "module": "Syst"
+            }
+        },
+        "Mar": {
+            "0": {
+                "day": "Mar",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_MIV",
+                "module": "Syst"
+            },
+            "2": {
+                "day": "Mar",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_MIV G1",
+                "module": "Syst"
+            }
+        },
+        "Dim": {
+            "3": {
+                "day": "Dim",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_RSD",
+                "module": "RES MOB"
+            }
+        },
+        "Mer": {
+            "2": {
+                "day": "Mer",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_RSD",
+                "module": "RES MOB"
+            }
+        }
+    },
+    "DJIROUNE": {
+        "Lun": {
+            "1": {
+                "day": "Lun",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_MIV",
+                "module": "ABDD"
+            }
+        }
+    },
+    "MESSAOUDI": {
+        "Mar": {
+            "3": {
+                "day": "Mar",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_MIV G2",
+                "module": "Algo"
+            },
+            "4": {
+                "day": "Mar",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M1_MIV G1",
+                "module": "Algo"
+            },
+            "2": {
+                "day": "Mar",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_RSD G1",
+                "module": "Algo.Av.et Compl"
+            }
+        },
+        "Mer": {
+            "1": {
+                "day": "Mer",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_MIV G1",
+                "module": "Algo"
+            },
+            "2": {
+                "day": "Mer",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_MIV G2",
+                "module": "Algo"
+            },
+            "4": {
+                "day": "Mer",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M1_RSD G4",
+                "module": "Algo.Av.et Compl"
+            }
+        }
+    },
+    "DRIAS": {
+        "Mer": {
+            "0": {
+                "day": "Mer",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_MIV",
+                "module": "Algo"
+            },
+            "1": {
+                "day": "Mer",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_SII",
+                "module": "COMPLEXITE"
+            }
+        },
+        "Mar": {
+            "1": {
+                "day": "Mar",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_SII G2",
+                "module": "COMPLEXITE"
+            },
+            "3": {
+                "day": "Mar",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_SII G1",
+                "module": "COMPLEXITE"
+            },
+            "4": {
+                "day": "Mar",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M1_SII G3",
+                "module": "COMPLEXITE"
+            },
+            "2": {
+                "day": "Mar",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_SII",
+                "module": "D.MINING"
+            }
+        },
+        "Lun": {
+            "0": {
+                "day": "Lun",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_SII G2",
+                "module": "D.MINING"
+            },
+            "1": {
+                "day": "Lun",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_SII G3",
+                "module": "D.MINING"
+            },
+            "2": {
+                "day": "Lun",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_SII G1",
+                "module": "D.MINING"
+            }
+        }
+    },
+    "KOUCHI": {
+        "Sam": {
+            "0": {
+                "day": "Sam",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_RSD G1",
+                "module": "Res Prot"
+            },
+            "1": {
+                "day": "Sam",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_RSD G3",
+                "module": "Res Prot"
+            }
+        }
+    },
+    "KHEMISSA": {
+        "Dim": {
+            "0": {
+                "day": "Dim",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_RSD",
+                "module": "GP"
+            }
+        }
+    },
+    "no name": {
+        "Dim": {
+            "1": {
+                "day": "Dim",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_RSD G1",
+                "module": "MEPS"
+            },
+            "4": {
+                "day": "Dim",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_MIV G2",
+                "module": "Visualisation de Données"
+            }
+        },
+        "Mar": {
+            "0": {
+                "day": "Mar",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_RSD G3",
+                "module": "Algo.Av.et Compl"
+            },
+            "1": {
+                "day": "Mar",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_RSD G2",
+                "module": "MEPS"
+            },
+            "3": {
+                "day": "Mar",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_MIV G1",
+                "module": "PROG RES"
+            },
+            "4": {
+                "day": "Mar",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_MIV G2",
+                "module": "PROG RES"
+            }
+        },
+        "Jeu": {
+            "0": {
+                "day": "Jeu",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_RSD G3",
+                "module": "MEPS"
+            }
+        },
+        "Lun": {
+            "0": {
+                "day": "Lun",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_SII G2",
+                "module": "ASGBD"
+            },
+            "1": {
+                "day": "Lun",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_SII G4",
+                "module": "COMPIL"
+            },
+            "2": {
+                "day": "Lun",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_SII G4",
+                "module": "ASGBD"
+            },
+            "3": {
+                "day": "Lun",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_SII G2",
+                "module": "COMPIL"
+            }
+        },
+        "Mer": {
+            "4": {
+                "day": "Mer",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_MIV G2",
+                "module": "TH JEU"
+            }
+        }
+    },
+    "BERKANI": {
+        "Dim": {
+            "2": {
+                "day": "Dim",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_RSD G1",
+                "module": "ASGBD"
+            }
+        },
+        "Mar": {
+            "0": {
+                "day": "Mar",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_RSD G2",
+                "module": "ASGBD"
+            }
+        }
+    },
+    "Bouachi": {
+        "Dim": {
+            "2": {
+                "day": "Dim",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_RSD G4",
+                "module": "Res Prot"
+            },
+            "4": {
+                "day": "Dim",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M1_RSD G2",
+                "module": "Res Prot"
+            }
+        }
+    },
+    "NEMOUCHI": {
+        "Dim": {
+            "4": {
+                "day": "Dim",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M1_RSD G3",
+                "module": "Algo.Av.et Compl"
+            }
+        },
+        "Lun": {
+            "0": {
+                "day": "Lun",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_RSD G2",
+                "module": "Algo.Av.et Compl"
+            }
+        }
+    },
+    "MOSTE": {
+        "Lun": {
+            "0": {
+                "day": "Lun",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_RSD G1",
+                "module": "Algo.Av.et Compl"
+            },
+            "3": {
+                "day": "Lun",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_RSD G2",
+                "module": "Algo.Av.et Compl"
+            }
+        }
+    },
+    "BOUCHAM": {
+        "Lun": {
+            "0": {
+                "day": "Lun",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_RSD G3",
+                "module": "GP"
+            }
+        },
+        "Mar": {
+            "0": {
+                "day": "Mar",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_RSD G4",
+                "module": "GP"
+            },
+            "1": {
+                "day": "Mar",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_RSD G1",
+                "module": "GP"
+            }
+        },
+        "Jeu": {
+            "2": {
+                "day": "Jeu",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_RSD G2",
+                "module": "GP"
+            }
+        }
+    },
+    "MOSTEGHANEMI": {
+        "Lun": {
+            "1": {
+                "day": "Lun",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_RSD",
+                "module": "Algo.Av.et Compl"
+            }
+        }
+    },
+    "DERDER": {
+        "Lun": {
+            "2": {
+                "day": "Lun",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_RSD",
+                "module": "Res Prot"
+            }
+        }
+    },
+    "FRIHI": {
+        "Lun": {
+            "3": {
+                "day": "Lun",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_RSD G3",
+                "module": "ASGBD"
+            },
+            "4": {
+                "day": "Lun",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M1_RSD G4",
+                "module": "ASGBD"
+            }
+        }
+    },
+    "MOUSSAOUI": {
+        "Mar": {
+            "2": {
+                "day": "Mar",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_RSD G2",
+                "module": "Syst.Expl"
+            }
+        },
+        "Jeu": {
+            "1": {
+                "day": "Jeu",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_RSD",
+                "module": "SYST"
+            }
+        }
+    },
+    "GHARBI": {
+        "Mer": {
+            "0": {
+                "day": "Mer",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_RSD",
+                "module": "MEPS"
+            }
+        }
+    },
+    "GUEBAILI": {
+        "Mer": {
+            "1": {
+                "day": "Mer",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_RSD",
+                "module": "ASGBD"
+            }
+        }
+    },
+    "MEHDI": {
+        "Mer": {
+            "2": {
+                "day": "Mer",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_RSD G2",
+                "module": "SYST"
+            },
+            "3": {
+                "day": "Mer",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_RSD G3",
+                "module": "SYST"
+            }
+        },
+        "Jeu": {
+            "2": {
+                "day": "Jeu",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_RSD G1",
+                "module": "SYST"
+            },
+            "3": {
+                "day": "Jeu",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M1_RSD G4",
+                "module": "SYST"
+            }
+        }
+    },
+    "ABDELLAHOUM": {
+        "Jeu": {
+            "0": {
+                "day": "Jeu",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_RSD G1",
+                "module": "SYST"
+            },
+            "2": {
+                "day": "Jeu",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_RSD G3",
+                "module": "SYST"
+            }
+        }
+    },
+    "AMROUS": {
+        "Dim": {
+            "0": {
+                "day": "Dim",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_SII G3",
+                "module": "MEPS"
+            },
+            "1": {
+                "day": "Dim",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_SII",
+                "module": "MEPS"
+            },
+            "4": {
+                "day": "Dim",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M1_SII G1",
+                "module": "MEPS"
+            }
+        },
+        "Jeu": {
+            "2": {
+                "day": "Jeu",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_SII G2",
+                "module": "MEPS"
+            }
+        }
+    },
+    "AZZOUNE": {
+        "Dim": {
+            "2": {
+                "day": "Dim",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_SII",
+                "module": "RES PB"
+            },
+            "3": {
+                "day": "Dim",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_SII G2",
+                "module": "RES PB"
+            },
+            "4": {
+                "day": "Dim",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M1_SII G3",
+                "module": "RES PB"
+            }
+        },
+        "Jeu": {
+            "2": {
+                "day": "Jeu",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_SII G1",
+                "module": "RES PB"
+            }
+        }
+    },
+    "Larbi": {
+        "Lun": {
+            "0": {
+                "day": "Lun",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_SII G3",
+                "module": "SYST"
+            },
+            "1": {
+                "day": "Lun",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_SII G1",
+                "module": "SYST"
+            },
+            "4": {
+                "day": "Lun",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M1_SII G4",
+                "module": "SYST"
+            }
+        }
+    },
+    "MOULAI": {
+        "Lun": {
+            "0": {
+                "day": "Lun",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_SII G4",
+                "module": "COMPLEXITE"
+            },
+            "1": {
+                "day": "Lun",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_SII G2",
+                "module": "COMPLEXITE"
+            },
+            "3": {
+                "day": "Lun",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_SII G1",
+                "module": "COMPLEXITE"
+            },
+            "4": {
+                "day": "Lun",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M1_SII G3",
+                "module": "COMPLEXITE"
+            }
+        },
+        "Dim": {
+            "2": {
+                "day": "Dim",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_SII G3",
+                "module": "REP CON"
+            },
+            "3": {
+                "day": "Dim",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_SII G2",
+                "module": "REP CON"
+            },
+            "4": {
+                "day": "Dim",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_SII G1",
+                "module": "REP CON"
+            }
+        }
+    },
+    "ZEBBANE": {
+        "Mar": {
+            "0": {
+                "day": "Mar",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_SII",
+                "module": "SYST"
+            },
+            "1": {
+                "day": "Mar",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_SII G3",
+                "module": "SYST"
+            },
+            "2": {
+                "day": "Mar",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_SII G1",
+                "module": "SYST"
+            }
+        },
+        "Mer": {
+            "3": {
+                "day": "Mer",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_SII G2",
+                "module": "SYST"
+            }
+        }
+    },
+    "ZENOUN": {
+        "Mar": {
+            "1": {
+                "day": "Mar",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_SII G1",
+                "module": "ANGLAIS"
+            },
+            "2": {
+                "day": "Mar",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_SII G2",
+                "module": "ANGLAIS"
+            },
+            "3": {
+                "day": "Mar",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_SII G3",
+                "module": "ANGLAIS"
+            }
+        },
+        "Lun": {
+            "2": {
+                "day": "Lun",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_SII G2",
+                "module": "ANGLAIS"
+            }
+        },
+        "Mer": {
+            "1": {
+                "day": "Mer",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_SII G3",
+                "module": "ANGLAIS"
+            },
+            "2": {
+                "day": "Mer",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_SII G1",
+                "module": "ANGLAIS"
+            }
+        }
+    },
+    "ALIOUANE": {
+        "Mar": {
+            "2": {
+                "day": "Mar",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_SII G3",
+                "module": "COMPIL"
+            }
+        },
+        "Mer": {
+            "0": {
+                "day": "Mer",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_SII G2",
+                "module": "COMPIL"
+            },
+            "2": {
+                "day": "Mer",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M1_SII",
+                "module": "COMPIL"
+            },
+            "3": {
+                "day": "Mer",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M1_SII G1",
+                "module": "COMPIL"
+            }
+        }
+    },
+    "AZZOUZ": {
+        "Jeu": {
+            "0": {
+                "day": "Jeu",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M1_SII G1",
+                "module": "ASGBD"
+            },
+            "1": {
+                "day": "Jeu",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M1_SII",
+                "module": "ASGBD"
+            }
+        }
+    },
+    "OURAHMOUNE": {
+        "Dim": {
+            "0": {
+                "day": "Dim",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_MIV G1",
+                "module": "Système d'Exploitation Mobile"
+            },
+            "2": {
+                "day": "Dim",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_MIV",
+                "module": "Système d'Exploitation Mobile"
+            },
+            "3": {
+                "day": "Dim",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_MIV G2",
+                "module": "Système d'Exploitation Mobile"
+            }
+        },
+        "Mar": {
+            "2": {
+                "day": "Mar",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_MIV G1",
+                "module": "Système d'Exploitation Mobile"
+            }
+        },
+        "Mer": {
+            "0": {
+                "day": "Mer",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_MIV G2",
+                "module": "Système d'Exploitation Mobile"
+            }
+        }
+    },
+    "DAHMANI": {
+        "Dim": {
+            "0": {
+                "day": "Dim",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_MIV G2",
+                "module": "TH JEU"
+            }
+        },
+        "Mer": {
+            "0": {
+                "day": "Mer",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_MIV G1",
+                "module": "TH JEU"
+            },
+            "2": {
+                "day": "Mer",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_MIV",
+                "module": "TH JEU"
+            }
+        }
+    },
+    "G2": {
+        "Dim": {
+            "3": {
+                "day": "Dim",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_MIV G1",
+                "module": "Visualisation de Données"
+            }
+        },
+        "Mer": {
+            "3": {
+                "day": "Mer",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_MIV G1",
+                "module": "TH JEU"
+            }
+        }
+    },
+    "EL NAGGER": {
+        "Lun": {
+            "0": {
+                "day": "Lun",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_MIV",
+                "module": "PROG RES"
+            }
+        }
+    },
+    "KHELLAF": {
+        "Lun": {
+            "1": {
+                "day": "Lun",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_MIV G1",
+                "module": "Connaissances et Raisonnement"
+            }
+        },
+        "Mer": {
+            "1": {
+                "day": "Mer",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_MIV",
+                "module": "Connaissances et Raisonnement"
+            },
+            "0": {
+                "day": "Mer",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_SII",
+                "module": "REP CON"
+            }
+        }
+    },
+    "Dahmane": {
+        "Lun": {
+            "2": {
+                "day": "Lun",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_MIV G2",
+                "module": "Synthèse d'Image"
+            },
+            "3": {
+                "day": "Lun",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_MIV G1",
+                "module": "Synthèse d'Image"
+            }
+        },
+        "Mar": {
+            "1": {
+                "day": "Mar",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_MIV",
+                "module": "Synthèse d'Image"
+            }
+        }
+    },
+    "HACHEMI": {
+        "Mar": {
+            "0": {
+                "day": "Mar",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_MIV",
+                "module": "GP-"
+            }
+        }
+    },
+    "BENSALAH": {
+        "Mar": {
+            "2": {
+                "day": "Mar",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_MIV G2",
+                "module": "GP-"
+            },
+            "4": {
+                "day": "Mar",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_MIV G1",
+                "module": "GP-"
+            }
+        }
+    },
+    "belhadi": {
+        "Mer": {
+            "3": {
+                "day": "Mer",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_MIV G2",
+                "module": "Connaissances et Raisonnement"
+            }
+        }
+    },
+    "BOUGHACI": {
+        "Sam": {
+            "0": {
+                "day": "Sam",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_RSD G1",
+                "module": "CAL.PAR"
+            },
+            "1": {
+                "day": "Sam",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_RSD G4",
+                "module": "CAL.PAR"
+            },
+            "4": {
+                "day": "Sam",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_RSD G2",
+                "module": "CAL.PAR"
+            }
+        },
+        "Mar": {
+            "0": {
+                "day": "Mar",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_RSD G2",
+                "module": "CAL.PAR"
+            },
+            "1": {
+                "day": "Mar",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_RSD G3",
+                "module": "CAL.PAR"
+            },
+            "3": {
+                "day": "Mar",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_RSD",
+                "module": "CAL.PAR"
+            }
+        },
+        "Mer": {
+            "4": {
+                "day": "Mer",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_RSD G3",
+                "module": "CAL.PAR"
+            }
+        }
+    },
+    "BOULKRINAT": {
+        "Sam": {
+            "0": {
+                "day": "Sam",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_RSD G3",
+                "module": "CAR"
+            },
+            "1": {
+                "day": "Sam",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_RSD G3",
+                "module": "CAR"
+            },
+            "2": {
+                "day": "Sam",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_RSD",
+                "module": "CAR"
+            },
+            "3": {
+                "day": "Sam",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_RSD G1",
+                "module": "CAR"
+            },
+            "4": {
+                "day": "Sam",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_RSD G1",
+                "module": "CAR"
+            }
+        },
+        "Mer": {
+            "0": {
+                "day": "Mer",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_RSD G4",
+                "module": "CAR"
+            },
+            "1": {
+                "day": "Mer",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_RSD G4",
+                "module": "CAR"
+            },
+            "3": {
+                "day": "Mer",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_RSD G2",
+                "module": "CAR"
+            },
+            "4": {
+                "day": "Mer",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_RSD G2",
+                "module": "CAR"
+            }
+        }
+    },
+    "Saadi": {
+        "Sam": {
+            "1": {
+                "day": "Sam",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_RSD G2",
+                "module": "RES MOB"
+            },
+            "3": {
+                "day": "Sam",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_RSD G3",
+                "module": "RES MOB"
+            },
+            "4": {
+                "day": "Sam",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_RSD G4",
+                "module": "RES MOB"
+            }
+        },
+        "Lun": {
+            "3": {
+                "day": "Lun",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_RSD G1",
+                "module": "RES MOB"
+            }
+        }
+    },
+    "BENKAOUHA": {
+        "Dim": {
+            "0": {
+                "day": "Dim",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_RSD G1",
+                "module": "RES S F"
+            },
+            "1": {
+                "day": "Dim",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_RSD",
+                "module": "RES S F"
+            },
+            "2": {
+                "day": "Dim",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_RSD G3",
+                "module": "RES S F"
+            }
+        },
+        "Lun": {
+            "1": {
+                "day": "Lun",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_RSD G2",
+                "module": "RES S F"
+            },
+            "2": {
+                "day": "Lun",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_RSD G4",
+                "module": "RES S F"
+            }
+        }
+    },
+    "zeraoulia": {
+        "Dim": {
+            "0": {
+                "day": "Dim",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_RSD G2",
+                "module": "ING-RES"
+            }
+        },
+        "Lun": {
+            "4": {
+                "day": "Lun",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_RSD",
+                "module": "ing-res"
+            }
+        }
+    },
+    "Zeraoulia": {
+        "Dim": {
+            "2": {
+                "day": "Dim",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_RSD G1",
+                "module": "ING-RES"
+            }
+        },
+        "Lun": {
+            "0": {
+                "day": "Lun",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_RSD G4",
+                "module": "ing-res"
+            },
+            "1": {
+                "day": "Lun",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_RSD G3",
+                "module": "ING-RES"
+            }
+        }
+    },
+    "Seddiki": {
+        "Lun": {
+            "1": {
+                "day": "Lun",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_RSD G4",
+                "module": "SYS.DISTR"
+            },
+            "2": {
+                "day": "Lun",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_RSD G3",
+                "module": "SYS.DISTR"
+            }
+        },
+        "Mar": {
+            "1": {
+                "day": "Mar",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_RSD G1",
+                "module": "SYS.DISTR"
+            },
+            "2": {
+                "day": "Mar",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_RSD G2",
+                "module": "SYS.DISTR"
+            },
+            "4": {
+                "day": "Mar",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_RSD",
+                "module": "SYS.DISTR"
+            }
+        }
+    },
+    "Houacine": {
+        "Dim": {
+            "0": {
+                "day": "Dim",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_SII G2",
+                "module": "D.MINING"
+            },
+            "2": {
+                "day": "Dim",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_SII G1",
+                "module": "D.MINING"
+            },
+            "3": {
+                "day": "Dim",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_SII G3",
+                "module": "D.MINING"
+            }
+        }
+    },
+    "ISLI": {
+        "Dim": {
+            "0": {
+                "day": "Dim",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_SII G3",
+                "module": "P .CONTR"
+            },
+            "3": {
+                "day": "Dim",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_SII G1",
+                "module": "P .CONTR"
+            },
+            "4": {
+                "day": "Dim",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_SII G2",
+                "module": "P .CONTR"
+            }
+        },
+        "Lun": {
+            "1": {
+                "day": "Lun",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_SII G1",
+                "module": "P .CONTR"
+            },
+            "4": {
+                "day": "Lun",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_SII",
+                "module": "P .CONTR"
+            }
+        },
+        "Mar": {
+            "0": {
+                "day": "Mar",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_SII G3",
+                "module": "P .CONTR"
+            },
+            "4": {
+                "day": "Mar",
+                "session_num": "N-6",
+                "session": "14:40 - 16:10",
+                "section": "M2_SII G2",
+                "module": "P .CONTR"
+            }
+        }
+    },
+    "KECHID": {
+        "Dim": {
+            "1": {
+                "day": "Dim",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_SII",
+                "module": "RI"
+            }
+        }
+    },
+    "ABADA": {
+        "Lun": {
+            "0": {
+                "day": "Lun",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_SII G3",
+                "module": "VISION"
+            }
+        },
+        "Mar": {
+            "0": {
+                "day": "Mar",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_SII G1",
+                "module": "VISION"
+            },
+            "1": {
+                "day": "Mar",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_SII G2",
+                "module": "VISION"
+            },
+            "3": {
+                "day": "Mar",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_SII",
+                "module": "VISION"
+            }
+        }
+    },
+    "TAMEN": {
+        "Lun": {
+            "3": {
+                "day": "Lun",
+                "session_num": "N-4",
+                "session": "13:00 - 14:30",
+                "section": "M2_SII",
+                "module": "TAL"
+            }
+        },
+        "Mer": {
+            "2": {
+                "day": "Mer",
+                "session_num": "N-3",
+                "session": "11:20 - 12:50",
+                "section": "M2_SII G2",
+                "module": "TAL"
+            }
+        },
+        "Jeu": {
+            "0": {
+                "day": "Jeu",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_SII G1",
+                "module": "TAL"
+            },
+            "1": {
+                "day": "Jeu",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_SII G3",
+                "module": "TAL"
+            }
+        }
+    },
+    "KHENNAK": {
+        "Mar": {
+            "0": {
+                "day": "Mar",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_SII G2",
+                "module": "RI"
+            }
+        },
+        "Jeu": {
+            "0": {
+                "day": "Jeu",
+                "session_num": "N-1",
+                "session": "08:00 - 09:30",
+                "section": "M2_SII G3",
+                "module": "RI"
+            },
+            "1": {
+                "day": "Jeu",
+                "session_num": "N-2",
+                "session": "09:40 - 11:10",
+                "section": "M2_SII G1",
+                "module": "RI"
+            }
+        }
+    }
+}
