@@ -1,3 +1,25 @@
+    // const tempweekDays = document.createElement('div');
+    // const daySessions = document.createElement('div');
+
+    // teachersNav.appendChild(tempweekDays);
+    // teachersNav.appendChild(daySessions);
+
+    // // add headings :
+    // weekDaysHeading.innerText = "Days";
+    // daySessionsHeading.innerText = "N-:";
+    // // append the headings
+    // weekDays.appendChild(weekDaysHeading);
+    // daySessions.appendChild(daySessionsHeading);
+
+    // // daySessions.id = "day-sessions";
+    // // weekDays.id = "week-days";
+
+    // weekDays.appendChild(document.createElement('div').id = "day-sessions");
+    // daySessions.appendChild(document.createElement('div').id = "week-days");
+
+
+
+
 		// var yearValue = document.getElementById("year").value;
 		// var semesterValue = document.getElementById("semester").value;
 		// var dayValue = document.getElementById("day").value;
