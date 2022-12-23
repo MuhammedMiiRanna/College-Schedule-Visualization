@@ -1,4 +1,3 @@
-//
 import dataM1 from "/data/data M1.json" assert { type: "json" };
 import dataM2 from "/data/data M2.json" assert { type: "json" };
 import teachersData from "/data/teachersData.json" assert { type: "json" };
@@ -42,8 +41,10 @@ function getSessionsData(form) {
 function getTeachersData(form) {
   var formData = new FormData(form); // getting form data (into object)
   const submitedData = Object.fromEntries(formData);
+  console.log("hanay", submitedData);
   const teachersList = Object.keys(teachersData);
-  const teachersDays = teachersData[teachersList[submitedData['teachers']]]; // getting the days where the selected teachers will have classes
+  // const teachersDays = teachersData[teachersList[submitedData['teachers']]]; // getting the days where the selected teachers will have classes
+  const teachersDays = teachersData[submitedData["teachers"]]
   const teacherFirstDay = Object.keys(teachersDays)[0];
   // >> submitedData: {teacher: '0'} teacher: "0"[Prototype]]: Object
 
@@ -67,10 +68,6 @@ function getTeachersData(form) {
     weekDays.appendChild(weekDaysHeading);
     daySessions.appendChild(daySessionsHeading);
   }
-  // console.log(">> rana hna wroh", teachersDays); // object of teacher's schedule
-  // console.log(">> rana hna wroh", teacherFirstDay); sunday
-  // console.log(">> rana hna wroh", teachersDays[teacherFirstDay]);
-  // console.log(">> rana hna wroh", teachersDays[teacherFirstDay][Object.keys(teachersDays[teacherFirstDay])[0]]);
   fillTeacherCard(teachersDays[teacherFirstDay]);
   removeChilds(teachersNav);
   addTeacherNavBtns(weekDays, daySessions, teachersDays, teacherFirstDay);
@@ -79,11 +76,11 @@ function getTeachersData(form) {
 
   weekDays.addEventListener('click', function (evt) {
     const dayIndex = evt.target.id.split("-")[2];
-    // console.log(">> Day Index:", dayIndex);
-    // console.log(">> teachersDays[dayIndex]:", teachersDays[dayIndex]);
+    console.log(">>(weekDays) Day Index:", dayIndex);
+    console.log(">>(weekDays) teachersDays:", teachersDays);
     removeChilds(daySessions, 1);
     removeChilds(weekDays, 1);
-    addTeacherNavBtns(weekDays, daySessions, teachersDays, teacherFirstDay);
+    addTeacherNavBtns(weekDays, daySessions, teachersDays, dayIndex);
     fillTeacherCard(teachersDays[dayIndex]);
 
   });
@@ -91,13 +88,11 @@ function getTeachersData(form) {
   daySessions.addEventListener('click', function (evt) {
     const sessionIndex = evt.target.id.split("-")[2];
     const dayIndex = document.getElementById('t-card-day').innerText;
-    console.log(">> (just in here) teachersDays:", teachersDays);
-    console.log(">> (just in here) Day Index:", dayIndex);
-    console.log(">> (just in here) Session Index:", sessionIndex);
-    console.log(">> (just in here) evt.target.id.split:", evt.target.id);
+    console.log(">> (daySessions events) teachersDays:", teachersDays);
+    console.log(">> (daySessions events) Day Index:", dayIndex);
+    console.log(">> (daySessions events) Session Index:", sessionIndex);
+    console.log(">> (daySessions events) evt.target.id.split:", evt.target.id);
     fillTeacherCard(teachersDays[dayIndex], sessionIndex);
-
-    // fillTeacherCard()
   });
 
 
@@ -141,6 +136,10 @@ function addTeacherNavBtns(weekDays, daySessions, teachersDays, teacherFirstDay)
   // (from evernote todo list)
   // adding week Days (days):
   // let index = 0;
+  console.log(">> (tNavBtAdd) weekDays:", weekDays);
+  console.log(">> (tNavBtAdd) daySessions:", daySessions);
+  console.log(">> (tNavBtAdd) teachersDays:", teachersDays);
+  console.log(">> (tNavBtAdd) teacherFirstDay:", teacherFirstDay);
 
   for (let key in teachersDays) {
     const tNavBtn = document.createElement('div');
@@ -154,9 +153,9 @@ function addTeacherNavBtns(weekDays, daySessions, teachersDays, teacherFirstDay)
   for (let key in teachersDays[teacherFirstDay]) {
     const tSessionNavBtn = document.createElement('div');
     tSessionNavBtn.id = 'day-session-' + key;
-    console.log('key:', key);
+    // console.log('key:', key);
     tSessionNavBtn.className = "btn t-session-nav-btn";
-    tSessionNavBtn.innerText = index++;
+    tSessionNavBtn.innerText = ++index;
     daySessions.appendChild(tSessionNavBtn);
   }
 
@@ -229,22 +228,23 @@ function fillFloatCard(submitedData, sessions) {
   }
 }
 
-function fillTeacherCard(sessionData, sessionIndex) {
+function fillTeacherCard(sessionData, sessionIndex = Object.keys(sessionData)[0]) {
   const cardBody = document.querySelector("#t-card-body");
-  // fill card body
-  console.log(">> sessionData:", sessionData);
-  console.log(">> sessionIndex:", sessionIndex);
-  console.log(">> Object.keys(sessionData):", Object.keys(sessionData));
-
-  sessionIndex = typeof sessionIndex === "undefined" ? sessionIndex = Object.keys(sessionData)[0] : 0;
+  // sessionIndex = typeof sessionIndex === "undefined" ? sessionIndex = 0 : Object.keys(sessionData)[0];
+  // in modern browsers no need for type checking, also i made a mistake in here
   // if (sessionIndex === -1){
   //   sessionIndex = Object.keys(sessionData)[0];
   // }
+  console.log(">>(fillTeacherCard) sessionIndex:", sessionIndex);
+  console.log(">>(fillTeacherCard) sessionData:", sessionData);
+  console.log(">>(fillTeacherCard) Object.keys(sessionData):", Object.keys(sessionData)[0]);
+
+  // fill card body
   cardBody.innerHTML =
     '  <ul>' +
     '    <li>Day: <span id="t-card-day">' + sessionData[sessionIndex]["day"] + '</span></li>' +
-    '    <li>Session: <span id="t-card-session">' + sessionData[sessionIndex]["session_num"] + '</span></li>' +
-    '    <li>Time: <span id="t-card-session">' + sessionData[sessionIndex]["session"] + '</span></li>' +
+    '    <li>Session: <span id="t-card-session">' + + '</span></li>' +
+    '    <li>Time: <span id="t-card-session">' + sessionData[sessionIndex]["session_num"] + ": " + sessionData[sessionIndex]["session"] + '</span></li>' +
     '    <li>Section: <span id="t-card-section">' + sessionData[sessionIndex]["section"] + '</span></li>' +
     '    <li>Module: <span id="t-card-module">' + sessionData[sessionIndex]["module"] + '</span></li>' +
     '  </ul>';

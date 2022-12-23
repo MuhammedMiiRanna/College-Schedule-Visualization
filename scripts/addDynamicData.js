@@ -6,7 +6,8 @@ const teachers = document.getElementById('teachers');
 for (let key of Object.keys(teachersData)) {
     const option = document.createElement('option');
     option.innerHTML = key;
-    option.value = index;
+    option.value = key; // that will make it easy for us to extract teachers data
+    // option.value = index;
     teachers.appendChild(option);
     index++;
 }
