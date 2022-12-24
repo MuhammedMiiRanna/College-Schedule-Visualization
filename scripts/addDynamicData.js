@@ -1,4 +1,5 @@
-import teachersData from "/data/teachersData.json" assert { type: "json" };
+import teachersData from "/data/FacTeachersData.json" assert { type: "json" };
+// import teachersData from "/data/teachersData.json" assert { type: "json" };
 
 let index = 0;
 const teachers = document.getElementById('teachers');
