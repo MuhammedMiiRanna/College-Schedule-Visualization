@@ -1,0 +1,268 @@
+{
+  "specialty": "ACAD",
+  "year": "2",
+  "Semestre": "1",
+  "days": {
+    "Sam": [
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "08:00 - 09:30",
+            "Subject": "MATH.INFO",
+            "loc": "405",
+            "prof": "BACHEN"
+          },
+          "G2": {
+            "Time": "08:00 - 09:30",
+            "Subject": "PROB.STAT",
+            "loc": "457",
+            "prof": "BEHLOUL"
+          },
+          "G3": {
+            "Time": "08:00 - 09:30",
+            "Subject": "ALGO.S.D",
+            "loc": "449",
+            "prof": "BESSAA"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "09:40 - 11:10",
+            "Subject": "PROB.STAT",
+            "loc": "379",
+            "prof": "BEHLOUL"
+          },
+          "G2": {
+            "Time": "09:40 - 11:10",
+            "Subject": "ALGO.S.D",
+            "loc": "381",
+            "prof": "BESSAA"
+          },
+          "G3": {
+            "Time": "09:40 - 11:10",
+            "Subject": "MATH.INFO",
+            "loc": "383",
+            "prof": "ANTRI"
+          }
+        }
+      },
+      {
+        "cours": {
+          "Time": "11:20 - 12:50",
+          "Subject": "PROB.STAT",
+          "loc": "301D",
+          "prof": "BEHLOUL"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {
+          "Time": "14:40 - 16:10",
+          "Subject": "ALGO.S.D",
+          "loc": "119T",
+          "prof": "BESSAA"
+        },
+        "groups": {}
+      }
+    ],
+    "Dim": [
+      {
+        "cours": {},
+        "groups": {
+          "G3": {
+            "Time": "09:40 - 11:10",
+            "Subject": "ALGO.S.D",
+            "loc": "TPC4",
+            "prof": "NIID"
+          },
+          "G4": {
+            "Time": "09:40 - 11:10",
+            "Subject": "ALGO.S.D",
+            "loc": "TPC5",
+            "prof": "ABDELLAHOUM"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "11:20 - 12:50",
+            "Subject": "ALGO.S.D",
+            "loc": "TPC3B",
+            "prof": "ABDELLAHOUM"
+          },
+          "G2": {
+            "Time": "11:20 - 12:50",
+            "Subject": "ALGO.S.D",
+            "loc": "TP126",
+            "prof": "ANTRI"
+          }
+        }
+      },
+      {
+        "cours": {
+          "Time": "13:00 - 14:30",
+          "Subject": "MATH.INFO",
+          "loc": "SC",
+          "prof": "DAHMANI"
+        },
+        "groups": {}
+      }
+    ],
+    "Lun": [
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "08:00 - 09:30",
+            "Subject": "LOG.MATH",
+            "loc": "379",
+            "prof": "KADDOURI"
+          },
+          "G2": {
+            "Time": "08:00 - 09:30",
+            "Subject": "MATH.INFO",
+            "loc": "412",
+            "prof": "KOUAR"
+          },
+          "G3": {
+            "Time": "08:00 - 09:30",
+            "Subject": "ARCHI1",
+            "loc": "414",
+            "prof": "MEKHALDI"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "09:40 - 11:10",
+            "Subject": "ARCHI1",
+            "loc": "416",
+            "prof": "MEKHALDI"
+          },
+          "G2": {
+            "Time": "09:40 - 11:10",
+            "Subject": "LOG.MATH",
+            "loc": "454",
+            "prof": "KADDOURI"
+          }
+        }
+      },
+      {
+        "cours": {
+          "Time": "11:20 - 12:50",
+          "Subject": "ARCHI1",
+          "loc": "161T",
+          "prof": "MEKHALDI"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "13:00 - 14:30",
+            "Subject": "MATH.INFO",
+            "loc": "421T",
+            "prof": "DAHMANI"
+          }
+        }
+      },
+      {
+        "cours": {
+          "Time": "14:40 - 16:10",
+          "Subject": "LOG.MATH",
+          "loc": "R7",
+          "prof": "KADDOURI"
+        },
+        "groups": {}
+      }
+    ],
+    "Mar": [],
+    "Mer": [],
+    "Jeu": [
+      {
+        "cours": {
+          "Time": "08:00 - 09:30",
+          "Subject": "ALGO.S.D",
+          "loc": "119T",
+          "prof": "BESSAA"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {
+          "Time": "09:40 - 11:10",
+          "Subject": "SYS.INFO",
+          "loc": "119T",
+          "prof": "DJIROUNE"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "11:20 - 12:50",
+            "Subject": "ALGO.S.D",
+            "loc": "389",
+            "prof": "BESSAA"
+          },
+          "G2": {
+            "Time": "11:20 - 12:50",
+            "Subject": "SYS.INFO",
+            "loc": "443",
+            "prof": "DJIROUNE"
+          },
+          "G3": {
+            "Time": "11:20 - 12:50",
+            "Subject": "LOG.MATH",
+            "loc": "449",
+            "prof": "KADDOURI"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "13:00 - 14:30",
+            "Subject": "SYS.INFO",
+            "loc": "358",
+            "prof": "DJIROUNE"
+          },
+          "G2": {
+            "Time": "13:00 - 14:30",
+            "Subject": "ARCHI1",
+            "loc": "362",
+            "prof": "MEKHALDI"
+          },
+          "G3": {
+            "Time": "13:00 - 14:30",
+            "Subject": "PROB.STAT",
+            "loc": "437",
+            "prof": "BEHLOUL"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G3": {
+            "Time": "14:40 - 16:10",
+            "Subject": "SYS.INFO",
+            "loc": "TPC5",
+            "prof": "DJIROUNE"
+          }
+        }
+      }
+    ]
+  }
+}

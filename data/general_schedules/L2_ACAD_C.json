@@ -1,0 +1,267 @@
+{
+  "specialty": "ACAD",
+  "year": "2",
+  "Semestre": "1",
+  "days": {
+    "Sam": [
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "08:00 - 09:30",
+            "Subject": "ALGO.S.D",
+            "loc": "TPC4",
+            "prof": "SMAILI"
+          }
+        }
+      },
+      {
+        "cours": {
+          "Time": "09:40 - 11:10",
+          "Subject": "ALGO.S.D",
+          "loc": "R8",
+          "prof": "SMAILI"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {
+          "Time": "11:20 - 12:50",
+          "Subject": "ARCHI1",
+          "loc": "119T",
+          "prof": "FEREDJ"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "13:00 - 14:30",
+            "Subject": "ALGO.S.D",
+            "loc": "104",
+            "prof": "SMAILI"
+          },
+          "G2": {
+            "Time": "13:00 - 14:30",
+            "Subject": "ARCHI1",
+            "loc": "108",
+            "prof": "FEREDJ"
+          },
+          "G3": {
+            "Time": "13:00 - 14:30",
+            "Subject": "SYS.INFO",
+            "loc": "106",
+            "prof": "AZZOUZ"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G2": {
+            "Time": "14:40 - 16:10",
+            "Subject": "SYS.INFO",
+            "loc": "F",
+            "prof": "AZZOUZ"
+          },
+          "G3": {
+            "Time": "14:40 - 16:10",
+            "Subject": "ALGO.S.D",
+            "loc": "TPC4",
+            "prof": "SMAILI"
+          }
+        }
+      }
+    ],
+    "Dim": [],
+    "Lun": [],
+    "Mar": [
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "08:00 - 09:30",
+            "Subject": "MATH.INFO",
+            "loc": "451",
+            "prof": "Benbaziz"
+          },
+          "G3": {
+            "Time": "08:00 - 09:30",
+            "Subject": "ALGO.S.D",
+            "loc": "443",
+            "prof": "SMAILI"
+          }
+        }
+      },
+      {
+        "cours": {
+          "Time": "09:40 - 11:10",
+          "Subject": "ALGO.S.D",
+          "loc": "C7",
+          "prof": "SMAILI"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G2": {
+            "Time": "11:20 - 12:50",
+            "Subject": "ALGO.S.D",
+            "loc": "TPC4",
+            "prof": "SMAILI"
+          }
+        }
+      },
+      {
+        "cours": {
+          "Time": "13:00 - 14:30",
+          "Subject": "SYS.INFO",
+          "loc": "431T",
+          "prof": "AZZOUZ"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "14:40 - 16:10",
+            "Subject": "SYS.INFO",
+            "loc": "381",
+            "prof": "BACHEN"
+          },
+          "G2": {
+            "Time": "14:40 - 16:10",
+            "Subject": "ALGO.S.D",
+            "loc": "367",
+            "prof": "SMAILI"
+          }
+        }
+      }
+    ],
+    "Mer": [
+      {
+        "cours": {
+          "Time": "08:00 - 09:30",
+          "Subject": "MATH.INFO",
+          "loc": "167T",
+          "prof": "Benbaziz"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "09:40 - 11:10",
+            "Subject": "ARCHI1",
+            "loc": "449",
+            "prof": "FEREDJ"
+          },
+          "G2": {
+            "Time": "09:40 - 11:10",
+            "Subject": "LOG.MATH",
+            "loc": "116",
+            "prof": "MAZOUZ"
+          },
+          "G3": {
+            "Time": "09:40 - 11:10",
+            "Subject": "MATH.INFO",
+            "loc": "318",
+            "prof": "Benbaziz"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "11:20 - 12:50",
+            "Subject": "LOG.MATH",
+            "loc": "410",
+            "prof": "MAZOUZ"
+          },
+          "G2": {
+            "Time": "11:20 - 12:50",
+            "Subject": "MATH.INFO",
+            "loc": "406",
+            "prof": "Benbaziz"
+          },
+          "G3": {
+            "Time": "11:20 - 12:50",
+            "Subject": "ARCHI1",
+            "loc": "440",
+            "prof": "FEREDJ"
+          }
+        }
+      }
+    ],
+    "Jeu": [
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "08:00 - 09:30",
+            "Subject": "PROB.STAT",
+            "loc": "439",
+            "prof": "BOUIBEDE"
+          },
+          "G3": {
+            "Time": "08:00 - 09:30",
+            "Subject": "LOG.MATH",
+            "loc": "444",
+            "prof": "MAZOUZ"
+          }
+        }
+      },
+      {
+        "cours": {
+          "Time": "09:40 - 11:10",
+          "Subject": "LOG.MATH",
+          "loc": "395T",
+          "prof": "MAZOUZ"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {
+          "Time": "11:20 - 12:50",
+          "Subject": "PROB.STAT",
+          "loc": "C1",
+          "prof": "BOUIBEDE"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G2": {
+            "Time": "13:00 - 14:30",
+            "Subject": "PROB.STAT",
+            "loc": "TPC9",
+            "prof": "BOUIBEDE"
+          },
+          "G4": {
+            "Time": "13:00 - 14:30",
+            "Subject": "ALGO.S.D",
+            "loc": "TP127",
+            "prof": "BENGHENAME"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G3": {
+            "Time": "14:40 - 16:10",
+            "Subject": "PROB.STAT",
+            "loc": "TPC9",
+            "prof": "BOUIBEDE"
+          }
+        }
+      }
+    ]
+  }
+}

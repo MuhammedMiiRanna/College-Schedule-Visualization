@@ -1,0 +1,313 @@
+{
+  "specialty": "ACAD",
+  "year": "3",
+  "Semestre": "1",
+  "days": {
+    "Sam": [],
+    "Dim": [
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "08:00 - 09:30",
+            "Subject": "TH.GRAPH",
+            "loc": "243",
+            "prof": "DJOUADI"
+          },
+          "G2": {
+            "Time": "08:00 - 09:30",
+            "Subject": "GL",
+            "loc": "411",
+            "prof": "BERKANI"
+          },
+          "G3": {
+            "Time": "08:00 - 09:30",
+            "Subject": "COMPIL",
+            "loc": "350",
+            "prof": "HIMRANE"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G2": {
+            "Time": "09:40 - 11:10",
+            "Subject": "TH.GRAPH",
+            "loc": "162",
+            "prof": "DJOUADI"
+          },
+          "G3": {
+            "Time": "09:40 - 11:10",
+            "Subject": "GL",
+            "loc": "407",
+            "prof": "BERKANI"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G3": {
+            "Time": "11:20 - 12:50",
+            "Subject": "SYS.EXP2",
+            "loc": "TPC4",
+            "prof": "NEMOUCHI"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G3": {
+            "Time": "13:00 - 14:30",
+            "Subject": "TH.GRAPH",
+            "loc": "126",
+            "prof": "abdelli"
+          }
+        }
+      }
+    ],
+    "Lun": [
+      {
+        "cours": {
+          "Time": "08:00 - 09:30",
+          "Subject": "COMPIL",
+          "loc": "C1",
+          "prof": "KHELLAF"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {
+          "Time": "09:40 - 11:10",
+          "Subject": "RESEAUX",
+          "loc": "C2",
+          "prof": "KHEROUA"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {
+          "Time": "11:20 - 12:50",
+          "Subject": "SYS.EXP2",
+          "loc": "155T",
+          "prof": "BOUYAKOUB"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "13:00 - 14:30",
+            "Subject": "RESEAUX",
+            "loc": "TP122",
+            "prof": "KHEROUA"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G2": {
+            "Time": "14:40 - 16:10",
+            "Subject": "RESEAUX",
+            "loc": "TP132",
+            "prof": "KHEROUA"
+          }
+        }
+      }
+    ],
+    "Mar": [
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "08:00 - 09:30",
+            "Subject": "COMPIL",
+            "loc": "303",
+            "prof": "ALIOUANE"
+          },
+          "G2": {
+            "Time": "08:00 - 09:30",
+            "Subject": "COMPIL",
+            "loc": "305",
+            "prof": "belhadi"
+          }
+        }
+      },
+      {
+        "cours": {
+          "Time": "09:40 - 11:10",
+          "Subject": "GL",
+          "loc": "C2",
+          "prof": "BERKANI"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "11:20 - 12:50",
+            "Subject": "GL",
+            "loc": "403",
+            "prof": "BERKANI"
+          },
+          "G4": {
+            "Time": "11:20 - 12:50",
+            "Subject": "SYS.EXP2",
+            "loc": "TP128",
+            "prof": "NEMOUCHI"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "13:00 - 14:30",
+            "Subject": "COMPIL",
+            "loc": "TP130",
+            "prof": "belhadi"
+          },
+          "G2": {
+            "Time": "13:00 - 14:30",
+            "Subject": "SYS.EXP2",
+            "loc": "TP128",
+            "prof": "NEMOUCHI"
+          }
+        }
+      },
+      {
+        "cours": {
+          "Time": "14:40 - 16:10",
+          "Subject": "EXTR INFOR",
+          "loc": "167T",
+          "prof": "ANTRI"
+        },
+        "groups": {}
+      }
+    ],
+    "Mer": [
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "08:00 - 09:30",
+            "Subject": "SYS.EXP2",
+            "loc": "TPC4",
+            "prof": "NEMOUCHI"
+          },
+          "G3": {
+            "Time": "08:00 - 09:30",
+            "Subject": "COMPIL",
+            "loc": "TPC5",
+            "prof": "MOULAI"
+          },
+          "G4": {
+            "Time": "08:00 - 09:30",
+            "Subject": "COMPIL",
+            "loc": "TP129",
+            "prof": "belhadi"
+          }
+        }
+      },
+      {
+        "cours": {
+          "Time": "09:40 - 11:10",
+          "Subject": "SYS.EXP2",
+          "loc": "C2",
+          "prof": "BOUYAKOUB"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {
+          "Time": "11:20 - 12:50",
+          "Subject": "COMPIL",
+          "loc": "E8",
+          "prof": "KHELLAF"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G2": {
+            "Time": "13:00 - 14:30",
+            "Subject": "COMPIL",
+            "loc": "TPC3A",
+            "prof": "MOULAI"
+          }
+        }
+      }
+    ],
+    "Jeu": [
+      {
+        "cours": {
+          "Time": "08:00 - 09:30",
+          "Subject": "TH.GRAPH",
+          "loc": "R7",
+          "prof": "DJOUADI"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {
+          "Time": "09:40 - 11:10",
+          "Subject": "RESEAUX",
+          "loc": "SC",
+          "prof": "KHEROUA"
+        },
+        "groups": {}
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G2": {
+            "Time": "11:20 - 12:50",
+            "Subject": "SYS.EXP2",
+            "loc": "409",
+            "prof": "AYAD"
+          },
+          "G3": {
+            "Time": "11:20 - 12:50",
+            "Subject": "RESEAUX",
+            "loc": "TP126",
+            "prof": "KHEROUA"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G1": {
+            "Time": "13:00 - 14:30",
+            "Subject": "SYS.EXP2",
+            "loc": "412",
+            "prof": "AYAD"
+          },
+          "G4": {
+            "Time": "13:00 - 14:30",
+            "Subject": "RESEAUX",
+            "loc": "TP126",
+            "prof": "KHEROUA"
+          }
+        }
+      },
+      {
+        "cours": {},
+        "groups": {
+          "G3": {
+            "Time": "14:40 - 16:10",
+            "Subject": "SYS.EXP2",
+            "loc": "E1",
+            "prof": "AYAD"
+          }
+        }
+      }
+    ]
+  }
+}
