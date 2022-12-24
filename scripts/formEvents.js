@@ -10,16 +10,11 @@ const data = {
 
 // Main functions
 function getSessionsData(form) {
-  // named changed from getData
+  // Selecting elements + the needed data
   var formData = new FormData(form);
   const submitedData = Object.fromEntries(formData); // getting form data 
   const sessions = data[submitedData["year"]]["days"][submitedData["day"]];
   // submitedData {year: '1', semester: '1', day: 'Sunday'; session: '1'}
-  console.log(">> submitedData:", submitedData);
-  console.log(">> sessions:", sessions);
-
-  // if (Object.keys(submitedData).length > 1) {
-  // Selecting elements + the needed data
   const navBtns = document.getElementById("nav-btns");
   const floatCard = document.getElementById("float-card");
 
@@ -30,24 +25,17 @@ function getSessionsData(form) {
 
   navBtns.addEventListener('click', getSessionData); // add the EventListener
   function getSessionData(evt) {
-    console.log('A Session Button was clicked: ' + evt.target.id[3]); // debug purposes
     submitedData["session"] = parseInt(evt.target.id[3]);
     fillFloatCard(submitedData, sessions)
   }
-
-
 }
 
 function getTeachersData(form) {
   var formData = new FormData(form); // getting form data (into object)
   const submitedData = Object.fromEntries(formData);
-  console.log("hanay", submitedData);
-  const teachersList = Object.keys(teachersData);
-  // const teachersDays = teachersData[teachersList[submitedData['teachers']]]; // getting the days where the selected teachers will have classes
-  const teachersDays = teachersData[submitedData["teachers"]]
+  const teachersDays = teachersData[submitedData["teachers"]] // workdays of the selected teacher
   const teacherFirstDay = Object.keys(teachersDays)[0];
   // >> submitedData: {teacher: '0'} teacher: "0"[Prototype]]: Object
-
   // Selection part:
   const teacherCard = document.getElementById("teacher-card");
   const teachersNav = document.getElementById('teachers-nav');
@@ -57,7 +45,7 @@ function getTeachersData(form) {
   const daySessionsHeading = document.createElement('h2');
 
   {// adding t-nav elements id:
-    // TODO check the functionlity of the other function
+    // TODO check the functionlity of the other function ??
     weekDays.id = "week-days";
     daySessions.id = "day-sessions";
 
@@ -76,8 +64,6 @@ function getTeachersData(form) {
 
   weekDays.addEventListener('click', function (evt) {
     const dayIndex = evt.target.id.split("-")[2];
-    console.log(">>(weekDays) Day Index:", dayIndex);
-    console.log(">>(weekDays) teachersDays:", teachersDays);
     removeChilds(daySessions, 1);
     removeChilds(weekDays, 1);
     addTeacherNavBtns(weekDays, daySessions, teachersDays, dayIndex);
@@ -88,10 +74,6 @@ function getTeachersData(form) {
   daySessions.addEventListener('click', function (evt) {
     const sessionIndex = evt.target.id.split("-")[2];
     const dayIndex = document.getElementById('t-card-day').innerText;
-    console.log(">> (daySessions events) teachersDays:", teachersDays);
-    console.log(">> (daySessions events) Day Index:", dayIndex);
-    console.log(">> (daySessions events) Session Index:", sessionIndex);
-    console.log(">> (daySessions events) evt.target.id.split:", evt.target.id);
     fillTeacherCard(teachersDays[dayIndex], sessionIndex);
   });
 
@@ -105,14 +87,11 @@ function getTeachersData(form) {
 // /////////////// FUNCTIONS section ///////////////
 //
 function removeChilds(navBtns, leaveChild) {
-  // remove all childs of the navBtns element
+  // remove last childs of the navBtns element
   leaveChild = typeof leaveChild === 'undefined' ? 0 : leaveChild;
   while (navBtns.childNodes.length > leaveChild) {
     navBtns.removeChild(navBtns.lastChild);
   }
-  // while (navBtns. ) {
-  //   navBtns.removeChild(navBtns.firstChild);
-  // }
 }
 
 function addNavButtons(navBtns, length) {
@@ -128,19 +107,6 @@ function addNavButtons(navBtns, length) {
 
 function addTeacherNavBtns(weekDays, daySessions, teachersDays, teacherFirstDay) {
   // TODO: check the parameters (too long)
-  // TODO: rigel sessions id (
-  // - like asq tebda mel 0 or mel 1
-  // - and asq yselecti session li rah yafichiha bel innerText 
-  //    or bel id li ykon 0 or bel id li ykon 3la hsab number te3 session.
-  // TODO: consider changing the values of the teachers in the form to their names.
-  // (from evernote todo list)
-  // adding week Days (days):
-  // let index = 0;
-  console.log(">> (tNavBtAdd) weekDays:", weekDays);
-  console.log(">> (tNavBtAdd) daySessions:", daySessions);
-  console.log(">> (tNavBtAdd) teachersDays:", teachersDays);
-  console.log(">> (tNavBtAdd) teacherFirstDay:", teacherFirstDay);
-
   for (let key in teachersDays) {
     const tNavBtn = document.createElement('div');
     tNavBtn.id = 'week-days-' + key;
@@ -153,13 +119,10 @@ function addTeacherNavBtns(weekDays, daySessions, teachersDays, teacherFirstDay)
   for (let key in teachersDays[teacherFirstDay]) {
     const tSessionNavBtn = document.createElement('div');
     tSessionNavBtn.id = 'day-session-' + key;
-    // console.log('key:', key);
     tSessionNavBtn.className = "btn t-session-nav-btn";
     tSessionNavBtn.innerText = ++index;
     daySessions.appendChild(tSessionNavBtn);
   }
-
-
 }
 
 function fillFloatCard(submitedData, sessions) {
@@ -177,7 +140,6 @@ function fillFloatCard(submitedData, sessions) {
   for (const cardPart of cardYear) {
     cardPart.textContent = submitedData["year"];
   }
-
   // fill card body
   cardBody.innerHTML =
     "  <ul>" +
@@ -186,13 +148,11 @@ function fillFloatCard(submitedData, sessions) {
     '  		<li>Day: <span id="card-day">' + submitedData["day"] + '</span></li>' +
     '  		<li>Session: <span id="card-hour">' + (parseInt(submitedData["session"]) + parseInt(1)) + '</span></li>' +
     "  	</ul>";
-
-  // fill card-body
-  if (parseInt(submitedData["session"]) + 1 > sessions.length) {
+  if (parseInt(submitedData["session"]) + 1 > sessions.length) { // Sec available ?
+    // Check if the section is available!
     var notAvailText;
     (sessions.length === 0) ? notAvailText = "PS: Day's-off" : notAvailText = "PS: Done for today";
-    console.log(">> PS: Section is Not available");
-    // alert(">> PS: Section is Not available");
+    console.log(">> PS: Section is Not available"); // u can use alert
     const notAvail = document.createElement("li");
     notAvail.innerText = notAvailText;
     cardBody.firstElementChild.appendChild(notAvail);
@@ -230,15 +190,6 @@ function fillFloatCard(submitedData, sessions) {
 
 function fillTeacherCard(sessionData, sessionIndex = Object.keys(sessionData)[0]) {
   const cardBody = document.querySelector("#t-card-body");
-  // sessionIndex = typeof sessionIndex === "undefined" ? sessionIndex = 0 : Object.keys(sessionData)[0];
-  // in modern browsers no need for type checking, also i made a mistake in here
-  // if (sessionIndex === -1){
-  //   sessionIndex = Object.keys(sessionData)[0];
-  // }
-  console.log(">>(fillTeacherCard) sessionIndex:", sessionIndex);
-  console.log(">>(fillTeacherCard) sessionData:", sessionData);
-  console.log(">>(fillTeacherCard) Object.keys(sessionData):", Object.keys(sessionData)[0]);
-
   // fill card body
   cardBody.innerHTML =
     '  <ul>' +
@@ -248,34 +199,9 @@ function fillTeacherCard(sessionData, sessionIndex = Object.keys(sessionData)[0]
     '    <li>Section: <span id="t-card-section">' + sessionData[sessionIndex]["section"] + '</span></li>' +
     '    <li>Module: <span id="t-card-module">' + sessionData[sessionIndex]["module"] + '</span></li>' +
     '  </ul>';
-
-  // if (parseInt(submitedData["session"]) + 1 > sessions.length) {
-  //   var notAvailText;
-  //   (sessions.length === 0) ? notAvailText = "PS: Day's-off" : notAvailText = "PS: Done for today";
-  //   console.log(">> PS: Section is Not available");
-  //   // alert(">> PS: Section is Not available");
-  //   const notAvail = document.createElement("li");
-  //   notAvail.innerText = notAvailText;
-  //   cardBody.firstElementChild.appendChild(notAvail);
-  //   return;
-  // }
-
 }
 
 // EventListeners section:
-// event test
-// document.getElementById("nav-btns").addEventListener("click", function (evt) {
-//   console.log('A Session Button was clicked: ' + evt.target.id);
-// });
-
-// document.getElementById("form").addEventListener("submit", function (evt) {
-//   evt.preventDefault();
-//   const formElem = document.getElementById("form");
-//   console.log("formElem", form);
-//   console.log("evt.target", evt.target);
-//   getData(evt.target);
-// });
-
 document.getElementById("schedule-submit").addEventListener("click", function (evt) {
   evt.preventDefault();
   getSessionsData(document.getElementById("sessionsForm"));
