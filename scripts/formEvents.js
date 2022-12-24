@@ -1,6 +1,7 @@
 import dataM1 from "/data/data M1.json" assert { type: "json" };
 import dataM2 from "/data/data M2.json" assert { type: "json" };
-import teachersData from "/data/teachersData.json" assert { type: "json" };
+import teachersData from "/data/FacTeachersData.json" assert { type: "json" };
+// import teachersData from "/data/teachersData.json" assert { type: "json" };
 
 const data = {
   1: dataM1,
@@ -9,31 +10,30 @@ const data = {
 
 
 // Main functions
-function getSessionsData(form) {
+function getSessionsData(submitedData) {
   // Selecting elements + the needed data
-  var formData = new FormData(form);
-  const submitedData = Object.fromEntries(formData); // getting form data 
   const sessions = data[submitedData["year"]]["days"][submitedData["day"]];
   // submitedData {year: '1', semester: '1', day: 'Sunday'; session: '1'}
   const navBtns = document.getElementById("nav-btns");
   const floatCard = document.getElementById("float-card");
 
   removeChilds(navBtns); // remove all childs of the div
+  console.log("HNAYA submitedData", submitedData);
+  console.log("HNAYA sessions", sessions);
   fillFloatCard(submitedData, sessions); // add the info of the selected session to the float-card
   addNavButtons(navBtns, sessions.length); // adding the navigation buttons
   floatCard.style.visibility = "visible"; // making the float-card visible
 
-  navBtns.addEventListener('click', getSessionData); // add the EventListener
-  function getSessionData(evt) {
+  navBtns.addEventListener('click', function (evt) { // add the EventListener
     submitedData["session"] = parseInt(evt.target.id[3]);
-    fillFloatCard(submitedData, sessions)
-  }
+    fillFloatCard(submitedData, sessions);
+  });
 }
 
 function getTeachersData(form) {
   var formData = new FormData(form); // getting form data (into object)
   const submitedData = Object.fromEntries(formData);
-  const teachersDays = teachersData[submitedData["teachers"]] // workdays of the selected teacher
+  const teachersDays = teachersData[submitedData["teachers"]]; // workdays of the selected teacher
   const teacherFirstDay = Object.keys(teachersDays)[0];
   // >> submitedData: {teacher: '0'} teacher: "0"[Prototype]]: Object
   // Selection part:
@@ -56,36 +56,30 @@ function getTeachersData(form) {
     weekDays.appendChild(weekDaysHeading);
     daySessions.appendChild(daySessionsHeading);
   }
+
   fillTeacherCard(teachersDays[teacherFirstDay]);
   removeChilds(teachersNav);
-  addTeacherNavBtns(weekDays, daySessions, teachersDays, teacherFirstDay);
+  addTeacherNavBtns(teachersNav, weekDays, daySessions, teachersDays, teacherFirstDay);
   teacherCard.style.visibility = "visible"; // making the float-card visible
-
+  teachersNav.style.visibility = "visible";
 
   weekDays.addEventListener('click', function (evt) {
     const dayIndex = evt.target.id.split("-")[2];
     removeChilds(daySessions, 1);
     removeChilds(weekDays, 1);
-    addTeacherNavBtns(weekDays, daySessions, teachersDays, dayIndex);
+    addTeacherNavBtns(teachersNav, weekDays, daySessions, teachersDays, dayIndex);
     fillTeacherCard(teachersDays[dayIndex]);
-
   });
 
   daySessions.addEventListener('click', function (evt) {
-    const sessionIndex = evt.target.id.split("-")[2];
     const dayIndex = document.getElementById('t-card-day').innerText;
-    fillTeacherCard(teachersDays[dayIndex], sessionIndex);
+    const sessionIndex = evt.target.id.split("-")[2];
+    const tSessionIndex = evt.target.innerText;
+    fillTeacherCard(teachersDays[dayIndex], sessionIndex, tSessionIndex);
   });
-
-
-  // 
-  teachersNav.appendChild(weekDays);
-  teachersNav.appendChild(daySessions);
-  teachersNav.style.visibility = "visible"
 }
-//
+
 // /////////////// FUNCTIONS section ///////////////
-//
 function removeChilds(navBtns, leaveChild) {
   // remove last childs of the navBtns element
   leaveChild = typeof leaveChild === 'undefined' ? 0 : leaveChild;
@@ -105,8 +99,9 @@ function addNavButtons(navBtns, length) {
   }
 }
 
-function addTeacherNavBtns(weekDays, daySessions, teachersDays, teacherFirstDay) {
+function addTeacherNavBtns(teachersNav, weekDays, daySessions, teachersDays, teacherFirstDay) {
   // TODO: check the parameters (too long)
+  //adding week days
   for (let key in teachersDays) {
     const tNavBtn = document.createElement('div');
     tNavBtn.id = 'week-days-' + key;
@@ -123,6 +118,8 @@ function addTeacherNavBtns(weekDays, daySessions, teachersDays, teacherFirstDay)
     tSessionNavBtn.innerText = ++index;
     daySessions.appendChild(tSessionNavBtn);
   }
+  teachersNav.appendChild(weekDays);
+  teachersNav.appendChild(daySessions);
 }
 
 function fillFloatCard(submitedData, sessions) {
@@ -142,20 +139,26 @@ function fillFloatCard(submitedData, sessions) {
   }
   // fill card body
   cardBody.innerHTML =
-    "  <ul>" +
-    '  		<li>Year: <span id="card-year">' + submitedData["year"] + '</span></li>' +
-    '  		<li>Sem: <span id="card-sem">' + submitedData["semester"] + '</span></li>' +
-    '  		<li>Day: <span id="card-day">' + submitedData["day"] + '</span></li>' +
-    '  		<li>Session: <span id="card-hour">' + (parseInt(submitedData["session"]) + parseInt(1)) + '</span></li>' +
-    "  	</ul>";
+    "<ul>" +
+    ' <li>Year: <span id="card-year">' + submitedData["year"] + '</span></li>' +
+    ' <li>Sem: <span id="card-sem">' + submitedData["semester"] + '</span></li>' +
+    ' <li>Day: <span id="card-day">' + submitedData["day"] + '</span></li>' +
+    ' <li>Session: <span id="card-hour">' + (parseInt(submitedData["session"]) + parseInt(1)) + '</span></li>' +
+    "</ul>";
+
+  // console.log(">> sessions", sessions);
+  // console.log(">> session", session);
+  // console.log('>> submitedData["session"]: ', submitedData["session"]);
+  // submitedData {year: '1', semester: '1', day: 'Sunday'; session: '1'}
   if (parseInt(submitedData["session"]) + 1 > sessions.length) { // Sec available ?
-    // Check if the section is available!
     var notAvailText;
-    (sessions.length === 0) ? notAvailText = "PS: Day's-off" : notAvailText = "PS: Done for today";
-    console.log(">> PS: Section is Not available"); // u can use alert
     const notAvail = document.createElement("li");
+
+    notAvailText = (sessions.length === 0) ? "PS: Day's-off" : "PS: Done for today";
     notAvail.innerText = notAvailText;
     cardBody.firstElementChild.appendChild(notAvail);
+
+    console.log(">> PS: Section is Not available"); // u can use alert
     return;
   }
 
@@ -175,8 +178,8 @@ function fillFloatCard(submitedData, sessions) {
     const groups = session["groups"]; // groups ==> {G1:{}, G2:{}}
     for (const grp in groups) { // grp ==> G1, G2
       const grpElem = document.createElement("li"); // <li>
-      grpElem.innerText = grp; // <li> g1
       const grpul = document.createElement("ul");
+      grpElem.innerText = grp; // <li> g1
       for (let key in groups[grp]) {
         const li = document.createElement("li");
         li.innerText = key + ": " + groups[grp][key];
@@ -188,27 +191,34 @@ function fillFloatCard(submitedData, sessions) {
   }
 }
 
-function fillTeacherCard(sessionData, sessionIndex = Object.keys(sessionData)[0]) {
+function fillTeacherCard(sessionData, sessionIndex = Object.keys(sessionData)[0], tSessionIndex = 1) {
   const cardBody = document.querySelector("#t-card-body");
   // fill card body
   cardBody.innerHTML =
-    '  <ul>' +
-    '    <li>Day: <span id="t-card-day">' + sessionData[sessionIndex]["day"] + '</span></li>' +
-    '    <li>Session: <span id="t-card-session">' + + '</span></li>' +
-    '    <li>Time: <span id="t-card-session">' + sessionData[sessionIndex]["session_num"] + ": " + sessionData[sessionIndex]["session"] + '</span></li>' +
-    '    <li>Section: <span id="t-card-section">' + sessionData[sessionIndex]["section"] + '</span></li>' +
-    '    <li>Module: <span id="t-card-module">' + sessionData[sessionIndex]["module"] + '</span></li>' +
-    '  </ul>';
+    '<ul>' +
+    '  <li>Day: <span id="t-card-day">' + sessionData[sessionIndex]["day"] + '</span></li>' +
+    '  <li>Session: <span id="t-card-session">' + tSessionIndex + '</span></li>' +
+    '  <li>Time: <span id="t-card-session">' + sessionData[sessionIndex]["session_num"] + " " + sessionData[sessionIndex]["session"] + '</span></li>' +
+    '  <li>Section: <span id="t-card-section">' + sessionData[sessionIndex]["section"].split("_").join(" ") + '</span></li>' +
+    '  <li>Module: <span id="t-card-module">' + sessionData[sessionIndex]["module"] + '</span></li>' +
+    '</ul>';
 }
 
-// EventListeners section:
+// EventListener's section:
 document.getElementById("schedule-submit").addEventListener("click", function (evt) {
   evt.preventDefault();
-  getSessionsData(document.getElementById("sessionsForm"));
+  const form = document.getElementById("sessionsForm");
+  var formData = new FormData(form);
+  const submitedData = Object.fromEntries(formData); // getting form data 
+  document.getElementById('teacher-card').style.visibility = "hidden";
+  removeChilds(document.getElementById('teachers-nav'));
+  getSessionsData(submitedData);
 });
 
 document.getElementById("teachers-submit").addEventListener("click", function (evt) {
   evt.preventDefault();
+  document.getElementById('float-card').style.visibility = "hidden";
+  removeChilds(document.getElementById('nav-btns'));
   getTeachersData(document.getElementById("teachersForm"));
 });
 
