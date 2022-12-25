@@ -1,0 +1,7803 @@
+{
+  "L2_ACAD_A": {
+    "specialty": "ACAD",
+    "year": "2",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [],
+      "Monday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "SYS.INFO",
+            "loc": "149T",
+            "prof": "DJIROUNE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "LOG.MATH",
+            "loc": "149T",
+            "prof": "KESSI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "ARCHI1",
+            "loc": "149T",
+            "prof": "BOUCHENE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ARCHI1",
+              "loc": "414",
+              "prof": "BOUCHENE"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "LOG.MATH",
+              "loc": "420",
+              "prof": "KESSI"
+            },
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "LOG.MATH",
+              "loc": "385",
+              "prof": "MAZOUZ"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ALGO.S.D",
+              "loc": "TPC5",
+              "prof": "TAIR"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "LOG.MATH",
+              "loc": "358",
+              "prof": "KESSI"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "PROB.STAT",
+              "loc": "320",
+              "prof": "Bouachi"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "ALGO.S.D",
+            "loc": "421T",
+            "prof": "BOUKHEDOUMA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ALGO.S.D",
+              "loc": "265",
+              "prof": "BOUKHEDOUMA"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "ALGO.S.D",
+            "loc": "421T",
+            "prof": "BOUKHEDOUMA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ALGO.S.D",
+              "loc": "418",
+              "prof": "OUAZAR"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SYS.INFO",
+              "loc": "442",
+              "prof": "DJIROUNE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS.INFO",
+              "loc": "463",
+              "prof": "DJIROUNE"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ALGO.S.D",
+              "loc": "458",
+              "prof": "OUAZAR"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYS.INFO",
+              "loc": "416",
+              "prof": "DJIROUNE"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "MATH.INFO",
+              "loc": "350",
+              "prof": "BEHLOUL"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "MATH.INFO",
+            "loc": "395T",
+            "prof": "BEHLOUL"
+          },
+          "groups": {}
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "PROB.STAT",
+              "loc": "414",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ARCHI1",
+              "loc": "106",
+              "prof": "BOUCHENE"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "MATH.INFO",
+              "loc": "102",
+              "prof": "BEHLOUL"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "MATH.INFO",
+              "loc": "102",
+              "prof": "BEHLOUL"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "PROB.STAT",
+              "loc": "412",
+              "prof": "KOUAR"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ARCHI1",
+              "loc": "106",
+              "prof": "BOUCHENE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ALGO.S.D",
+              "loc": "TPC4",
+              "prof": "SOUADIA"
+            },
+            "G4": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ALGO.S.D",
+              "loc": "TPC5",
+              "prof": "TAIR"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ALGO.S.D",
+              "loc": "TPC5",
+              "prof": "SOUADIA"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "PROB.STAT",
+            "loc": "SC",
+            "prof": "AISSANI"
+          },
+          "groups": {}
+        }
+      ]
+    }
+  },
+  "L2_ACAD_B": {
+    "specialty": "ACAD",
+    "year": "2",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "MATH.INFO",
+              "loc": "405",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "PROB.STAT",
+              "loc": "457",
+              "prof": "BEHLOUL"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ALGO.S.D",
+              "loc": "449",
+              "prof": "BESSAA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "PROB.STAT",
+              "loc": "379",
+              "prof": "BEHLOUL"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ALGO.S.D",
+              "loc": "381",
+              "prof": "BESSAA"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "MATH.INFO",
+              "loc": "383",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "PROB.STAT",
+            "loc": "301D",
+            "prof": "BEHLOUL"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "ALGO.S.D",
+            "loc": "119T",
+            "prof": "BESSAA"
+          },
+          "groups": {}
+        }
+      ],
+      "Sunday": [
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ALGO.S.D",
+              "loc": "TPC4",
+              "prof": "NIID"
+            },
+            "G4": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ALGO.S.D",
+              "loc": "TPC5",
+              "prof": "ABDELLAHOUM"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ALGO.S.D",
+              "loc": "TPC3B",
+              "prof": "ABDELLAHOUM"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ALGO.S.D",
+              "loc": "TP126",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "MATH.INFO",
+            "loc": "SC",
+            "prof": "DAHMANI"
+          },
+          "groups": {}
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "LOG.MATH",
+              "loc": "379",
+              "prof": "KADDOURI"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "MATH.INFO",
+              "loc": "412",
+              "prof": "KOUAR"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ARCHI1",
+              "loc": "414",
+              "prof": "MEKHALDI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ARCHI1",
+              "loc": "416",
+              "prof": "MEKHALDI"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "LOG.MATH",
+              "loc": "454",
+              "prof": "KADDOURI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "ARCHI1",
+            "loc": "161T",
+            "prof": "MEKHALDI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "MATH.INFO",
+              "loc": "421T",
+              "prof": "DAHMANI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "LOG.MATH",
+            "loc": "R7",
+            "prof": "KADDOURI"
+          },
+          "groups": {}
+        }
+      ],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "ALGO.S.D",
+            "loc": "119T",
+            "prof": "BESSAA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "SYS.INFO",
+            "loc": "119T",
+            "prof": "DJIROUNE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ALGO.S.D",
+              "loc": "389",
+              "prof": "BESSAA"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS.INFO",
+              "loc": "443",
+              "prof": "DJIROUNE"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "LOG.MATH",
+              "loc": "449",
+              "prof": "KADDOURI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYS.INFO",
+              "loc": "358",
+              "prof": "DJIROUNE"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ARCHI1",
+              "loc": "362",
+              "prof": "MEKHALDI"
+            },
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "PROB.STAT",
+              "loc": "437",
+              "prof": "BEHLOUL"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SYS.INFO",
+              "loc": "TPC5",
+              "prof": "DJIROUNE"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "L2_ACAD_C": {
+    "specialty": "ACAD",
+    "year": "2",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ALGO.S.D",
+              "loc": "TPC4",
+              "prof": "SMAILI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "ALGO.S.D",
+            "loc": "R8",
+            "prof": "SMAILI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "ARCHI1",
+            "loc": "119T",
+            "prof": "FEREDJ"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ALGO.S.D",
+              "loc": "104",
+              "prof": "SMAILI"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ARCHI1",
+              "loc": "108",
+              "prof": "FEREDJ"
+            },
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYS.INFO",
+              "loc": "106",
+              "prof": "AZZOUZ"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SYS.INFO",
+              "loc": "F",
+              "prof": "AZZOUZ"
+            },
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ALGO.S.D",
+              "loc": "TPC4",
+              "prof": "SMAILI"
+            }
+          }
+        }
+      ],
+      "Sunday": [],
+      "Monday": [],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "MATH.INFO",
+              "loc": "451",
+              "prof": "Benbaziz"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ALGO.S.D",
+              "loc": "443",
+              "prof": "SMAILI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "ALGO.S.D",
+            "loc": "C7",
+            "prof": "SMAILI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ALGO.S.D",
+              "loc": "TPC4",
+              "prof": "SMAILI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "SYS.INFO",
+            "loc": "431T",
+            "prof": "AZZOUZ"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SYS.INFO",
+              "loc": "381",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ALGO.S.D",
+              "loc": "367",
+              "prof": "SMAILI"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "MATH.INFO",
+            "loc": "167T",
+            "prof": "Benbaziz"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ARCHI1",
+              "loc": "449",
+              "prof": "FEREDJ"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "LOG.MATH",
+              "loc": "116",
+              "prof": "MAZOUZ"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "MATH.INFO",
+              "loc": "318",
+              "prof": "Benbaziz"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "LOG.MATH",
+              "loc": "410",
+              "prof": "MAZOUZ"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "MATH.INFO",
+              "loc": "406",
+              "prof": "Benbaziz"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ARCHI1",
+              "loc": "440",
+              "prof": "FEREDJ"
+            }
+          }
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "PROB.STAT",
+              "loc": "439",
+              "prof": "BOUIBEDE"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "LOG.MATH",
+              "loc": "444",
+              "prof": "MAZOUZ"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "LOG.MATH",
+            "loc": "395T",
+            "prof": "MAZOUZ"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "PROB.STAT",
+            "loc": "C1",
+            "prof": "BOUIBEDE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "PROB.STAT",
+              "loc": "TPC9",
+              "prof": "BOUIBEDE"
+            },
+            "G4": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ALGO.S.D",
+              "loc": "TP127",
+              "prof": "BENGHENAME"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "PROB.STAT",
+              "loc": "TPC9",
+              "prof": "BOUIBEDE"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "L2_ISIL_A": {
+    "specialty": "ISIL",
+    "year": "2",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "PROB/STA",
+              "loc": "389",
+              "prof": "CHAABANE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "PROB/STA",
+              "loc": "459",
+              "prof": "CHAABANE"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "LOGIQUE",
+              "loc": "TPC9",
+              "prof": "BELLALA"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "ARCHI1",
+            "loc": "238T",
+            "prof": "Derbal"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "PROB/STA",
+            "loc": "238T",
+            "prof": "CHAABANE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "PROB/STA",
+              "loc": "TPC9",
+              "prof": "CHAABANE"
+            }
+          }
+        }
+      ],
+      "Sunday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "CAL. NUM",
+            "loc": "128T",
+            "prof": "BEHLOUL"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "ALGO2",
+            "loc": "128T",
+            "prof": "LAICHI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ALGO2",
+              "loc": "TP127",
+              "prof": "LAICHI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ALGO2",
+              "loc": "TP127",
+              "prof": "LAICHI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "POO",
+            "loc": "R5",
+            "prof": "MEKAHLIA"
+          },
+          "groups": {}
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ARCHI1",
+              "loc": "259",
+              "prof": "BOUCHENE"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SI1",
+              "loc": "452",
+              "prof": "HEDJAZI-DELLAL"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SI1",
+              "loc": "448",
+              "prof": "HEDJAZI-DELLAL"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "LOGIQUE",
+              "loc": "410",
+              "prof": "BELLALA"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ARCHI1",
+              "loc": "259",
+              "prof": "BOUCHENE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "LOGIQUE",
+              "loc": "320",
+              "prof": "BELLALA"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ARCHI1",
+              "loc": "338",
+              "prof": "ayache"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "CAL. NUM",
+              "loc": "414",
+              "prof": "LAICHE"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "SI1",
+            "loc": "431T",
+            "prof": "HEDJAZI-DELLAL"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SI1",
+              "loc": "385",
+              "prof": "HEDJAZI-"
+            }
+          }
+        }
+      ],
+      "Tuesday": [],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "CAL. NUM",
+              "loc": "118",
+              "prof": "BEHLOUL"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ALGO2",
+              "loc": "116",
+              "prof": "LAICHI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "CAL. NUM",
+              "loc": "118",
+              "prof": "BEHLOUL"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ALGO2",
+              "loc": "114",
+              "prof": "LAICHI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "ALGO2",
+            "loc": "125T",
+            "prof": "LAICHI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "LOGIQUE",
+            "loc": "125T",
+            "prof": "BELLALA"
+          },
+          "groups": {}
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ALGO2",
+              "loc": "TP127",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "POO",
+              "loc": "TP128",
+              "prof": "BACHEN"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "POO",
+              "loc": "TP127",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ALGO2",
+              "loc": "TP128",
+              "prof": "BACHEN"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ARCHI1",
+              "loc": "412",
+              "prof": "BOUCHENE"
+            },
+            "G4": {
+              "Time": "11:20 - 12:50",
+              "Subject": "POO",
+              "loc": "TP131",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "POO",
+              "loc": "TP130",
+              "prof": "NIID"
+            },
+            "G4": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ALGO2",
+              "loc": "TP131",
+              "prof": "ANTRI"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "L2_ISIL_B": {
+    "specialty": "ISIL",
+    "year": "2",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SI1",
+              "loc": "TPC9",
+              "prof": "BENALI"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ARCHI1",
+              "loc": "385",
+              "prof": "Derbal"
+            },
+            "G4": {
+              "Time": "08:00 - 09:30",
+              "Subject": "POO",
+              "loc": "TPC5",
+              "prof": "ZELLAL"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SI1",
+              "loc": "403",
+              "prof": "BENALI"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "POO",
+              "loc": "TPC5",
+              "prof": "ZELLAL"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SI1",
+              "loc": "352",
+              "prof": "BENALI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "SI1",
+            "loc": "125T",
+            "prof": "BENALI"
+          },
+          "groups": {}
+        }
+      ],
+      "Sunday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "ARCHI1",
+            "loc": "149T",
+            "prof": "Derbal"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "LOGIQUE",
+            "loc": "SC",
+            "prof": "Bouyakoub n\u00c3\u0192\u00c2\u00a9e Sema"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "LOGIQUE",
+              "loc": "-444-",
+              "prof": "Bouyakoub"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "LOGIQUE",
+              "loc": "-454-",
+              "prof": "KOUAR"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "CAL. NUM",
+              "loc": "340",
+              "prof": "LAICHE"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "CAL. NUM",
+            "loc": "119T",
+            "prof": "LAICHE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "CAL. NUM",
+              "loc": "363",
+              "prof": "LAICHE"
+            },
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ARCHI1",
+              "loc": "369",
+              "prof": "Derbal"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "PROB/STA",
+              "loc": "377",
+              "prof": "BOUIBEDE"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ALGO2",
+              "loc": "441",
+              "prof": "BENSAOU"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "ALGO2",
+            "loc": "161T",
+            "prof": "BENSAOU"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "PROB/STA",
+            "loc": "421T",
+            "prof": "BOUIBEDE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G4": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ALGO2",
+              "loc": "TPC6",
+              "prof": "BENSAOU"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ALGO2",
+              "loc": "TPC3B",
+              "prof": "BENSAOU"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ARCHI1",
+              "loc": "132",
+              "prof": "Derbal"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "PROB/STA",
+              "loc": "381",
+              "prof": "BOUIBEDE"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ALGO2",
+              "loc": "441",
+              "prof": "BENSAOU"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ALGO2",
+              "loc": "267",
+              "prof": "BENSAOU"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ARCHI1",
+              "loc": "132",
+              "prof": "Derbal"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "PROB/STA",
+              "loc": "443",
+              "prof": "BOUIBEDE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ALGO2",
+              "loc": "TPC3A",
+              "prof": "BENSAOU"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "ALGO2",
+            "loc": "238T",
+            "prof": "BENSAOU"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "POO",
+            "loc": "R5",
+            "prof": "MEKAHLIA"
+          },
+          "groups": {}
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ALGO2",
+              "loc": "TP132",
+              "prof": "BENSAOU"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ALGO2",
+              "loc": "TP132",
+              "prof": "BENSAOU"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "CAL. NUM",
+              "loc": "452",
+              "prof": "LAICHE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "LOGIQUE",
+              "loc": "-263",
+              "prof": "KOUAR"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "LOGIQUE",
+              "loc": "-454-",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ALGO2",
+              "loc": "TPC7",
+              "prof": "BENSAOU"
+            }
+          }
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "POO",
+              "loc": "TP131",
+              "prof": "BOUBENIA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "POO",
+              "loc": "TP131",
+              "prof": "BOUBENIA"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "L2_GTR": {
+    "specialty": "GTR",
+    "year": "2",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "T.R.C.I",
+              "loc": "409",
+              "prof": "abdelli"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "A.L.G.O",
+              "loc": "373",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "T.R.C.I",
+            "loc": "103D",
+            "prof": "abdelli"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "U.A.S.E",
+            "loc": "103D",
+            "prof": "BELKHIR"
+          },
+          "groups": {}
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "T.R.C.I",
+            "loc": "103D",
+            "prof": "abdelli"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "EL.NUM",
+              "loc": "257",
+              "prof": "HARROUNI"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "T.R.C.I",
+              "loc": "255",
+              "prof": "abdelli"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "EL.NUM",
+            "loc": "303D",
+            "prof": "HARROUNI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "U.A.S.E",
+              "loc": "TPC8",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "EL.NUM",
+              "loc": "TPC5",
+              "prof": "HARROUNI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "U.A.S.E",
+              "loc": "TPC6",
+              "prof": "ANTRI"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ELECTROMAG",
+              "loc": "446",
+              "prof": "ADANE"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "A.L.G.O",
+              "loc": "TPC7",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "ELECTROMAG",
+            "loc": "326D",
+            "prof": "ADANE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "U.A.S.E",
+            "loc": "103D",
+            "prof": "BELKHIR"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "A.L.G.O",
+            "loc": "103D",
+            "prof": "MOUSSAOUI"
+          },
+          "groups": {}
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "EL.NUM",
+              "loc": "LABO",
+              "prof": "HARROUNI"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "EL.ANAL",
+              "loc": "labo-elt1",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "EL.NUM",
+              "loc": "LABO",
+              "prof": "HARROUNI"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "EL.ANAL",
+              "loc": "labo-elt1",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "EL.ANAL",
+              "loc": "labo-elt1",
+              "prof": "RAAF"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "EL.NUM",
+              "loc": "LABO",
+              "prof": "HARROUNI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "EL.ANAL",
+              "loc": "labo-elt1",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "EL.NUM",
+              "loc": "LABO",
+              "prof": "HARROUNI"
+            }
+          }
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "EL.ANAL",
+              "loc": "406",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "EL.ANAL",
+            "loc": "R5",
+            "prof": "ANTRI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "A.L.G.O",
+            "loc": "D7) MOUSSAOUI G1:TD (437",
+            "prof": "EL.ANAL,"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "A.L.G.O",
+              "loc": "TP128",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "A.L.G.O",
+              "loc": "TP128",
+              "prof": "ANTRI"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "L3_ACAD_A": {
+    "specialty": "ACAD",
+    "year": "3",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "GL",
+              "loc": "379",
+              "prof": "Saadi"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "TH.GRAPH",
+              "loc": "267",
+              "prof": "BENKAOUHA"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "TH.GRAPH",
+            "loc": "228T",
+            "prof": "BENKAOUHA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "EXTR INFOR",
+            "loc": "228T",
+            "prof": "ZELLAL"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "COMPIL",
+              "loc": "E",
+              "prof": "BOUAZABIA"
+            },
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "TH.GRAPH",
+              "loc": "TPC7",
+              "prof": "BENKAOUHA"
+            }
+          }
+        }
+      ],
+      "Sunday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "SYS.EXP2",
+            "loc": "161T",
+            "prof": "BELGUERCHE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "COMPIL",
+            "loc": "161T",
+            "prof": "IOUALALEN-BOUKALA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS.EXP2",
+              "loc": "TP130",
+              "prof": "BELKHIR"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G4": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYS.EXP2",
+              "loc": "TP130",
+              "prof": "BELKHIR"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "TH.GRAPH",
+              "loc": "385",
+              "prof": "BENKAOUHA"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "GL",
+              "loc": "358",
+              "prof": "HAMMAL"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPIL",
+              "loc": "373",
+              "prof": "belhadi"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "GL",
+            "loc": "C1",
+            "prof": "HAMMAL"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "RESEAUX",
+              "loc": "TP122",
+              "prof": "OUSSANE"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "SYS.EXP2",
+            "loc": "143T",
+            "prof": "BELGUERCHE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "COMPIL",
+            "loc": "SC",
+            "prof": "IOUALALEN-BOUKALA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS.EXP2",
+              "loc": "407",
+              "prof": "BELGUERCHE"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "COMPIL",
+              "loc": "447",
+              "prof": "belhadi"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "GL",
+              "loc": "150",
+              "prof": "OULEFKI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "COMPIL",
+              "loc": "150",
+              "prof": "BOUAZABIA"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYS.EXP2",
+              "loc": "405",
+              "prof": "BELGUERCHE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SYS.EXP2",
+              "loc": "444",
+              "prof": "BELGUERCHE"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "RESEAUX",
+            "loc": "C1",
+            "prof": "DJOUAMA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G4": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPIL",
+              "loc": "TP129",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "RESEAUX",
+              "loc": "TP126",
+              "prof": "OUSSANE"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS.EXP2",
+              "loc": "TPC7",
+              "prof": "BENZAID"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "COMPIL",
+              "loc": "TP131",
+              "prof": "Djeffal"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "COMPIL",
+              "loc": "TP127",
+              "prof": "FRIHI"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "RESEAUX",
+              "loc": "TP126",
+              "prof": "OUSSANE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "COMPIL",
+              "loc": "TP127",
+              "prof": "FRIHI"
+            },
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SYS.EXP2",
+              "loc": "TPC4",
+              "prof": "BENZAID"
+            },
+            "G4": {
+              "Time": "14:40 - 16:10",
+              "Subject": "RESEAUX",
+              "loc": "TP126",
+              "prof": "OUSSANE"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "16:20 - 17:50",
+            "Subject": "RESEAUX",
+            "loc": "119T",
+            "prof": "DJOUAMA"
+          },
+          "groups": {}
+        }
+      ],
+      "Thursday": []
+    }
+  },
+  "L3_ACAD_B": {
+    "specialty": "ACAD",
+    "year": "3",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "TH.GRAPH",
+              "loc": "243",
+              "prof": "DJOUADI"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "GL",
+              "loc": "411",
+              "prof": "BERKANI"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPIL",
+              "loc": "350",
+              "prof": "HIMRANE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "TH.GRAPH",
+              "loc": "162",
+              "prof": "DJOUADI"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "GL",
+              "loc": "407",
+              "prof": "BERKANI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS.EXP2",
+              "loc": "TPC4",
+              "prof": "NEMOUCHI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "TH.GRAPH",
+              "loc": "126",
+              "prof": "abdelli"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "COMPIL",
+            "loc": "C1",
+            "prof": "KHELLAF"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "RESEAUX",
+            "loc": "C2",
+            "prof": "KHEROUA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "SYS.EXP2",
+            "loc": "155T",
+            "prof": "BOUYAKOUB"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "RESEAUX",
+              "loc": "TP122",
+              "prof": "KHEROUA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "RESEAUX",
+              "loc": "TP132",
+              "prof": "KHEROUA"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPIL",
+              "loc": "303",
+              "prof": "ALIOUANE"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPIL",
+              "loc": "305",
+              "prof": "belhadi"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "GL",
+            "loc": "C2",
+            "prof": "BERKANI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "GL",
+              "loc": "403",
+              "prof": "BERKANI"
+            },
+            "G4": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS.EXP2",
+              "loc": "TP128",
+              "prof": "NEMOUCHI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "COMPIL",
+              "loc": "TP130",
+              "prof": "belhadi"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYS.EXP2",
+              "loc": "TP128",
+              "prof": "NEMOUCHI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "EXTR INFOR",
+            "loc": "167T",
+            "prof": "ANTRI"
+          },
+          "groups": {}
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SYS.EXP2",
+              "loc": "TPC4",
+              "prof": "NEMOUCHI"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPIL",
+              "loc": "TPC5",
+              "prof": "MOULAI"
+            },
+            "G4": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPIL",
+              "loc": "TP129",
+              "prof": "belhadi"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "SYS.EXP2",
+            "loc": "C2",
+            "prof": "BOUYAKOUB"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "COMPIL",
+            "loc": "E8",
+            "prof": "KHELLAF"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "COMPIL",
+              "loc": "TPC3A",
+              "prof": "MOULAI"
+            }
+          }
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "TH.GRAPH",
+            "loc": "R7",
+            "prof": "DJOUADI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "RESEAUX",
+            "loc": "SC",
+            "prof": "KHEROUA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS.EXP2",
+              "loc": "409",
+              "prof": "AYAD"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "RESEAUX",
+              "loc": "TP126",
+              "prof": "KHEROUA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYS.EXP2",
+              "loc": "412",
+              "prof": "AYAD"
+            },
+            "G4": {
+              "Time": "13:00 - 14:30",
+              "Subject": "RESEAUX",
+              "loc": "TP126",
+              "prof": "KHEROUA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SYS.EXP2",
+              "loc": "E1",
+              "prof": "AYAD"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "L3_ACAD_C": {
+    "specialty": "ACAD",
+    "year": "3",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "GL",
+              "loc": "387",
+              "prof": "OULEFKI"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "RESEAUX",
+              "loc": "TP122",
+              "prof": "BOUAGAR"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "GL",
+              "loc": "389",
+              "prof": "OULEFKI"
+            },
+            "G4": {
+              "Time": "09:40 - 11:10",
+              "Subject": "RESEAUX",
+              "loc": "TP126",
+              "prof": "BOUAGAR"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "EXTR INFOR",
+            "loc": "222T",
+            "prof": "ZELLAL"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "GL",
+              "loc": "450",
+              "prof": "OULEFKI"
+            }
+          }
+        }
+      ],
+      "Sunday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SYS.EXP2",
+              "loc": "TP129",
+              "prof": "DOUKHA"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "RESEAUX",
+              "loc": "TP122",
+              "prof": "BOUZIANE"
+            },
+            "G4": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPIL",
+              "loc": "TP131",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPIL",
+              "loc": "170",
+              "prof": "HIMRANE"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SYS.EXP2",
+              "loc": "TP130",
+              "prof": "DOUKHA"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "COMPIL",
+            "loc": "161T",
+            "prof": "HIMRANE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "COMPIL",
+              "loc": "132",
+              "prof": "HIMRANE"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SYS.EXP2",
+              "loc": "369",
+              "prof": "Mekliche"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPIL",
+              "loc": "TPC3B",
+              "prof": "BELHADI"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "TH.GRAPH",
+              "loc": "358",
+              "prof": "BOUKALA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "TH.GRAPH",
+              "loc": "170",
+              "prof": "BOUKALA"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS.EXP2",
+              "loc": "TP126",
+              "prof": "Mekliche"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "RESEAUX",
+            "loc": "155T",
+            "prof": "EL NAGGER"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "RESEAUX",
+              "loc": "TP122",
+              "prof": "EL"
+            },
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SYS.EXP2",
+              "loc": "TP128",
+              "prof": "SAIGHI"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "RESEAUX",
+            "loc": "C1",
+            "prof": "EL NAGGER"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SYS.EXP2",
+              "loc": "445",
+              "prof": "Mekliche"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "TH.GRAPH",
+              "loc": "441",
+              "prof": "BOUKALA"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "TH.GRAPH",
+            "loc": "C1",
+            "prof": "BOUKALA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "GL",
+            "loc": "C2",
+            "prof": "OULEFKI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G4": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SYS.EXP2",
+              "loc": "TP126",
+              "prof": "SAIGHI"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPIL",
+              "loc": "124",
+              "prof": "HIMRANE"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "COMPIL",
+            "loc": "C7",
+            "prof": "HIMRANE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "COMPIL",
+              "loc": "TP129",
+              "prof": "MOULAI"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "COMPIL",
+              "loc": "TP128",
+              "prof": "BELHADI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "SYS.EXP2",
+            "loc": "SC",
+            "prof": "CHENAIT"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "SYS.EXP2",
+            "loc": "SC",
+            "prof": "CHENAIT"
+          },
+          "groups": {}
+        }
+      ],
+      "Thursday": []
+    }
+  },
+  "L3_ISIL_A": {
+    "specialty": "ISIL",
+    "year": "3",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [
+        {
+          "cours": {},
+          "groups": {
+            "G4": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SI2",
+              "loc": "TP129",
+              "prof": "ABBACI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SI2",
+              "loc": "TP129",
+              "prof": "NIID"
+            },
+            "G4": {
+              "Time": "09:40 - 11:10",
+              "Subject": "GL2",
+              "loc": "TP128",
+              "prof": "ABBACI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SI2",
+              "loc": "454",
+              "prof": "HANK"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SI2",
+              "loc": "C205",
+              "prof": "HANK"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "SI2",
+            "loc": "R8",
+            "prof": "HANK"
+          },
+          "groups": {}
+        }
+      ],
+      "Sunday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "SYS02",
+            "loc": "431T",
+            "prof": "CHENAIT"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "RESEAUX",
+              "loc": "160",
+              "prof": "ATIF"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "BD2",
+              "loc": "142",
+              "prof": "ABDAT"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "BD2",
+              "loc": "TP128",
+              "prof": "ABDAT"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS02",
+              "loc": "320",
+              "prof": "CHENAIT"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "RESEAUX",
+            "loc": "228T",
+            "prof": "ATIF"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SYS02",
+              "loc": "360",
+              "prof": "CHENAIT"
+            },
+            "G4": {
+              "Time": "14:40 - 16:10",
+              "Subject": "BD2",
+              "loc": "TPC3A",
+              "prof": "ABDAT"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "COMPIL",
+            "loc": "228T",
+            "prof": "GHARBI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPIL",
+              "loc": "452",
+              "prof": "GHARBI"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "BD2",
+              "loc": "414",
+              "prof": "ABDAT"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS02",
+              "loc": "TPC4",
+              "prof": "SAIGHI"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "COMPIL",
+              "loc": "TPC6",
+              "prof": "KOUAR"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "BD2",
+              "loc": "TP132",
+              "prof": "ABDAT"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "COMPIL",
+            "loc": "431T",
+            "prof": "GHARBI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "GL2",
+            "loc": "167T",
+            "prof": "haddouche epse che"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "BD2",
+              "loc": "TP126",
+              "prof": "ABDAT"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS02",
+              "loc": "TPC6",
+              "prof": "SAIGHI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "BD2",
+              "loc": "403",
+              "prof": "ABDAT"
+            },
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "GL2",
+              "loc": "401",
+              "prof": "haddouche"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "BD2",
+            "loc": "C7",
+            "prof": "ABDAT"
+          },
+          "groups": {}
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "GL2",
+              "loc": "444",
+              "prof": "haddouche"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SYS02",
+              "loc": "446",
+              "prof": "CHENAIT"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "RESEAUX",
+              "loc": "300",
+              "prof": "ATIF"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "RESEAUX",
+              "loc": "124",
+              "prof": "ATIF"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "GL2",
+              "loc": "444",
+              "prof": "haddouche"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPIL",
+              "loc": "410",
+              "prof": "GHARBI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS02",
+              "loc": "TP122",
+              "prof": "SAIGHI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G4": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYS02",
+              "loc": "TP129",
+              "prof": "SAIGHI"
+            }
+          }
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "GL2",
+              "loc": "TPC4",
+              "prof": "haddouche"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SI2",
+              "loc": "TPC5",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SI2",
+              "loc": "TPC4",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "GL2",
+              "loc": "TPC5",
+              "prof": "haddouche"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPIL",
+              "loc": "TPC3B",
+              "prof": "AMROUS"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "COMPIL",
+              "loc": "TPC8",
+              "prof": "El-Tanni"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "GL2",
+              "loc": "TP129",
+              "prof": "HANK"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "COMPIL",
+              "loc": "TPC4",
+              "prof": "AMROUS"
+            },
+            "G4": {
+              "Time": "13:00 - 14:30",
+              "Subject": "COMPIL",
+              "loc": "TPC8",
+              "prof": "El-Tanni"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SI2",
+              "loc": "438",
+              "prof": "HANK"
+            },
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "COMPIL",
+              "loc": "371",
+              "prof": "AMROUS"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "L3_ISIL_B": {
+    "specialty": "ISIL",
+    "year": "3",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "BD2",
+              "loc": "TP131",
+              "prof": "KERKAD"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "RESEAUX",
+              "loc": "TPC8",
+              "prof": "DOUKHA"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "BD2",
+            "loc": "228T",
+            "prof": "KERKAD"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "RESEAUX",
+              "loc": "C203",
+              "prof": "DOUKHA"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "BD2",
+              "loc": "C205",
+              "prof": "KERKAD"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "BD2",
+              "loc": "C201",
+              "prof": "KERKAD"
+            }
+          }
+        }
+      ],
+      "Sunday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "GL2",
+              "loc": "342",
+              "prof": "Aberbour"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SYS02",
+              "loc": "375",
+              "prof": "ZEBBANE"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "SYS02",
+            "loc": "C2",
+            "prof": "ZEBBANE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "GL2",
+              "loc": "205",
+              "prof": "Aberbour"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "GL2",
+            "loc": "143T",
+            "prof": "Aberbour"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "GL2",
+              "loc": "367",
+              "prof": "Aberbour"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPIL",
+              "loc": "450",
+              "prof": "NACER"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SI2",
+              "loc": "456",
+              "prof": "GUEBAILI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "SI2",
+            "loc": "C2",
+            "prof": "GUEBAILI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SI2",
+              "loc": "320",
+              "prof": "GUEBAILI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "COMPIL",
+            "loc": "D1",
+            "prof": "NACER"
+          },
+          "groups": {}
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPIL",
+              "loc": "TPC6",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPIL",
+              "loc": "TPC8",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "BD2",
+              "loc": "TPC7",
+              "prof": "KERKAD"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SYS02",
+              "loc": "TPC3A",
+              "prof": "SAIGHI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "BD2",
+              "loc": "TPC7",
+              "prof": "KERKAD"
+            },
+            "G4": {
+              "Time": "11:20 - 12:50",
+              "Subject": "COMPIL",
+              "loc": "TPC8",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "COMPIL",
+              "loc": "TPC8",
+              "prof": "NIID"
+            },
+            "G4": {
+              "Time": "13:00 - 14:30",
+              "Subject": "BD2",
+              "loc": "TPC7",
+              "prof": "KERKAD"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "BD2",
+              "loc": "TP131",
+              "prof": "KERKAD"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SYS02",
+              "loc": "450",
+              "prof": "ZEBBANE"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SI2",
+              "loc": "122",
+              "prof": "GUEBAILI"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPIL",
+              "loc": "448",
+              "prof": "NACER"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "RESEAUX",
+              "loc": "122",
+              "prof": "DOUKHA"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPIL",
+              "loc": "448",
+              "prof": "NACER"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SYS02",
+              "loc": "450",
+              "prof": "ZEBBANE"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "COMPIL",
+            "loc": "C2",
+            "prof": "NACER"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "RESEAUX",
+            "loc": "C1",
+            "prof": "DOUKHA"
+          },
+          "groups": {}
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "GL2",
+              "loc": "TPC7",
+              "prof": "Aberbour"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SI2",
+              "loc": "TPC6",
+              "prof": "ZERROUKI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SI2",
+              "loc": "TPC6",
+              "prof": "ZERROUKI"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "GL2",
+              "loc": "TPC7",
+              "prof": "Aberbour"
+            },
+            "G4": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SYS02",
+              "loc": "TPC8",
+              "prof": "SAIGHI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SI2",
+              "loc": "TPC3B",
+              "prof": "ZERROUKI"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "GL2",
+              "loc": "TPC3A",
+              "prof": "Aberbour"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYS02",
+              "loc": "TP129",
+              "prof": "SAIGHI"
+            },
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SI2",
+              "loc": "TPC3B",
+              "prof": "ZERROUKI"
+            },
+            "G4": {
+              "Time": "13:00 - 14:30",
+              "Subject": "GL2",
+              "loc": "TPC3A",
+              "prof": "Aberbour"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "L3_GTR": {
+    "specialty": "GTR",
+    "year": "3",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "S.C.A.N",
+              "loc": "217",
+              "prof": "DJERADI"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "PROG.WEB",
+              "loc": "TP128",
+              "prof": "BELLACHE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "PROG.WEB",
+              "loc": "TP128",
+              "prof": "BELLACHE"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "S.C.A.N",
+              "loc": "308",
+              "prof": "DJERADI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "ADM.RES",
+            "loc": "D3",
+            "prof": "GUERROUMI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "T.I.C.T",
+              "loc": "D6-",
+              "prof": "MERAZKA"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "PROG.WEB",
+            "loc": "430D",
+            "prof": "BELLACHE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "RES.S.FIL",
+            "loc": "103D",
+            "prof": "BOUZIANE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "T.TM.IP",
+            "loc": "D4",
+            "prof": "ANTRI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "T.I.C.T",
+              "loc": "D6-",
+              "prof": "MERAZKA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "RES.S.FIL",
+              "loc": "TP126",
+              "prof": "BOUZIANE"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "S.C.A.N",
+            "loc": "113D",
+            "prof": "DJERADI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "S.T.I.R",
+            "loc": "R3",
+            "prof": "FARAH"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ADM.RES",
+              "loc": "TP122",
+              "prof": "GUERROUMI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ADM.RES",
+              "loc": "TP122",
+              "prof": "GUERROUMI"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "T.I.C.T",
+              "loc": "TPC8",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "T.TM.IP",
+              "loc": "TPC3A",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "T.TM.IP",
+              "loc": "TPC3A",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "T.I.C.T",
+              "loc": "TPC8",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "T.TM.IP",
+              "loc": "TPC8",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "T.I.C.T",
+            "loc": "D7-",
+            "prof": "MERAZKA"
+          },
+          "groups": {}
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "S.T.I.R",
+            "loc": "D5",
+            "prof": "FARAH"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "RES.S.FIL",
+            "loc": "D3",
+            "prof": "BOUZIANE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "S.C.A.N",
+              "loc": "TPC7",
+              "prof": "DJERADI"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "RES.S.FIL",
+              "loc": "TPC6",
+              "prof": "BOUZIANE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "RES.S.FIL",
+              "loc": "TPC6",
+              "prof": "BOUZIANE"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "S.C.A.N",
+              "loc": "TPC7",
+              "prof": "DJERADI"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "M1_BIGDATA": {
+    "specialty": "BIGDATA",
+    "year": "1",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "OPL",
+            "loc": "E106 (math)",
+            "prof": "OUAFI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": ") OPL",
+              "loc": "E106 (math",
+              "prof": "OUAFI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "CPSI",
+            "loc": "E106 (math)",
+            "prof": "OUAFI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": ") CPSI",
+              "loc": "E106 (math",
+              "prof": "HAMRANI"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "SSAD",
+            "loc": "315T",
+            "prof": "NACER"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "GP",
+              "loc": "TPC8",
+              "prof": "BOUCHAM"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SSAD",
+              "loc": "TPC7",
+              "prof": "NACER"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG",
+              "prof": "ZENOUN"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "GP",
+              "loc": "TPC3B",
+              "prof": "BOUCHAM"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "POO",
+              "loc": "TP130",
+              "prof": "Seddiki"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "BADO",
+            "loc": "SC",
+            "prof": "ALIMAZIGHI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "VT",
+            "loc": "113D",
+            "prof": "AZZOUZ"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "BADO",
+              "loc": "416",
+              "prof": "ALIMAZIGHI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "POO",
+            "loc": "113D",
+            "prof": "Seddiki"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "GP",
+            "loc": "113D",
+            "prof": "MAHDAOUI"
+          },
+          "groups": {}
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "TH.ORD",
+            "loc": "C7",
+            "prof": "BOUDHAR"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "PRAVAN",
+              "loc": "TP130",
+              "prof": "BOUBENIA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SSAD",
+              "loc": "TPC3A",
+              "prof": "NACER"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "PRAVAN",
+              "loc": "TP130",
+              "prof": "BOUBENIA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SSAD",
+              "loc": "TP129",
+              "prof": "NACER"
+            }
+          }
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "TH.ORD",
+              "loc": "416",
+              "prof": "BOUDHAR"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "GR.BIGD",
+              "loc": "418",
+              "prof": "ABBAS"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "GR.BIGD",
+              "loc": "410",
+              "prof": "ABBAS"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "TH.ORD",
+              "loc": "444",
+              "prof": "BOUDHAR"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "GR.BIGD",
+            "loc": "D4",
+            "prof": "ABBAS"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "PRAVAN",
+            "loc": "D3",
+            "prof": "BOUBENIA"
+          },
+          "groups": {}
+        }
+      ]
+    }
+  },
+  "M1_BIOINFO": {
+    "specialty": "BIOINFO",
+    "year": "1",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "Bio-Stat",
+            "loc": "SC",
+            "prof": "SELMANE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Bio-Stat",
+              "loc": "SC",
+              "prof": "SELMANE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Bio-Stat",
+              "loc": "TPC5",
+              "prof": "SELMANE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "Bio-Stat",
+              "loc": "TPC5",
+              "prof": "SELMANE"
+            }
+          }
+        }
+      ],
+      "Sunday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "Bio-Math",
+              "loc": "245",
+              "prof": "Benbaziz"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "BIOGEN",
+              "loc": "444",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "Bio-Math",
+            "loc": "117D",
+            "prof": "Benbaziz"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SystProgScript",
+              "loc": "TPC5",
+              "prof": "BENZAID"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Bio-Math",
+              "loc": "437",
+              "prof": "Benbaziz"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SystProgScript",
+              "loc": "TP129",
+              "prof": "BENZAID"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "BIOGEN",
+              "loc": "TPC6",
+              "prof": "KHEDIM"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "BIOGEN",
+            "loc": "113D",
+            "prof": "KHEDIM"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "GP--",
+            "loc": "113D",
+            "prof": "BOUCHAM"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "SystProgScript",
+            "loc": "D6",
+            "prof": "BENZAID"
+          },
+          "groups": {}
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SystProgScript",
+              "loc": "TP128",
+              "prof": "BENZAID"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Anglais",
+              "loc": "LABO",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SystProgScript",
+              "loc": "TPC4",
+              "prof": "BENZAID"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "Complexi",
+            "loc": "R5",
+            "prof": "BOUKHEDOUMA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "Anglais",
+              "loc": "LABO",
+              "prof": "ZENOUN"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Complexi",
+              "loc": "454",
+              "prof": "BOUKHEDOUMA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Complexi",
+              "loc": "TPC4",
+              "prof": "BOUKHEDOUMA"
+            }
+          }
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "GP--",
+              "loc": "TP130",
+              "prof": "BOUCHAM"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "BIOGEN",
+              "loc": "TPC3A",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "GP--",
+              "loc": "TP130",
+              "prof": "BOUCHAM"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "GEE",
+            "loc": "SC",
+            "prof": "CHETTA"
+          },
+          "groups": {}
+        }
+      ]
+    }
+  },
+  "M1_HPC": {
+    "specialty": "HPC",
+    "year": "1",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "ANAL-Num",
+            "loc": "TPC9",
+            "prof": "LAICHE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ANAL-Num",
+              "loc": "307",
+              "prof": "LAICHE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Complexit\u00c3\u0192\u00c2\u00a9",
+              "loc": "TPC9",
+              "prof": "BABA"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "Complexit\u00c3\u0192\u00c2\u00a9",
+            "loc": "TPC9",
+            "prof": "BABA ALI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "Complexit\u00c3\u0192\u00c2\u00a9",
+              "loc": "TPC9",
+              "prof": "BABA"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "ARCH-Av",
+            "loc": "TPC9",
+            "prof": "BABA ALI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ARCH-Av",
+              "loc": "TPC9",
+              "prof": "BABA"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "BaseDeDonn\u00c3\u0192\u00c2\u00a9es",
+            "loc": "TPC9",
+            "prof": "KESSI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ANAL-Num",
+              "loc": "TPC7",
+              "prof": "LAICHE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ARCH-Av",
+              "loc": "TPC7",
+              "prof": "BABA"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "BaseDeDonn\u00c3\u0192\u00c2\u00a9es",
+              "loc": "TP131",
+              "prof": "KESSI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Complexit\u00c3\u0192\u00c2\u00a9",
+              "loc": "TP130",
+              "prof": "BABA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "Anglaiss",
+              "loc": "LABO LANG2",
+              "prof": "ANTRI"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SYSTM",
+              "loc": "TP128",
+              "prof": "RAYAN"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SYSTM",
+              "loc": "TPC9",
+              "prof": "GUEBLI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYSTM",
+              "loc": "TPC9",
+              "prof": "GUEBLI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYSTM",
+              "loc": "TP128",
+              "prof": "Larbi"
+            }
+          }
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "Mod-Sim",
+            "loc": "TPC9",
+            "prof": "Baba ali"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Mod-Sim",
+              "loc": "TPC9",
+              "prof": "Baba"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "M1_IL": {
+    "specialty": "IL",
+    "year": "1",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "ASGBD",
+            "loc": "R8",
+            "prof": "ALIMAZIGHI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "GP",
+            "loc": "149T",
+            "prof": "KHEMISSA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ASGBD",
+              "loc": "TPC8",
+              "prof": "KESSI"
+            },
+            "G4": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYST",
+              "loc": "TP132",
+              "prof": "DJOUADI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYST",
+              "loc": "TP132",
+              "prof": "DJOUADI"
+            },
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "GP",
+              "loc": "TP131",
+              "prof": "KHEMISSA"
+            },
+            "G4": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ASGBD",
+              "loc": "TPC8",
+              "prof": "KESSI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ASGBD",
+              "loc": "TPC8",
+              "prof": "KESSI"
+            },
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SYST",
+              "loc": "TP126",
+              "prof": "DJOUADI"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SYST",
+              "loc": "410",
+              "prof": "BOUYAKOUB"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SYST",
+              "loc": "455",
+              "prof": "BOUYAKOUB"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "COMPLEXITE",
+              "loc": "TP130",
+              "prof": "HEDJAZI-DELLAL"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ASGBD",
+              "loc": "TP130",
+              "prof": "ANTRI"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPLEXITE",
+              "loc": "406",
+              "prof": "HEDJAZI-DELLAL"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "GP",
+              "loc": "TP130",
+              "prof": "KHEMISSA"
+            },
+            "G4": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPLEXITE",
+              "loc": "TP129",
+              "prof": "HEDJAZI-DELLAL"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "MEPS",
+            "loc": "420T",
+            "prof": "AISSANI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYST",
+              "loc": "TP127",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "GP",
+              "loc": "TP132",
+              "prof": "KHEMISSA"
+            },
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "COMPLEXITE",
+              "loc": "TPC3B",
+              "prof": "HEDJAZI-DELLAL"
+            },
+            "G4": {
+              "Time": "13:00 - 14:30",
+              "Subject": "WEB AV",
+              "loc": "TP129",
+              "prof": "MIHOUB"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "WEB AV",
+              "loc": "TP129",
+              "prof": "MIHOUB"
+            },
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "COMPLEXITE",
+              "loc": "TPC3B",
+              "prof": "HEDJAZI-DELLAL"
+            },
+            "G4": {
+              "Time": "14:40 - 16:10",
+              "Subject": "GP",
+              "loc": "TP128",
+              "prof": "KHEMISSA"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "SYST",
+            "loc": "SC",
+            "prof": "BOUYAKOUB"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "WEB AV",
+            "loc": "SC",
+            "prof": "Bouyakoub n\u00c3\u0192\u00c2\u00a9e Sema"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYST",
+              "loc": "350",
+              "prof": "BOUYAKOUB"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "WEB AV",
+              "loc": "TP130",
+              "prof": "MIHOUB"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "WEB AV",
+              "loc": "TP128",
+              "prof": "MIHOUB"
+            }
+          }
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPLEXITE",
+              "loc": "307",
+              "prof": "HEDJAZI-DELLAL"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "MEPS",
+              "loc": "305",
+              "prof": "AISSANI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "COMPLEXITE",
+            "loc": "R7",
+            "prof": "HEDJAZI-DELLAL"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "MEPS",
+              "loc": "414",
+              "prof": "AISSANI"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "COMPLEXITE",
+              "loc": "410",
+              "prof": "HEDJAZI-DELLAL"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG1",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "MEPS",
+              "loc": "237D",
+              "prof": "AISSANI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG",
+              "prof": "ANTRI"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "M1_MIV": {
+    "specialty": "MIV",
+    "year": "1",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "Anglais",
+              "loc": "LABO LANG",
+              "prof": "BOUDEFASSA"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ABDD",
+              "loc": "TPC3A",
+              "prof": "KESSI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "TAI",
+              "loc": "TPC3B",
+              "prof": "DELLOUL"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Anglais",
+              "loc": "LABO LANG",
+              "prof": "BOUDEFASSA"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "R\u00c3\u0192\u00c2\u00a9solution de probl\u00c3\u0192\u00c2\u00a8mes",
+            "loc": "D6",
+            "prof": "LARABI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "TAI",
+            "loc": "D6",
+            "prof": "SETITRA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "R\u00c3\u0192\u00c2\u00a9solution de probl\u00c3\u0192\u00c2\u00a8mes",
+              "loc": "TP129",
+              "prof": "SEBAI"
+            },
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "TAI",
+              "loc": "D5",
+              "prof": "SETITRA"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "Syst",
+              "loc": "TPC4",
+              "prof": "BENCHAIBA"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "TAI",
+              "loc": "TPC5",
+              "prof": "DELLOUL"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "ABDD",
+            "loc": "D6",
+            "prof": "DJIROUNE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "TAI",
+              "loc": "405",
+              "prof": "SETITRA"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Syst",
+              "loc": "166",
+              "prof": "BENCHAIBA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "Syst",
+              "loc": "TP127",
+              "prof": "BENCHAIBA"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "Syst",
+            "loc": "E6",
+            "prof": "BENCHAIBA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "Multim\u00c3\u0192\u00c2\u00a9dia",
+            "loc": "E6",
+            "prof": "LARABI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Syst",
+              "loc": "249",
+              "prof": "BENCHAIBA"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "R\u00c3\u0192\u00c2\u00a9solution de probl\u00c3\u0192\u00c2\u00a8mes",
+              "loc": "TP122",
+              "prof": "SEBAI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ABDD",
+              "loc": "TPC5",
+              "prof": "KESSI"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "Algo",
+              "loc": "TPC4",
+              "prof": "MESSAOUDI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "Algo",
+              "loc": "TPC4",
+              "prof": "MESSAOUDI"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "Algo",
+            "loc": "R4",
+            "prof": "DRIAS"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Algo",
+              "loc": "406",
+              "prof": "MESSAOUDI"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Multim\u00c3\u0192\u00c2\u00a9dia",
+              "loc": "TPC5",
+              "prof": "SEBAI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Multim\u00c3\u0192\u00c2\u00a9dia",
+              "loc": "TPC5",
+              "prof": "SEBAI"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Algo",
+              "loc": "387",
+              "prof": "MESSAOUDI"
+            }
+          }
+        }
+      ],
+      "Thursday": []
+    }
+  },
+  "M1_RSD": {
+    "specialty": "RSD",
+    "year": "1",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Res Prot",
+              "loc": "TP122",
+              "prof": "KOUCHI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Res Prot",
+              "loc": "TP122",
+              "prof": "KOUCHI"
+            }
+          }
+        }
+      ],
+      "Sunday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "GP",
+            "loc": "SC",
+            "prof": "KHEMISSA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "MEPS",
+              "loc": "R3",
+              "prof": "GHARBI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ASGBD",
+              "loc": "TP131",
+              "prof": "BERKANI"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Anglais",
+              "loc": "LABO LANG1",
+              "prof": "BOUDEFASSA"
+            },
+            "G4": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Res Prot",
+              "loc": "TP122",
+              "prof": "Bouachi"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "Anglais",
+              "loc": "LABO LANG",
+              "prof": "BOUDEFASSA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "Res Prot",
+              "loc": "TP122",
+              "prof": "Bouachi"
+            },
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "Algo.Av.et Compl",
+              "loc": "TP132",
+              "prof": "NEMOUCHI"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "Algo.Av.et Compl",
+              "loc": "454",
+              "prof": "MOSTEGHANEMI"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "Algo.Av.et Compl",
+              "loc": "TPC3B",
+              "prof": "NEMOUCHI"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "GP",
+              "loc": "TPC8",
+              "prof": "BOUCHAM"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "Algo.Av.et Compl",
+            "loc": "SC",
+            "prof": "MOSTEGHANEMI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "Res Prot",
+            "loc": "SC",
+            "prof": "DERDER"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "Anglais",
+              "loc": "LABO LANG1",
+              "prof": "BOUDEFASSA"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "Algo.Av.et Compl",
+              "loc": "267",
+              "prof": "MOSTEGHANEMI"
+            },
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ASGBD",
+              "loc": "TP128",
+              "prof": "FRIHI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G4": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ASGBD",
+              "loc": "TPC8",
+              "prof": "FRIHI"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ASGBD",
+              "loc": "TPC5",
+              "prof": "BERKANI"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "Algo.Av.et Compl",
+              "loc": "TPC8",
+              "prof": "NIID"
+            },
+            "G4": {
+              "Time": "08:00 - 09:30",
+              "Subject": "GP",
+              "loc": "TPC3B",
+              "prof": "BOUCHAM"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "GP",
+              "loc": "TPC3B",
+              "prof": "BOUCHAM"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "MEPS",
+              "loc": "449",
+              "prof": "GHARBI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Algo.Av.et Compl",
+              "loc": "TPC3B",
+              "prof": "MESSAOUDI"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Syst.Expl",
+              "loc": "401",
+              "prof": "MOUSSAOUI"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "MEPS",
+            "loc": "P",
+            "prof": "GHARBI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "ASGBD",
+            "loc": "149T",
+            "prof": "GUEBAILI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYST",
+              "loc": "TPC6",
+              "prof": "MEHDI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYST",
+              "loc": "TP131",
+              "prof": "MEHDI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G4": {
+              "Time": "14:40 - 16:10",
+              "Subject": "Algo.Av.et Compl",
+              "loc": "TP131",
+              "prof": "MESSAOUDI"
+            }
+          }
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SYST",
+              "loc": "360",
+              "prof": "ABDELLAHOUM"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "MEPS",
+              "loc": "160",
+              "prof": "GHARBI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "SYST",
+            "loc": "244T",
+            "prof": "MOUSSAOUI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYST",
+              "loc": "TP132",
+              "prof": "MEHDI"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "GP",
+              "loc": "TP130",
+              "prof": "BOUCHAM"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYST",
+              "loc": "450",
+              "prof": "ABDELLAHOUM"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G4": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SYST",
+              "loc": "TP131",
+              "prof": "MEHDI"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "M1_SII": {
+    "specialty": "SII",
+    "year": "1",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "MEPS",
+              "loc": "304",
+              "prof": "AMROUS"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "MEPS",
+            "loc": "E1",
+            "prof": "AMROUS"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "RES PB",
+            "loc": "E8",
+            "prof": "AZZOUNE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "RES PB",
+              "loc": "314",
+              "prof": "AZZOUNE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "MEPS",
+              "loc": "358",
+              "prof": "AMROUS"
+            },
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "RES PB",
+              "loc": "170",
+              "prof": "AZZOUNE"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPIL",
+              "loc": "TP131",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ASGBD",
+              "loc": "TP129",
+              "prof": "KOUAR"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SYST",
+              "loc": "TP128",
+              "prof": "Larbi"
+            },
+            "G4": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPLEXITE",
+              "loc": "TP127",
+              "prof": "MOULAI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SYST",
+              "loc": "TP131",
+              "prof": "Larbi"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPLEXITE",
+              "loc": "TP129",
+              "prof": "MOULAI"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ASGBD",
+              "loc": "TP128",
+              "prof": "NIID"
+            },
+            "G4": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPIL",
+              "loc": "TP127",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "COMPIL",
+              "loc": "TPC3A",
+              "prof": "NIID"
+            },
+            "G4": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ASGBD",
+              "loc": "TP127",
+              "prof": "Gun"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "COMPLEXITE",
+              "loc": "TP131",
+              "prof": "MOULAI"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "COMPIL",
+              "loc": "TP129",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "COMPLEXITE",
+              "loc": "TP129",
+              "prof": "MOULAI"
+            },
+            "G4": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SYST",
+              "loc": "TP127",
+              "prof": "Larbi"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "SYST",
+            "loc": "167T",
+            "prof": "ZEBBANE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG",
+              "prof": "ZENOUN"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPLEXITE",
+              "loc": "451",
+              "prof": "DRIAS"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SYST",
+              "loc": "439",
+              "prof": "ZEBBANE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYST",
+              "loc": "154",
+              "prof": "ZEBBANE"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG",
+              "prof": "ZENOUN"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "COMPIL",
+              "loc": "310",
+              "prof": "ALIOUANE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "COMPLEXITE",
+              "loc": "R5",
+              "prof": "DRIAS"
+            },
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG",
+              "prof": "ZENOUN"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "COMPLEXITE",
+              "loc": "C1",
+              "prof": "DRIAS"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "COMPIL",
+              "loc": "TPC7",
+              "prof": "ALIOUANE"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "COMPLEXITE",
+            "loc": "C1",
+            "prof": "DRIAS"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "COMPIL",
+            "loc": "C1",
+            "prof": "ALIOUANE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "COMPIL",
+              "loc": "TPC3B",
+              "prof": "ALIOUANE"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYST",
+              "loc": "307",
+              "prof": "ZEBBANE"
+            }
+          }
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ASGBD",
+              "loc": "TPC8",
+              "prof": "AZZOUZ"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "ASGBD",
+            "loc": "K",
+            "prof": "AZZOUZ"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "RES PB",
+              "loc": "404",
+              "prof": "AZZOUNE"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "MEPS",
+              "loc": "243",
+              "prof": "AMROUS"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "M1_SSI": {
+    "specialty": "SSI",
+    "year": "1",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "SYST",
+            "loc": "R3",
+            "prof": "BELKHIR"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "VTBDA",
+            "loc": "E5",
+            "prof": "ALIMAZIGHI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ARITH.MOD",
+              "loc": "217",
+              "prof": "DAHMANI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "ASPECT JUR",
+            "loc": "E1",
+            "prof": "BERBAR"
+          },
+          "groups": {}
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "ARITH.MOD",
+            "loc": "117D",
+            "prof": "DAHMANI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ARCH.RES",
+              "loc": "TP126",
+              "prof": "ZAFOUNE"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ARITH.MOD",
+              "loc": "TPC3A",
+              "prof": "DAHMANI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "ARCH.RES",
+            "loc": "117D",
+            "prof": "ZAFOUNE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG2",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ARCH.RES",
+              "loc": "TP126",
+              "prof": "ZAFOUNE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG",
+              "prof": "ANTRI"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SYST",
+              "loc": "453",
+              "prof": "BELKHIR"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "INTR.SECU",
+              "loc": "389",
+              "prof": "Mekliche"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "INTR.SECU",
+              "loc": "TP132",
+              "prof": "EL"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SYST",
+              "loc": "310",
+              "prof": "BELKHIR"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ARITH.MOD",
+              "loc": "C4",
+              "prof": "DAHMANI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ARITH.MOD",
+              "loc": "TP130",
+              "prof": "DAHMANI"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "VTBDA",
+              "loc": "TPC6",
+              "prof": "AZZOUZ"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SYST",
+              "loc": "TPC4",
+              "prof": "OURAHMOUNE"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "VTBDA",
+              "loc": "TPC6",
+              "prof": "AZZOUZ"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "INTR.SECU",
+              "loc": "TP132",
+              "prof": "EL"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SYST",
+              "loc": "TPC9",
+              "prof": "OURAHMOUNE"
+            }
+          }
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "INTR.SECU",
+            "loc": "103D",
+            "prof": "BERBAR"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "INTR.SECU",
+              "loc": "407",
+              "prof": "Mekliche"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPLEXITE",
+              "loc": "446",
+              "prof": "MOSTEGHANEMI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "COMPLEXITE",
+              "loc": "416",
+              "prof": "MOSTEGHANEMI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "COMPLEXITE",
+            "loc": "E8",
+            "prof": "MOSTEGHANEMI"
+          },
+          "groups": {}
+        }
+      ]
+    }
+  },
+  "M2_BIGDATA": {
+    "specialty": "BIGDATA",
+    "year": "2",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "OPTDIS",
+              "loc": "454",
+              "prof": "BOUMESBAH"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "TBI-SIG",
+              "loc": "TPC8",
+              "prof": "MEKAHLIA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "TBI-SIG",
+              "loc": "TPC8",
+              "prof": "MEKAHLIA"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "TIAD",
+              "loc": "TPC7",
+              "prof": "NECIR"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Anglais",
+              "loc": "LABO LANG",
+              "prof": "ZENOUN"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "Anglais",
+              "loc": "LABO LANG1",
+              "prof": "ZENOUN"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SOLO",
+              "loc": "TPC7",
+              "prof": "DAHMANI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": ") OPTDIS",
+              "loc": "E205 (TP math",
+              "prof": "BOUMESBAH"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "OPTDIS",
+              "loc": "444",
+              "prof": "BOUMESBAH"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "ANADISS",
+            "loc": "C3",
+            "prof": "HAMRANI ep ABDELLA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ANADISS",
+              "loc": "TP131",
+              "prof": "HAMRANI"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": ") OPTDIS",
+              "loc": "E105 (math",
+              "prof": "BOUMESBAH"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "TIAD",
+            "loc": "D5",
+            "prof": "NECIR"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "TIAD",
+              "loc": "TPC4",
+              "prof": "NECIR"
+            },
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ANADISS",
+              "loc": "TP131",
+              "prof": "HAMRANI"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "TBI-SIG",
+            "loc": "R3",
+            "prof": "MEKAHLIA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "SOLO",
+            "loc": "C4",
+            "prof": "DAHMANI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "BDABD",
+            "loc": "E5",
+            "prof": "FRIHI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "BDABD",
+              "loc": "TP126",
+              "prof": "FRIHI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "BDABD",
+              "loc": "TP127",
+              "prof": "FRIHI"
+            }
+          }
+        }
+      ],
+      "Wednesday": [],
+      "Thursday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "DESIN",
+              "loc": "162",
+              "prof": "MIHOUBI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "DESIN",
+            "loc": "113D",
+            "prof": "MIHOUBI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "DESIN",
+              "loc": "245",
+              "prof": "MIHOUBI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "OPTDIS",
+            "loc": "E105 (math)",
+            "prof": "CHERGUI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "OPTDIS",
+            "loc": "E105 (math)",
+            "prof": "CHERGUI"
+          },
+          "groups": {}
+        }
+      ]
+    }
+  },
+  "M2_BIOINFO": {
+    "specialty": "BIOINFO",
+    "year": "2",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "MCA",
+            "loc": "TPC6",
+            "prof": "GHARBI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Anglais--",
+              "loc": "LABO LANG1",
+              "prof": "ZENOUN"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "MCA",
+              "loc": "R3",
+              "prof": "GHARBI"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "SystEmb",
+            "loc": "113D",
+            "prof": "GUEBLI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SystEmb",
+              "loc": "405",
+              "prof": "GUEBLI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "CalPar-Arch",
+              "loc": "459",
+              "prof": "MEHDI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "CalPar-Arch",
+              "loc": "TPC3A",
+              "prof": "MEHDI"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "R\u00c3\u0192\u00c2\u00a9alit\u00c3\u0192\u00c2\u00a9Virt",
+              "loc": "TPC4",
+              "prof": "OURAHMOUNE"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "R\u00c3\u0192\u00c2\u00a9alit\u00c3\u0192\u00c2\u00a9Virt",
+            "loc": "D4",
+            "prof": "OURAHMOUNE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "FouilleDeDonn\u00c3\u0192\u00c2\u00a9es",
+            "loc": "D4",
+            "prof": "Baba ali"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "FouilleDeDonn\u00c3\u0192\u00c2\u00a9es",
+              "loc": "TPC3A",
+              "prof": "Baba"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "FouilleDeDonn\u00c3\u0192\u00c2\u00a9es",
+              "loc": "TPC3A",
+              "prof": "Baba"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "Bio",
+            "loc": "103D",
+            "prof": "EL NAGGER"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "CalPar-Arch",
+            "loc": "320",
+            "prof": "MEHDI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SystEmb",
+              "loc": "TP127",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "Bio",
+              "loc": "TP132",
+              "prof": "EL"
+            }
+          }
+        }
+      ],
+      "Thursday": []
+    }
+  },
+  "M2_IL": {
+    "specialty": "IL",
+    "year": "2",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "MPDL",
+              "loc": "363",
+              "prof": "HACHEMI"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ENT DON",
+              "loc": "TPC7",
+              "prof": "SELMOUNE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ASS QUAL",
+              "loc": "TPC3A",
+              "prof": "CHABOUNI"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "MPDL",
+              "loc": "441",
+              "prof": "HACHEMI"
+            },
+            "G4": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ENT DON",
+              "loc": "TPC6",
+              "prof": "SELMOUNE"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "ENT DON",
+            "loc": "E1",
+            "prof": "SELMOUNE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "MPDL",
+              "loc": "430D",
+              "prof": "HACHEMI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ASS QUAL",
+              "loc": "TPC5",
+              "prof": "CHABOUNI"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "REP CON",
+              "loc": "446",
+              "prof": "ISLI"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG",
+              "prof": "BOUDEFASSA"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ASS QUAL",
+              "loc": "375",
+              "prof": "CHABOUNI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ASS QUAL",
+              "loc": "442",
+              "prof": "CHABOUNI"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG",
+              "prof": "BOUDEFASSA"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "REP CON",
+            "loc": "C1",
+            "prof": "ISLI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ASS QUAL",
+              "loc": "412",
+              "prof": "CHABOUNI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "CPT AVANC",
+              "loc": "TPC5",
+              "prof": "Saadi"
+            },
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "ASS QUAL",
+              "loc": "TPC3A",
+              "prof": "CHABOUNI"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "MPDL",
+              "loc": "TPC3A",
+              "prof": "ABBACI"
+            },
+            "G4": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SIC",
+              "loc": "TP130",
+              "prof": "MAHDAOUI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "MPDL",
+              "loc": "TPC6",
+              "prof": "ABBACI"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "REP CON",
+              "loc": "TPC9",
+              "prof": "ISLI"
+            },
+            "G4": {
+              "Time": "09:40 - 11:10",
+              "Subject": "MPDL",
+              "loc": "TP131",
+              "prof": "HACHEMI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG2",
+              "prof": "BOUDEFASSA"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "REP CON",
+              "loc": "TPC9",
+              "prof": "ISLI"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "MPDL",
+              "loc": "TP132",
+              "prof": "HACHEMI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "SIC",
+            "loc": "125T",
+            "prof": "MAHDAOUI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "MPDL",
+            "loc": "W",
+            "prof": "HACHEMI"
+          },
+          "groups": {}
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SIC",
+              "loc": "TP131",
+              "prof": "MAHDAOUI"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ENT DON",
+              "loc": "TP126",
+              "prof": "SELMOUNE"
+            },
+            "G4": {
+              "Time": "08:00 - 09:30",
+              "Subject": "CPT AVANC",
+              "loc": "TP122",
+              "prof": "Saadi"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ENT DON",
+              "loc": "TP126",
+              "prof": "SELMOUNE"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SIC",
+              "loc": "TP131",
+              "prof": "MAHDAOUI"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "CPT AVANC",
+              "loc": "TP122",
+              "prof": "Saadi"
+            },
+            "G4": {
+              "Time": "09:40 - 11:10",
+              "Subject": "CPT AVANC",
+              "loc": "TPC3B",
+              "prof": "CHABOUNI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "ASS QUAL",
+            "loc": "C7",
+            "prof": "haddouche epse che"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "CPT AVANC",
+            "loc": "143T",
+            "prof": "Saadi"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "CPT AVANC",
+              "loc": "TPC6",
+              "prof": "Saadi"
+            },
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "SIC",
+              "loc": "TP130",
+              "prof": "MAHDAOUI"
+            }
+          }
+        }
+      ],
+      "Thursday": []
+    }
+  },
+  "M2_MIV": {
+    "specialty": "MIV",
+    "year": "2",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "Syst\u00c3\u0192\u00c2\u00a8me d'Exploitation Mobile",
+              "loc": "162",
+              "prof": "OURAHMOUNE"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "TH Thursday",
+              "loc": "118",
+              "prof": "DAHMANI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "Visualisation de Donn\u00c3\u0192\u00c2\u00a9es",
+            "loc": "135D",
+            "prof": "LARABI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "Syst\u00c3\u0192\u00c2\u00a8me d'Exploitation Mobile",
+            "loc": "117D",
+            "prof": "OURAHMOUNE"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "Visualisation de Donn\u00c3\u0192\u00c2\u00a9es",
+              "loc": "TP128",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "Syst\u00c3\u0192\u00c2\u00a8me d'Exploitation Mobile",
+              "loc": "TPC4",
+              "prof": "OURAHMOUNE"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "Visualisation de Donn\u00c3\u0192\u00c2\u00a9es",
+              "loc": "TP130",
+              "prof": "ANTRI"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "PROG RES",
+            "loc": "SC",
+            "prof": "EL NAGGER"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Connaissances et Raisonnement",
+              "loc": "TPC4",
+              "prof": "KHELLAF"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Atelier Cr\u00c3\u0192\u00c2\u00a9atif",
+              "loc": "TPC5",
+              "prof": "LARABI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Atelier Cr\u00c3\u0192\u00c2\u00a9atif",
+              "loc": "TPC5",
+              "prof": "LARABI"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Synth\u00c3\u0192\u00c2\u00a8se d'Image",
+              "loc": "TP128",
+              "prof": "Dahmane"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "Synth\u00c3\u0192\u00c2\u00a8se d'Image",
+              "loc": "TP132",
+              "prof": "Dahmane"
+            }
+          }
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "GP-",
+            "loc": "103D",
+            "prof": "HACHEMI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "Synth\u00c3\u0192\u00c2\u00a8se d'Image",
+            "loc": "103D",
+            "prof": "Dahmane"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Syst\u00c3\u0192\u00c2\u00a8me d'Exploitation Mobile",
+              "loc": "TPC5",
+              "prof": "OURAHMOUNE"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "GP-",
+              "loc": "TP127",
+              "prof": "BENSALAH"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "PROG RES",
+              "loc": "TPC6",
+              "prof": "ANTRI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "GP-",
+              "loc": "TPC7",
+              "prof": "BENSALAH"
+            },
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "PROG RES",
+              "loc": "TPC6",
+              "prof": "ANTRI"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "TH Thursday",
+              "loc": "402",
+              "prof": "DAHMANI"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "Syst\u00c3\u0192\u00c2\u00a8me d'Exploitation Mobile",
+              "loc": "338",
+              "prof": "OURAHMOUNE"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "Connaissances et Raisonnement",
+            "loc": "R4",
+            "prof": "KHELLAF"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "TH Thursday",
+            "loc": "D5",
+            "prof": "DAHMANI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "TH Thursday",
+              "loc": "TPC5",
+              "prof": "BACHEN"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "Connaissances et Raisonnement",
+              "loc": "TPC6",
+              "prof": "belhadi"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "TH Thursday",
+              "loc": "TPC3A",
+              "prof": "ANTRI"
+            }
+          }
+        }
+      ],
+      "Thursday": []
+    }
+  },
+  "M2_RSD": {
+    "specialty": "RSD",
+    "year": "2",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "CAL.PAR",
+              "loc": "TP127",
+              "prof": "BOUGHACI"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "CAR",
+              "loc": "TP130",
+              "prof": "BOULKRINAT"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "RES MOB",
+              "loc": "TP131",
+              "prof": "Saadi"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "CAR",
+              "loc": "TP130",
+              "prof": "BOULKRINAT"
+            },
+            "G4": {
+              "Time": "09:40 - 11:10",
+              "Subject": "CAL.PAR",
+              "loc": "TP127",
+              "prof": "BOUGHACI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "CAR",
+            "loc": "SC",
+            "prof": "BOULKRINAT"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "CAR",
+              "loc": "TP130",
+              "prof": "BOULKRINAT"
+            },
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "RES MOB",
+              "loc": "TP131",
+              "prof": "Saadi"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "CAR",
+              "loc": "TP130",
+              "prof": "BOULKRINAT"
+            },
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "CAL.PAR",
+              "loc": "TP127",
+              "prof": "BOUGHACI"
+            },
+            "G4": {
+              "Time": "14:40 - 16:10",
+              "Subject": "RES MOB",
+              "loc": "TP131",
+              "prof": "Saadi"
+            }
+          }
+        }
+      ],
+      "Sunday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "RES S F",
+              "loc": "TP132",
+              "prof": "BENKAOUHA"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ING-RES",
+              "loc": "TP122",
+              "prof": "zeraoulia"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "RES S F",
+            "loc": "143T",
+            "prof": "BENKAOUHA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "ING-RES",
+              "loc": "TPC5",
+              "prof": "Zeraoulia"
+            },
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "RES S F",
+              "loc": "TP126",
+              "prof": "BENKAOUHA"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "RES MOB",
+            "loc": "E8",
+            "prof": "BENCHAIBA"
+          },
+          "groups": {}
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G4": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ing-res",
+              "loc": "TP132",
+              "prof": "Zeraoulia"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "RES S F",
+              "loc": "TPC6",
+              "prof": "BENKAOUHA"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ING-RES",
+              "loc": "TP122",
+              "prof": "Zeraoulia"
+            },
+            "G4": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SYS.DISTR",
+              "loc": "TP132",
+              "prof": "Seddiki"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ANGLAIS",
+              "loc": "Labo langue B2",
+              "prof": "BOUDEFASSA"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS.DISTR",
+              "loc": "TPC3B",
+              "prof": "Seddiki"
+            },
+            "G4": {
+              "Time": "11:20 - 12:50",
+              "Subject": "RES S F",
+              "loc": "TPC8",
+              "prof": "BENKAOUHA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "RES MOB",
+              "loc": "TPC4",
+              "prof": "Saadi"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "ing-res",
+            "loc": "167T",
+            "prof": "zeraoulia"
+          },
+          "groups": {}
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "CAL.PAR",
+              "loc": "408",
+              "prof": "BOUGHACI"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG1",
+              "prof": "BOUDEFASSA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "SYS.DISTR",
+              "loc": "TP126",
+              "prof": "Seddiki"
+            },
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG2",
+              "prof": "BOUDEFASSA"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "CAL.PAR",
+              "loc": "TP127",
+              "prof": "BOUGHACI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "SYS.DISTR",
+              "loc": "TP131",
+              "prof": "Seddiki"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "CAL.PAR",
+            "loc": "E1",
+            "prof": "BOUGHACI"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "SYS.DISTR",
+            "loc": "D7",
+            "prof": "Seddiki"
+          },
+          "groups": {}
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G4": {
+              "Time": "08:00 - 09:30",
+              "Subject": "CAR",
+              "loc": "TP127",
+              "prof": "BOULKRINAT"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G4": {
+              "Time": "09:40 - 11:10",
+              "Subject": "CAR",
+              "loc": "TP127",
+              "prof": "BOULKRINAT"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "RES MOB",
+            "loc": "C2",
+            "prof": "BENCHAIBA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "CAR",
+              "loc": "TPC8",
+              "prof": "BOULKRINAT"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "CAR",
+              "loc": "TPC8",
+              "prof": "BOULKRINAT"
+            },
+            "G3": {
+              "Time": "14:40 - 16:10",
+              "Subject": "CAL.PAR",
+              "loc": "375",
+              "prof": "BOUGHACI"
+            }
+          }
+        }
+      ],
+      "Thursday": []
+    }
+  },
+  "M2_SII": {
+    "specialty": "SII",
+    "year": "2",
+    "Semestre": "1",
+    "days": {
+      "Saturday": [],
+      "Sunday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "D.MINING",
+              "loc": "TP130",
+              "prof": "Houacine"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "P .CONTR",
+              "loc": "407",
+              "prof": "ISLI"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "09:40 - 11:10",
+            "Subject": "RI",
+            "loc": "R8",
+            "prof": "KECHID"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "D.MINING",
+              "loc": "TPC3A",
+              "prof": "Houacine"
+            },
+            "G3": {
+              "Time": "11:20 - 12:50",
+              "Subject": "REP CON",
+              "loc": "TPC6",
+              "prof": "MOULAI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "13:00 - 14:30",
+              "Subject": "P .CONTR",
+              "loc": "TPC3A",
+              "prof": "ISLI"
+            },
+            "G2": {
+              "Time": "13:00 - 14:30",
+              "Subject": "REP CON",
+              "loc": "TPC3B",
+              "prof": "MOULAI"
+            },
+            "G3": {
+              "Time": "13:00 - 14:30",
+              "Subject": "D.MINING",
+              "loc": "TPC6",
+              "prof": "Houacine"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "14:40 - 16:10",
+              "Subject": "REP CON",
+              "loc": "TPC6",
+              "prof": "MOULAI"
+            },
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "P .CONTR",
+              "loc": "TPC3B",
+              "prof": "ISLI"
+            }
+          }
+        }
+      ],
+      "Monday": [
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "D.MINING",
+              "loc": "TPC7",
+              "prof": "DRIAS"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "VISION",
+              "loc": "TP130",
+              "prof": "ABADA"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "P .CONTR",
+              "loc": "446",
+              "prof": "ISLI"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "D.MINING",
+              "loc": "444",
+              "prof": "DRIAS"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "D.MINING",
+              "loc": "410",
+              "prof": "DRIAS"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG1",
+              "prof": "ZENOUN"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "TAL",
+            "loc": "149T",
+            "prof": "TAMEN"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "14:40 - 16:10",
+            "Subject": "P .CONTR",
+            "loc": "SC",
+            "prof": "ISLI"
+          },
+          "groups": {}
+        }
+      ],
+      "Tuesday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "VISION",
+              "loc": "TP127",
+              "prof": "ABADA"
+            },
+            "G2": {
+              "Time": "08:00 - 09:30",
+              "Subject": "RI",
+              "loc": "TP132",
+              "prof": "KHENNAK"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "P .CONTR",
+              "loc": "TPC9",
+              "prof": "ISLI"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "09:40 - 11:10",
+              "Subject": "VISION",
+              "loc": "TP128",
+              "prof": "ABADA"
+            }
+          }
+        },
+        {
+          "cours": {
+            "Time": "11:20 - 12:50",
+            "Subject": "D.MINING",
+            "loc": "238T",
+            "prof": "DRIAS"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {
+            "Time": "13:00 - 14:30",
+            "Subject": "VISION",
+            "loc": "C7",
+            "prof": "ABADA"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G2": {
+              "Time": "14:40 - 16:10",
+              "Subject": "P .CONTR",
+              "loc": "442",
+              "prof": "ISLI"
+            }
+          }
+        }
+      ],
+      "Wednesday": [
+        {
+          "cours": {
+            "Time": "08:00 - 09:30",
+            "Subject": "REP CON",
+            "loc": "149T",
+            "prof": "KHELLAF"
+          },
+          "groups": {}
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG",
+              "prof": "ZENOUN"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ANGLAIS",
+              "loc": "LABO LANG",
+              "prof": "ZENOUN"
+            },
+            "G2": {
+              "Time": "11:20 - 12:50",
+              "Subject": "TAL",
+              "loc": "TPC3B",
+              "prof": "TAMEN"
+            }
+          }
+        }
+      ],
+      "Thursday": [
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "08:00 - 09:30",
+              "Subject": "TAL",
+              "loc": "TP132",
+              "prof": "TAMEN"
+            },
+            "G3": {
+              "Time": "08:00 - 09:30",
+              "Subject": "RI",
+              "loc": "TP126",
+              "prof": "KHENNAK"
+            }
+          }
+        },
+        {
+          "cours": {},
+          "groups": {
+            "G1": {
+              "Time": "09:40 - 11:10",
+              "Subject": "RI",
+              "loc": "TP126",
+              "prof": "KHENNAK"
+            },
+            "G3": {
+              "Time": "09:40 - 11:10",
+              "Subject": "TAL",
+              "loc": "TP132",
+              "prof": "TAMEN"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
