@@ -19,9 +19,21 @@
 
     <script>
         const nav = document.getElementById('nav');
+        const counter = {
+            counter1: 0,
+            counter2: 0
+        }
         nav.addEventListener("click", (evt) => {
             console.log("Click HEHE");
             console.log(evt.target.innerText);
+            counter.counter1++;
+            console.log(counter.counter1);
+        });
+        nav.addEventListener("click", (evt) => {
+            console.log("Click HEHE");
+            console.log(evt.target.innerText);
+            counter.counter1++;
+            console.log(counter.counter1);
         });
     </script>
 

@@ -53,6 +53,7 @@ ul {
   bottom: 0px;
   display: flex;
   justify-content: center;
+  /* pointer-events: ; */
 }
 .nav-btn {
   margin-right: 1rem;
