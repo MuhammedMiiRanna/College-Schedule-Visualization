@@ -66,7 +66,7 @@ function getTeachersData(form) {
     daySessions.appendChild(daySessionsHeading);
   }
 
-  fillTeacherCard(teachersDays[teacherFirstDay]);
+  fillTeacherCard(submitedData["teachers"], teachersDays[teacherFirstDay]);
   removeChilds(teachersNav);
   addTeacherNavBtns(teachersNav, weekDays, daySessions, teachersDays, teacherFirstDay);
   teacherCard.style.visibility = "visible"; // making the float-card visible
@@ -78,7 +78,7 @@ function getTeachersData(form) {
       removeChilds(daySessions, 1);
       removeChilds(weekDays, 1);
       addTeacherNavBtns(teachersNav, weekDays, daySessions, teachersDays, dayIndex);
-      fillTeacherCard(teachersDays[dayIndex]);
+      fillTeacherCard(submitedData["teachers"], teachersDays[dayIndex]);
     }
   });
 
@@ -87,7 +87,7 @@ function getTeachersData(form) {
     const sessionIndex = evt.target.id.split("-")[2];
     const tSessionIndex = evt.target.innerText;
     if (sessionIndex !== undefined) {
-      fillTeacherCard(teachersDays[dayIndex], sessionIndex, tSessionIndex);
+      fillTeacherCard(submitedData["teachers"], teachersDays[dayIndex], sessionIndex, tSessionIndex);
     }
   });
 }
@@ -204,11 +204,12 @@ function fillFloatCard(submitedData, sessions) {
   }
 }
 
-function fillTeacherCard(sessionData, sessionIndex = Object.keys(sessionData)[0], tSessionIndex = 1) {
+function fillTeacherCard(tName, sessionData, sessionIndex = Object.keys(sessionData)[0], tSessionIndex = 1) {
   const cardBody = document.querySelector("#t-card-body");
   // fill card body
   cardBody.innerHTML =
     '<ul>' +
+    '  <li>Teacher: <span id="t-card-name">' + tName + '</span></li>' +
     '  <li>Day: <span id="t-card-day">' + sessionData[sessionIndex]["day"] + '</span></li>' +
     '  <li>Session: <span id="t-card-session">' + tSessionIndex + '</span></li>' +
     '  <li>Time: <span id="t-card-session">' + sessionData[sessionIndex]["session_num"] + " " + sessionData[sessionIndex]["session"] + '</span></li>' +
