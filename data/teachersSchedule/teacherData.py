@@ -78,7 +78,7 @@ extension = ".json"
 
 data_Direc = "data/general_schedules/"
 data_files = map(lambda x: x[:x.index(".json")], listdir(data_Direc))
-data_file = "data/FacTeachersData.json"
+data_file = "data/teachersSchedule/FacTeachersData.json"
 
 teachers = {}
 days_tradict = {
