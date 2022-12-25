@@ -1,11 +1,16 @@
 import teachersData from "/data/teachersSchedule/FacTeachersData.json" assert { type: "json" };
-import M1_IV from "/data/data M1.json" assert { type: "json" };
-import M2_IV from "/data/data M2.json" assert { type: "json" };
+// import M1_IV from "/data/data M1.json" assert { type: "json" };
+// import M2_IV from "/data/data M2.json" assert { type: "json" };
+import data from "/data/schedulesFile.json" assert { type: "json" };
 
-const data = {
-  1: M1_IV,
-  2: M2_IV,
-};
+const counter = {
+  navBtns: 0
+  // this will help in the repeated event issue 
+}
+// const data = {
+//   1: M1_IV,
+//   2: M2_IV,
+// };
 
 
 // Main functions
@@ -22,13 +27,16 @@ function getSessionsData(submitedData) {
   addNavButtons(navBtns, sessions.length); // adding the navigation buttons
   floatCard.style.visibility = "visible"; // making the float-card visible
 
-  navBtns.addEventListener('click', function (evt) { // add the EventListener
-    // const sessions = data[submitedData["year"]]["days"][submitedData["day"]];
-    // console.log("sessions", sessions);
-    console.log("submitedData", submitedData);
-    submitedData["session"] = parseInt(evt.target.id[3]);
-    fillFloatCard(submitedData, sessions);
-  });
+  if (counter.navBtns === 0) {
+    counter.navBtns++;
+    navBtns.addEventListener('click', (evt) => { // add the EventListener
+      // const sessions = data[submitedData["year"]]["days"][submitedData["day"]];
+      submitedData["session"] = parseInt(evt.target.id[3]);
+      if (submitedData["session"] === 0 || Boolean(submitedData["session"])) {
+        fillFloatCard(submitedData, sessions);
+      }
+    });
+  }
 }
 
 function getTeachersData(form) {
@@ -64,19 +72,23 @@ function getTeachersData(form) {
   teacherCard.style.visibility = "visible"; // making the float-card visible
   teachersNav.style.visibility = "visible";
 
-  weekDays.addEventListener('click', function (evt) {
+  weekDays.addEventListener('click', (evt) => {
     const dayIndex = evt.target.id.split("-")[2];
-    removeChilds(daySessions, 1);
-    removeChilds(weekDays, 1);
-    addTeacherNavBtns(teachersNav, weekDays, daySessions, teachersDays, dayIndex);
-    fillTeacherCard(teachersDays[dayIndex]);
+    if (dayIndex !== undefined) {
+      removeChilds(daySessions, 1);
+      removeChilds(weekDays, 1);
+      addTeacherNavBtns(teachersNav, weekDays, daySessions, teachersDays, dayIndex);
+      fillTeacherCard(teachersDays[dayIndex]);
+    }
   });
 
-  daySessions.addEventListener('click', function (evt) {
+  daySessions.addEventListener('click', (evt) => {
     const dayIndex = document.getElementById('t-card-day').innerText;
     const sessionIndex = evt.target.id.split("-")[2];
     const tSessionIndex = evt.target.innerText;
-    fillTeacherCard(teachersDays[dayIndex], sessionIndex, tSessionIndex);
+    if (sessionIndex !== undefined) {
+      fillTeacherCard(teachersDays[dayIndex], sessionIndex, tSessionIndex);
+    }
   });
 }
 
@@ -133,11 +145,11 @@ function fillFloatCard(submitedData, sessions) {
   const cardBody = document.querySelector("#float-card-body");
   // fill card head
   for (const cardPart of cardSpec) {
-    cardPart.textContent = "Master";
+    cardPart.textContent = submitedData['year'].split("_")[1];
   }
-  for (const cardPart of cardYear) {
-    cardPart.textContent = submitedData["year"];
-  }
+  // for (const cardPart of cardYear) {
+  //   cardPart.textContent = submitedData["year"];
+  // }
   // fill card body
   cardBody.innerHTML =
     "<ul>" +
