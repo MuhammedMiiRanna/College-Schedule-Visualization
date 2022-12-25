@@ -1,3 +1,9 @@
+{
+//   "id": 1,
+//   "name": "John Doe",
+//   "age": 12
+// };
+
     // const tempweekDays = document.createElement('div');
     // const daySessions = document.createElement('div');
 

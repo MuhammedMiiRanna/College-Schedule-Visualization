@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="btn">Item 1</div>
+        <div class="btn">Item 2</div>
+        <div class="btn">Item 3</div>
+        <div class="btn">Item 4</div>
+        <div class="btn">Item 5</div>
+    </nav>
+
+    <script>
+        const nav = document.getElementById('nav');
+        nav.addEventListener("click", (evt) => {
+            console.log("Click HEHE");
+            console.log(evt.target.innerText);
+        });
+    </script>
+
+</body>
+
+</html>
