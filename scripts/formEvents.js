@@ -1,11 +1,10 @@
-import dataM1 from "/data/data M1.json" assert { type: "json" };
-import dataM2 from "/data/data M2.json" assert { type: "json" };
-import teachersData from "/data/FacTeachersData.json" assert { type: "json" };
-// import teachersData from "/data/teachersData.json" assert { type: "json" };
+import teachersData from "/data/teachersSchedule/FacTeachersData.json" assert { type: "json" };
+import M1_IV from "/data/data M1.json" assert { type: "json" };
+import M2_IV from "/data/data M2.json" assert { type: "json" };
 
 const data = {
-  1: dataM1,
-  2: dataM2,
+  1: M1_IV,
+  2: M2_IV,
 };
 
 
@@ -13,18 +12,20 @@ const data = {
 function getSessionsData(submitedData) {
   // Selecting elements + the needed data
   const sessions = data[submitedData["year"]]["days"][submitedData["day"]];
+  // sessions: (5) [{…}, {…}, {…}, {…}, {…}]
   // submitedData {year: '1', semester: '1', day: 'Sunday'; session: '1'}
   const navBtns = document.getElementById("nav-btns");
   const floatCard = document.getElementById("float-card");
 
   removeChilds(navBtns); // remove all childs of the div
-  console.log("HNAYA submitedData", submitedData);
-  console.log("HNAYA sessions", sessions);
   fillFloatCard(submitedData, sessions); // add the info of the selected session to the float-card
   addNavButtons(navBtns, sessions.length); // adding the navigation buttons
   floatCard.style.visibility = "visible"; // making the float-card visible
 
   navBtns.addEventListener('click', function (evt) { // add the EventListener
+    // const sessions = data[submitedData["year"]]["days"][submitedData["day"]];
+    // console.log("sessions", sessions);
+    console.log("submitedData", submitedData);
     submitedData["session"] = parseInt(evt.target.id[3]);
     fillFloatCard(submitedData, sessions);
   });
