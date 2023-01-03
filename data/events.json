@@ -1,6 +1,5 @@
-[
-  {
-    "name": "formation",
+{
+  "formation": {
     "orginizer": "cisco",
     "location": "auditorium",
     "year": "2022",
@@ -8,12 +7,11 @@
     "day": "26",
     "descreption": "taht's the descreption of the"
   },
-  {
-    "name": "",
+  "TedEx talk": {
     "location": "",
     "year": "",
     "month": "",
     "day": "",
     "descreption": ""
   }
-]
+}
