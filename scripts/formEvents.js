@@ -1,7 +1,9 @@
+import { removeChilds, getTeachersData } from './formsLib.js';
+import { getEventsData, fillSelectedTypeList } from './events.js';
+import { getSessionsData } from './formsLib.js';
 
-import { removeChilds, getTeachersData, getSessionsData } from './formsLib.js';
 
-
+// SCHEDULES:
 document.getElementById("schedule-submit").addEventListener("click", function (evt) {
   evt.preventDefault();
   const form = document.getElementById("sessionsForm");
@@ -12,6 +14,7 @@ document.getElementById("schedule-submit").addEventListener("click", function (e
   getSessionsData(submitedData);
 });
 
+// TEACHERS:
 document.getElementById("teachers-submit").addEventListener("click", function (evt) {
   evt.preventDefault();
   const form = document.getElementById("teachersForm")
@@ -22,14 +25,20 @@ document.getElementById("teachers-submit").addEventListener("click", function (e
   getTeachersData(submitedData);
 });
 
+// 
+
+// CLEAR:
 document.getElementById("schedule-clear").addEventListener("click", function (evt) {
   document.getElementById('float-card').style.visibility = "hidden";
   document.getElementById('teacher-card').style.visibility = "hidden";
   removeChilds(document.getElementById('nav-btns'));
   removeChilds(document.getElementById('teachers-nav'));
+  removeChilds(document.getElementById('events-nav'));
   console.log("Page Cleared!!");
 });
 
+// EVENTS:
+// Submitting the events form:
 document.getElementById("eventsSubmit").addEventListener("click", function (evt) {
   evt.preventDefault();
   const form = document.getElementById("eventsForm")
@@ -40,6 +49,7 @@ document.getElementById("eventsSubmit").addEventListener("click", function (evt)
   removeChilds(document.getElementById('nav-btns'));
   removeChilds(document.getElementById('teachers-nav'));
   console.log("submitedData", submitedData);
+  getEventsData(submitedData);
   // getEventData(submitedData);
   // TODO create this function
   // TODO create hideAll li dir had khedma =+> 
@@ -49,5 +59,15 @@ document.getElementById("eventsSubmit").addEventListener("click", function (evt)
   //  - removeChilds(document.getElementById('teachers-nav'));
 });
 
-// TODO: Next time try to chnage the 2nd form input according to the first input  
+// changing the type options 
+document.getElementById('showsBy').addEventListener("click", function (evt) {
+  var selectedOption = evt.target.options[evt.target.selectedIndex].innerHTML;
+  removeChilds(document.getElementById('selectedType'));
+  fillSelectedTypeList(selectedOption);
+});
+
+
+// TODO: Next time try to chnage the 2nd form input according to the first input
 // https://code.mu/en/javascript/book/prime/dom/form/select/selected-item-changing/
+
+// showsBy events:

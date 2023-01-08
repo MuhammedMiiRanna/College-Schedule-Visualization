@@ -90,11 +90,12 @@ export function getTeachersData(submitedData) {
 }
 
 // /////////////// FUNCTIONS section ///////////////
-export function removeChilds(navBtns, leaveChild) {
+export function removeChilds(element, leaveChild) {
+    // element parameter was named navBtns
     // remove last childs of the navBtns element
     leaveChild = typeof leaveChild === 'undefined' ? 0 : leaveChild;
-    while (navBtns.childNodes.length > leaveChild) {
-        navBtns.removeChild(navBtns.lastChild);
+    while (element.childNodes.length > leaveChild) {
+        element.removeChild(element.lastChild);
     }
 }
 
