@@ -52,6 +52,20 @@
 				<p>Teacher-Card</p>
 			</div>
 		</div>
+		<div id="events-card" class="card">
+			<div id="" class="card-header card-hq">
+				<p class="card-q">K</p>
+				<p><span class="card-orginizer"></span> <span class="card-year"></span></p>
+			</div>
+			<div id="events-card-body" class="card-body">
+				<!-- we'll add this dynamically -->
+
+			</div>
+			<div id="" class="card-footer card-hq">
+				<p class="card-q">K</p>
+				<p><span class="card-orginizer"></span> <span class="card-year"></span></p>
+			</div>
+		</div>
 	</section>
 
 	<section id="forms-container" class="inline-block-display form">
@@ -131,10 +145,16 @@
 		<form action="" id="eventsForm" class="form">
 			<div class="group">
 				<div class="inline-block-display">
-					<label for="events">Events</label>
+					<label for="showsBy">Shows By</label>
 					<br>
-					<select name="events" id="events">
-						<option value="1">Event HEHE</option>
+					<select name="showsBy" id="showsBy">
+					</select>
+				</div>
+				<div class="inline-block-display">
+					<label for="selectedType">Type</label>
+					<br>
+					<!-- <select name="selectedType" id="selectedType"> -->
+					<select name="selectedType" id="selectedType">
 					</select>
 				</div>
 			</div>
@@ -149,6 +169,7 @@
 	<!-- scripts that add dunamic data like teachers's names... -->
 	<script type="module" src="/scripts/addDynamicData.js"></script>
 	<script type="module" src="/scripts/formEvents.js"></script>
+	<script type="module" src="/scripts/events.js"></script>
 
 </body>
 
