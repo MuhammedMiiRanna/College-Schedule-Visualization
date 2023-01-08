@@ -9,3 +9,11 @@ le numéro du groupe et/ou la section, et
 l’enseignant.
 
 Ajouter la visualisation des locaux utilisés par un enseignant donné.
+
+
+
+functions learned and used:
+- Array.isArray()
+- Object.keys()
+- Object... nsitha fakrona
+- 

@@ -1,3 +1,24 @@
+// 
+// document.getElementById('showsBy').addEventListener("click", function (evt) {
+// document.querySelector('#showsBy > option').addEventListener("click", function (evt) {
+//     console.log("click HH", evt);
+// });
+// console.log("events opti)ons list has been loaded !!");
+// $("#showsBy option").each(function () {
+//     const class2 = $(this).html();
+//     addClass(class2);
+// });
+// $('#showsBy > option').each(function () {
+//     $(this).addClass($(this).attr('value'));
+// });
+// $('#showsBy option').each(function() {
+//     $(this).addClass($(this).val());
+// });
+// $('#showsBy option').addClass(function () {
+//     return this.value;
+// });
+
+
 {
 //   "id": 1,
 //   "name": "John Doe",
