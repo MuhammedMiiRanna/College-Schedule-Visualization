@@ -1,7 +1,13 @@
+import eventsData from "/data/eventsData.json" assert { type: "json" };
 import { removeChilds, getTeachersData } from './formsLib.js';
 import { getEventsData, fillSelectedTypeList } from './events.js';
-import { getSessionsData } from './formsLib.js';
+import { getSessionsData, fillClassrooms } from './formsLib.js';
 
+// SVGs :
+const svgElements = document.querySelector('svg');
+svgElements.addEventListener('click', (evt) => {
+  console.log("Local: " + evt.target.id);
+});
 
 // SCHEDULES:
 document.getElementById("schedule-submit").addEventListener("click", function (evt) {
@@ -25,12 +31,11 @@ document.getElementById("teachers-submit").addEventListener("click", function (e
   getTeachersData(submitedData);
 });
 
-// 
-
 // CLEAR:
 document.getElementById("schedule-clear").addEventListener("click", function (evt) {
   document.getElementById('float-card').style.visibility = "hidden";
   document.getElementById('teacher-card').style.visibility = "hidden";
+  fillClassrooms([]);
   removeChilds(document.getElementById('nav-btns'));
   removeChilds(document.getElementById('teachers-nav'));
   removeChilds(document.getElementById('events-nav'));
@@ -48,7 +53,7 @@ document.getElementById("eventsSubmit").addEventListener("click", function (evt)
   document.getElementById('teacher-card').style.visibility = "hidden";
   removeChilds(document.getElementById('nav-btns'));
   removeChilds(document.getElementById('teachers-nav'));
-  console.log("submitedData", submitedData);
+  console.log(">> submitedData: ", submitedData);
   getEventsData(submitedData);
   // getEventData(submitedData);
   // TODO create this function
@@ -63,11 +68,10 @@ document.getElementById("eventsSubmit").addEventListener("click", function (evt)
 document.getElementById('showsBy').addEventListener("click", function (evt) {
   var selectedOption = evt.target.options[evt.target.selectedIndex].innerHTML;
   removeChilds(document.getElementById('selectedType'));
-  fillSelectedTypeList(selectedOption);
+  fillSelectedTypeList(selectedOption, eventsData);
 });
 
 
 // TODO: Next time try to chnage the 2nd form input according to the first input
 // https://code.mu/en/javascript/book/prime/dom/form/select/selected-item-changing/
-
 // showsBy events:

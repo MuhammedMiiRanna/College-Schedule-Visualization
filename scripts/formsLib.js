@@ -12,6 +12,13 @@ const counter = {
     navBtns: 0 // this will help in the repeated event issue 
 };
 
+export const classrooms = {
+    // this will help in reseting the colors
+    defaultColor: "#fff",
+    fillColor: "red",
+    id: []
+}
+
 // Main functions
 export function getSessionsData(submitedData) {
     // Selecting elements + the needed data
@@ -94,8 +101,16 @@ export function removeChilds(element, leaveChild) {
     // element parameter was named navBtns
     // remove last childs of the navBtns element
     leaveChild = typeof leaveChild === 'undefined' ? 0 : leaveChild;
-    while (element.childNodes.length > leaveChild) {
-        element.removeChild(element.lastChild);
+    // TODO try this in here: (element.childElementCount !== 0) 
+    // while (element.hasChildNodes()) {
+    if (leaveChild === 0) {
+        while (element.hasChildNodes()) {
+            element.removeChild(element.lastChild);
+        }
+    } else {
+        while (element.children.length > leaveChild) {
+            element.removeChild(element.lastChild);
+        }
     }
 }
 
@@ -174,20 +189,24 @@ function fillFloatCard(submitedData, sessions) {
     }
 
     if (Object.keys(session["cours"]).length > 0) { // normal class
+        const cour = session["cours"];
         const classElem = document.createElement("li");
         // classElem.id = class-div;
         const classList = document.createElement("ul");
-        for (let key in session["cours"]) {
+        for (let key in cour) {
             const li = document.createElement("li");
-            li.innerText = key + ": " + session["cours"][key];
+            li.innerText = key + ": " + cour[key];
             classList.appendChild(li);
         }
         classElem.appendChild(classList);
         // append the last child (either class or groups)
         cardBody.firstElementChild.appendChild(classElem);
+        fillClassrooms([cour['loc']]);
     } else { // groups
         const groups = session["groups"]; // groups ==> {G1:{}, G2:{}}
-        for (const grp in groups) { // grp ==> G1, G2
+        const locals = [];
+        for (const grp in groups) { // grp ==> G1, G2 ...
+            locals.push(groups[grp]['loc']);
             const grpElem = document.createElement("li"); // <li>
             const grpul = document.createElement("ul");
             grpElem.innerText = grp; // <li> g1
@@ -199,6 +218,7 @@ function fillFloatCard(submitedData, sessions) {
             grpElem.appendChild(grpul); // <li> g1 <ul> <li>
             cardBody.firstElementChild.appendChild(grpElem);
         }
+        fillClassrooms(locals);
     }
 }
 
@@ -211,7 +231,26 @@ function fillTeacherCard(tName, sessionData, sessionIndex = Object.keys(sessionD
         '  <li>Day: <span id="t-card-day">' + sessionData[sessionIndex]["day"] + '</span></li>' +
         '  <li>Session: <span id="t-card-session">' + tSessionIndex + '</span></li>' +
         '  <li>Time: <span id="t-card-session">' + sessionData[sessionIndex]["session_num"] + " " + sessionData[sessionIndex]["session"] + '</span></li>' +
+        '  <li>classroom: <span id="t-card-classroom">' + sessionData[sessionIndex]["classroom"] + '</span></li>' +
         '  <li>Section: <span id="t-card-section">' + sessionData[sessionIndex]["section"].split("_").join(" ") + '</span></li>' +
         '  <li>Module: <span id="t-card-module">' + sessionData[sessionIndex]["module"] + '</span></li>' +
         '</ul>';
+    fillClassrooms([sessionData[sessionIndex]["classroom"]]);
+
+}
+
+export function fillClassrooms(ids) {
+    // const test = d3.select("[id='426D']")[0][0].style = "fill: #fff";
+    for (const id of classrooms.id) {
+        // d3.select("[id='" + id + "']")[0][0].style = "fill: " + classrooms.defaultColor;
+        document.getElementById(id).style = "fill: " + classrooms.defaultColor;
+        console.log(id + " cleared!!!");
+    }
+    classrooms.id.length = 0;
+    for (const id of ids) {
+        // d3.select("[id='" + id + "']")[0][0].style = "fill: " + classrooms.fillColor;
+        document.getElementById(id).style = "fill: " + classrooms.fillColor;
+        classrooms.id.push(id);
+        console.log(id + " has been filled!");
+    }
 }
