@@ -8,11 +8,15 @@
 :root {
   font-size: 62.5%;
 
-  --main-bg-color: #5f9ea0;
-  --main-bg-hover-color: rgb(127, 177, 179);
+  --main-bg-color: rgb(205, 73, 17);
+  /* rgb(255, 112, 53) */
+  /* --main-bg-color: #5f9ea0; */
+  --main-bg-hover-color: rgb(251, 127, 74);
+  /* --main-bg-hover-color: rgb(127, 177, 179); */
   --inner-color: rgb(255, 255, 255, 0.2);
 
-  --card-hq: rgb(54, 54, 54);
+  /* --card-hq: rgb(54, 54, 54); */
+  --card-hq: rgb(106, 110, 128);
   /* rgb(127, 177, 179) */
 }
 
@@ -95,16 +99,21 @@ body {
 }
 
 /* Svg and path */
+svg {
+  display: block;
+}
+
 path {
-  fill: none;
+  /* fill: none; */
+  /* fill: gold; */
+  /* background-color: gold; */
   stroke: black;
   pointer-events: all;
 }
 
 path:hover {
   /* z-index: 5; */
-  /* fill: gold; */
-  background-color: gold;
+  fill: gold;
   border: 3px solid orange;
   /* transform: scale(2); */
 }
@@ -133,15 +142,67 @@ select {
   outline: 0;
   border: 0;
   border-radius: 5px;
+  /* }
+*/
+
+  /* styling */
+  /* consider this ida dert white background */
+  /* body {
+    background-color: rgb(0,159,214);
+   } */
+  /* background-color: white; */
+  /* border: thin solid blue; */
+  border-radius: 4px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+
+  /* reset */
+
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  /*
+select { */
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+select:focus {
+  background-image: linear-gradient(45deg, green 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, green 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: green;
+  outline: 0;
+}
+
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
 }
 
 option {
-  background-color: rgb(95, 158, 160, 0.8);
+  background-color: var(--main-bg-hover-color);
+  /* background-color: rgb(95, 158, 160, 0.8); */
   border: 0;
   outline: 0;
 }
 option:hover {
-  background-color: black;
+  background-color: red;
   /* background-color: rgb(81, 129, 131); */
 }
 
@@ -168,7 +229,7 @@ option:hover {
   background-color: black;
   border-radius: 20px;
   min-height: 250px;
-  width: 250px;
+  width: 220px;
   position: absolute;
   top: 5rem;
   visibility: hidden;

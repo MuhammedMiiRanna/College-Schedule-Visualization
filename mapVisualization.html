@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<title> USTHB MAP </title>
 	<script type="text/javascript" src="/d3/d3.v3.js"></script>
+	<script src="https://d3js.org/d3.v4.js"></script>
 	<link rel="stylesheet" href="/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +27,7 @@
 	</section>
 
 	<section id="main-container">
-		<h1>"MIV's Schedule USTHB"</h1>
+		<h1>"FacInfo's Schedule USTHB"</h1>
 		<div id="float-card" class="card">
 			<div id="" class="card-header card-hq">
 				<p class="card-q">Q</p>
@@ -65,6 +66,8 @@
 				<p class="card-q">K</p>
 				<p><span class="card-orginizer"></span> <span class="card-year"></span></p>
 			</div>
+		</div>
+		<div id="svg-container">
 		</div>
 	</section>
 
@@ -166,11 +169,10 @@
 	</nav>
 
 	<script type="text/javascript" src="/scripts/map.js"></script>
-	<!-- scripts that add dunamic data like teachers's names... -->
+	<!-- <script type="text/javascript" src="/scripts/zoomOption.js"></script> -->
 	<script type="module" src="/scripts/addDynamicData.js"></script>
 	<script type="module" src="/scripts/formEvents.js"></script>
 	<script type="module" src="/scripts/events.js"></script>
-
 </body>
 
 </html>
