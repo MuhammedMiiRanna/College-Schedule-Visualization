@@ -9,6 +9,26 @@
 </head>
 
 <body>
+    <div id="buttons-test">
+
+        <!-- <button onclick="zoomIn()">Zoom in</button>
+        <button onclick="zoomOut()">Zoom out</button>
+        <button onclick="resetZoom()">Reset zoom</button>
+        <button onclick="panLeft()">Pan left</button>
+        <button onclick="panRight()">Pan right</button>
+        <button onclick="center()">Center</button> -->
+    </div>
+
+    <script>
+        const div = document.getElementById("buttons-test");
+        const button = document.createElement("button");
+        button.innerText = "Zoom in";
+        button.setAttribute("onClick", "zoomIn()");
+        div.appendChild(button);
+    </script>
+
+</body>
+<!-- <body>
     <nav id="nav">
         <div class="btn">Item 1</div>
         <div class="btn">Item 2</div>
@@ -37,6 +57,6 @@
         });
     </script>
 
-</body>
+</body> -->
 
 </html>

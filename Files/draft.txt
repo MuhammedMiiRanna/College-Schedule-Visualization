@@ -1,3 +1,6 @@
+const test = d3.select("[id='426D']")[0][0].style = "fill: #fff";
+
+
 // 
 // document.getElementById('showsBy').addEventListener("click", function (evt) {
 // document.querySelector('#showsBy > option').addEventListener("click", function (evt) {
