@@ -11,11 +11,12 @@ Returns:
 t1 = time()
 
 
-def session_info(day, session, section, module):
+def session_info(day, session, loc, section, module):
     return {
         "day": days_tradict[day],
         "session_num": "N-" + str(hours[session]),
         "session": session,
+        "classroom": loc,   
         "section": section,
         "module": module,
     }
@@ -34,6 +35,7 @@ def add_session(is_class, day, session_index, grp=None):
             session_info(
                 day,
                 session["cours"]["Time"],
+                session["cours"]["loc"],
                 data_file_name,
                 session["cours"]["Subject"]
         )
@@ -48,6 +50,7 @@ def add_session(is_class, day, session_index, grp=None):
         session_info(
             day,
             session["groups"][grp]["Time"],
+            session["groups"][grp]["loc"],
             data_file_name + " " + grp,
             session["groups"][grp]["Subject"],
     )
