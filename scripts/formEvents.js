@@ -4,8 +4,8 @@ import { getEventsData, fillSelectedTypeList } from './events.js';
 import { getSessionsData, fillClassrooms } from './formsLib.js';
 
 // SVGs :
-const svgElements = document.querySelector('svg');
-svgElements.addEventListener('click', (evt) => {
+// const svgElements = document.querySelector('svg');
+document.querySelector('svg').addEventListener('click', (evt) => {
   console.log("Local: " + evt.target.id);
 });
 
@@ -16,7 +16,9 @@ document.getElementById("schedule-submit").addEventListener("click", function (e
   var formData = new FormData(form);
   const submitedData = Object.fromEntries(formData); // getting form data 
   document.getElementById('teacher-card').style.visibility = "hidden";
+  document.getElementById('events-card').style.visibility = "hidden";
   removeChilds(document.getElementById('teachers-nav'));
+  removeChilds(document.getElementById('events-card'));
   getSessionsData(submitedData);
 });
 
@@ -27,7 +29,9 @@ document.getElementById("teachers-submit").addEventListener("click", function (e
   var formData = new FormData(form); // getting form data (into object)
   const submitedData = Object.fromEntries(formData);
   document.getElementById('float-card').style.visibility = "hidden";
+  document.getElementById('events-card').style.visibility = "hidden";
   removeChilds(document.getElementById('nav-btns'));
+  removeChilds(document.getElementById('events-card'));
   getTeachersData(submitedData);
 });
 
@@ -38,7 +42,7 @@ document.getElementById("schedule-clear").addEventListener("click", function (ev
   fillClassrooms([]);
   removeChilds(document.getElementById('nav-btns'));
   removeChilds(document.getElementById('teachers-nav'));
-  removeChilds(document.getElementById('events-nav'));
+  removeChilds(document.getElementById('events-card'));
   console.log("Page Cleared!!");
 });
 
@@ -53,6 +57,7 @@ document.getElementById("eventsSubmit").addEventListener("click", function (evt)
   document.getElementById('teacher-card').style.visibility = "hidden";
   removeChilds(document.getElementById('nav-btns'));
   removeChilds(document.getElementById('teachers-nav'));
+  removeChilds(document.getElementById('events-card-body'));
   console.log(">> submitedData: ", submitedData);
   getEventsData(submitedData);
   // getEventData(submitedData);

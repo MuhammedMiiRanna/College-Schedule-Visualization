@@ -92,7 +92,6 @@ export function fillSelectedTypeList(selectedOption, eventsData) {
 // >> submitedData:  {showsBy: 'Orginizer', selectedType: 'TedEx'}
 
 export function getEventsData(submitedData) {
-
     switch (submitedData["showsBy"]) {
         case "Name":
             fillEventCard(eventsData[submitedData["selectedType"]]);
@@ -114,10 +113,13 @@ export function getEventsData(submitedData) {
             console.log("SORRY ITS DEFAULT § NOT AVAILABLE YET");
             break;
     }
+    document.getElementById('events-card').style.visibility = "visible";
 }
 
 function fillEventCard(eventData) {
-    const cardBody = document.querySelector("#events-card-body");
+    console.log(">> ", eventData);
+    const cardBody = document.getElementById("events-card-body");
+    cardBody.innerHTML = " ";
     cardBody.innerHTML =
         '<ul>' +
         '  <li>name: <span id="event-card-name">' + eventData["name"] + '</span></li>' +
