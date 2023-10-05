@@ -21,7 +21,9 @@
 }
 
 /* General */
+/* Headings */
 h1 {
+  color: black;
   position: fixed;
   margin: 0;
   margin-top: 0rem;
@@ -37,6 +39,7 @@ ul {
   padding-left: 2rem;
 }
 
+/* Buttons */
 .btn {
   background-color: var(--main-bg-color);
   padding: 1rem 2rem;
@@ -85,7 +88,7 @@ ul {
 /* .nav-btn:hover {
   } */
 
-/* // */
+/* Body content */
 body {
   font-family: "Noto Serif", serif;
   font-size: 1.6rem;
@@ -94,13 +97,14 @@ body {
   /* flexbox layout */
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 /* Svg and path */
 svg {
   display: block;
+  background-color: #fff;
 }
 
 path {
@@ -113,7 +117,7 @@ path {
 
 path:hover {
   /* z-index: 5; */
-  fill: gold;
+  fill: var(--main-bg-hover-color);
   border: 3px solid orange;
   /* transform: scale(2); */
 }
@@ -230,6 +234,7 @@ option:hover {
   border-radius: 20px;
   min-height: 250px;
   width: 220px;
+  margin: 10px;
   position: absolute;
   top: 5rem;
   visibility: hidden;
@@ -243,7 +248,7 @@ option:hover {
 .card-hq {
   font-size: 2rem;
   background-color: var(--card-hq);
-  padding: 0.5rem 2rem;
+  padding: 0.2rem 2rem;
   display: flex;
   justify-content: space-between;
 }

@@ -77,6 +77,6 @@ document.getElementById('showsBy').addEventListener("click", function (evt) {
 });
 
 
-// TODO: Next time try to chnage the 2nd form input according to the first input
+// TODO Next time try to chnage the 2nd form input according to the first input
 // https://code.mu/en/javascript/book/prime/dom/form/select/selected-item-changing/
 // showsBy events:
