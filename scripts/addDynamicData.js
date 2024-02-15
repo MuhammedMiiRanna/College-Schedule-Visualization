@@ -26,25 +26,25 @@ for (let tName of Object.keys(teachersData)) {
 }
 // console.log("Teachers options list has been loaded !!");
 
-
-// ShowsBy Data:
-const showsByTypes = document.getElementById('showsBy');
-for (let type of Object.keys(showsBy)) {
-    const option = document.createElement('option');
-    option.innerText = type;
-    option.value = type;
-    showsByTypes.appendChild(option);
-}
-
-
-// TODO add lower method
-// EVENTS data (names)
-const selectedOption = showsByTypes.firstElementChild.innerText;
-fillSelectedTypeList(selectedOption);
-// for (let value of type) {
+// // ShowsBy Data:
+// // <!-- FOR THE NEXT PROJECT --
+// const showsByTypes = document.getElementById('showsBy');
+// for (let type of Object.keys(showsBy)) {
 //     const option = document.createElement('option');
-//     option.innerText = value;
-//     option.value = value;
-//     selectedType.appendChild(option);
-//     option.classList.add("showsByOption");
+//     option.innerText = type;
+//     option.value = type;
+//     showsByTypes.appendChild(option);
 // }
+
+
+// // TODO add lower method
+// // EVENTS data (names)
+// const selectedOption = showsByTypes.firstElementChild.innerText;
+// fillSelectedTypeList(selectedOption);
+// // for (let value of type) {
+// //     const option = document.createElement('option');
+// //     option.innerText = value;
+// //     option.value = value;
+// //     selectedType.appendChild(option);
+// //     option.classList.add("showsByOption");
+// // }
