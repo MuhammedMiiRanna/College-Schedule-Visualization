@@ -134,6 +134,14 @@ form {
   max-width: 450px;
 } */
 
+#loc-label {
+  background-color: darkorange;
+  padding: 5px 10px;
+  border-radius: 10px;
+  position: absolute;
+  visibility: hidden;
+}
+
 label {
   display: inline-block;
   margin: 0.5rem 0;
