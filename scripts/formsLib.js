@@ -240,6 +240,9 @@ function fillTeacherCard(tName, sessionData, sessionIndex = Object.keys(sessionD
 }
 
 export function fillClassrooms(ids) {
+    let classroom;
+    let coords = [];
+    // 
     // const test = d3.select("[id='426D']")[0][0].style = "fill: #fff";
     for (const id of classrooms.id) {
         // d3.select("[id='" + id + "']")[0][0].style = "fill: " + classrooms.defaultColor;
@@ -249,8 +252,59 @@ export function fillClassrooms(ids) {
     classrooms.id.length = 0;
     for (const id of ids) {
         // d3.select("[id='" + id + "']")[0][0].style = "fill: " + classrooms.fillColor;
-        document.getElementById(id).style = "fill: " + classrooms.fillColor;
+        classroom = document.getElementById(id)
+        classroom.style = "fill: " + classrooms.fillColor;
         classrooms.id.push(id);
         console.log(id + " has been filled!");
+        
+        // 
+        function pathToNumerical(pathData) {
+            const numericRegex = /[-+]?\d*\.?\d+/g;
+            const alphaNumValues = pathData.match(numericRegex);
+            let numericValues = [];
+            for (let index = 0; index < alphaNumValues.length; index += 2) {
+              numericValues.push([
+                parseFloat(alphaNumValues[index]), 
+                parseFloat(alphaNumValues[index + 1])
+            ]);
+            }
+            return numericValues;
+          }
+          
+        let pathData = classroom.getAttribute("d");
+        let numericValues = pathToNumerical(pathData);
+        coords = [...coords, ...numericValues];
+        console.log(coords);
+        zoomTo(coords, 6)
     }
 }
+
+
+function zoomTo(points, scale) {
+    const zoom = d3
+      .zoom()
+      .scaleExtent([1, 25])
+      .translateExtent([
+        [-100, -100],
+        [1000, 900],
+      ])
+      .on("zoom", zoomed);
+  
+    function zoomed() {
+      svg.selectAll("path").attr("transform", d3.event.transform);
+      //console.log(d3.event.transform)
+    }
+  
+    let point = centroid(points);
+    //convert long lat to cartesian coordinates
+    console.log("cartesian point is:", point);
+    svg
+      .transition()
+      .duration(2500)
+      .call(
+        zoom.transform,
+        d3.zoomIdentity
+          .translate(W / 2 - point[0] * scale, H / 2 - point[1] * scale)
+          .scale(scale)
+      );
+  }
