@@ -1,4 +1,3 @@
-
 // <button onclick="zoomIn()">Zoom in</button>
 // <button onclick="zoomOut()">Zoom out</button>
 // <button onclick="resetZoom()">Reset zoom</button>
@@ -17,7 +16,7 @@
 // d3.select('svg')
 //     .call(zoom);
 
-// 
+//
 
 // svg.call(d3.zoom().on('zoom', () => {
 //     console.log("zoomed");
@@ -29,16 +28,16 @@
 //     .duration(750)
 //     .attr('transform', 'translate(' + w / 2 + ',' + h / 2 + ')scale(' + k + ')translate(' + -x + ',' + -y + ')');
 
-// 
+//
 
 const buttonsEvents = [
-    ["zoomIn()", "Zoom in"],
-    ["zoomOut()", "Zoom out"],
-    ["resetZoom()", "Reset zoom"],
-    ["panLeft()", "Pan left"],
-    ["panRight()", "Pan right"],
-    ["center()", "Center"]
-]
+  ["zoomIn()", "Zoom in"],
+  ["zoomOut()", "Zoom out"],
+  ["resetZoom()", "Reset zoom"],
+  ["panLeft()", "Pan left"],
+  ["panRight()", "Pan right"],
+  ["center()", "Center"],
+];
 
 // //
 // const svgContainer = document.getElementById("svg-container");
@@ -49,7 +48,6 @@ const buttonsEvents = [
 //     button.setAttribute("onClick", event[0]);
 //     svgContainer.appendChild(button);
 // }
-
 
 // let data = [], width = 600, height = 400, numPoints = 100;
 
