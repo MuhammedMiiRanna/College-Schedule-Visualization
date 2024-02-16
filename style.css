@@ -20,8 +20,8 @@
   /* rgb(127, 177, 179) */
 }
 
-/* General */
-/* Headings */
+/* ============================= General ============================= */
+/* ============================= Headings ============================= */
 h1 {
   color: black;
   position: fixed;
@@ -88,7 +88,7 @@ ul {
 /* .nav-btn:hover {
   } */
 
-/* Body content */
+/* ============================= Body content ============================= */
 body {
   font-family: "Noto Serif", serif;
   font-size: 1.6rem;
@@ -115,14 +115,25 @@ path {
   pointer-events: all;
 }
 
-path:hover {
-  /* z-index: 5; */
+/* this is general */
+/* path:hover {
   fill: var(--main-bg-hover-color);
   border: 3px solid orange;
+} */
+/* this one to select element with id attribute */
+/* path[id]:hover {
+  fill: var(--main-bg-hover-color);
+  border: 3px solid orange;
+} */
+/* this one to select element with a valid id attribute */
+path:where(:not([id]), :not([id=""])):hover {
+  fill: var(--main-bg-hover-color);
+  border: 3px solid orange;
+  /* z-index: 5; */
   /* transform: scale(2); */
 }
 
-/* Form styles */
+/* ============================= Form styles ============================= */
 
 /* #form {
   display: flex;
@@ -157,7 +168,7 @@ select {
   /* }
 */
 
-  /* styling */
+  /* ============================= styling ============================= */
   /* consider this ida dert white background */
   /* body {
     background-color: rgb(0,159,214);
@@ -179,8 +190,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
 
-  /*
-select { */
+  /* select { */
   background-image: linear-gradient(45deg, transparent 50%, gray 50%),
     linear-gradient(135deg, gray 50%, transparent 50%),
     linear-gradient(to right, #ccc, #ccc);
