@@ -1,6 +1,6 @@
 # College-Schedule-Visualization-
 
-Data visualization project where you can see the reserved classroomsin which the students are using for their classes using the D3.js library.
+Data visualization project where you can see the reserved classrooms in which the students are using for their classes using the D3.js library.
 
 - How to use it?
 - Screenshots
