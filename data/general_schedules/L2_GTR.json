@@ -83,13 +83,13 @@
           "G1": {
             "Time": "13:00 - 14:30",
             "Subject": "U.A.S.E",
-            "loc": "TPC8",
+            "loc": "TP.C8",
             "prof": "BACHEN"
           },
           "G2": {
             "Time": "13:00 - 14:30",
             "Subject": "EL.NUM",
-            "loc": "TPC5",
+            "loc": "TP.C5",
             "prof": "HARROUNI"
           }
         }
@@ -100,7 +100,7 @@
           "G2": {
             "Time": "14:40 - 16:10",
             "Subject": "U.A.S.E",
-            "loc": "TPC6",
+            "loc": "TP.C6",
             "prof": "ANTRI"
           }
         }
@@ -119,7 +119,7 @@
           "G2": {
             "Time": "08:00 - 09:30",
             "Subject": "A.L.G.O",
-            "loc": "TPC7",
+            "loc": "TP.C7",
             "prof": "ANTRI"
           }
         }

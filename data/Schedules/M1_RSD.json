@@ -113,13 +113,13 @@
           "G2": {
             "Time": "08:00 - 09:30",
             "Subject": "Algo.Av.et Compl",
-            "loc": "TPC3B",
+            "loc": "TP.C3B",
             "prof": "NEMOUCHI"
           },
           "G3": {
             "Time": "08:00 - 09:30",
             "Subject": "GP",
-            "loc": "TPC8",
+            "loc": "TP.C8",
             "prof": "BOUCHAM"
           }
         }
@@ -171,7 +171,7 @@
           "G4": {
             "Time": "14:40 - 16:10",
             "Subject": "ASGBD",
-            "loc": "TPC8",
+            "loc": "TP.C8",
             "prof": "FRIHI"
           }
         }
@@ -184,19 +184,19 @@
           "G2": {
             "Time": "08:00 - 09:30",
             "Subject": "ASGBD",
-            "loc": "TPC5",
+            "loc": "TP.C5",
             "prof": "BERKANI"
           },
           "G3": {
             "Time": "08:00 - 09:30",
             "Subject": "Algo.Av.et Compl",
-            "loc": "TPC8",
+            "loc": "TP.C8",
             "prof": "ANTRI"
           },
           "G4": {
             "Time": "08:00 - 09:30",
             "Subject": "GP",
-            "loc": "TPC3B",
+            "loc": "TP.C3B",
             "prof": "BOUCHAM"
           }
         }
@@ -207,7 +207,7 @@
           "G1": {
             "Time": "09:40 - 11:10",
             "Subject": "GP",
-            "loc": "TPC3B",
+            "loc": "TP.C3B",
             "prof": "BOUCHAM"
           },
           "G2": {
@@ -224,7 +224,7 @@
           "G1": {
             "Time": "11:20 - 12:50",
             "Subject": "Algo.Av.et Compl",
-            "loc": "TPC3B",
+            "loc": "TP.C3B",
             "prof": "MESSAOUDI"
           },
           "G2": {
@@ -261,7 +261,7 @@
           "G2": {
             "Time": "11:20 - 12:50",
             "Subject": "SYST",
-            "loc": "TPC6",
+            "loc": "TP.C6",
             "prof": "MEHDI"
           }
         }

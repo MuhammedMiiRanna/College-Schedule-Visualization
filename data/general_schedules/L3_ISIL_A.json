@@ -129,7 +129,7 @@
           "G4": {
             "Time": "14:40 - 16:10",
             "Subject": "BD2",
-            "loc": "TPC3A",
+            "loc": "TP.C3A",
             "prof": "ABDAT"
           }
         }
@@ -168,13 +168,13 @@
           "G1": {
             "Time": "11:20 - 12:50",
             "Subject": "SYS02",
-            "loc": "TPC4",
+            "loc": "TP.C4",
             "prof": "SAIGHI"
           },
           "G2": {
             "Time": "11:20 - 12:50",
             "Subject": "COMPIL",
-            "loc": "TPC6",
+            "loc": "TP.C6",
             "prof": "KOUAR"
           },
           "G3": {
@@ -217,7 +217,7 @@
           "G3": {
             "Time": "11:20 - 12:50",
             "Subject": "SYS02",
-            "loc": "TPC6",
+            "loc": "TP.C6",
             "prof": "SAIGHI"
           }
         }
@@ -326,13 +326,13 @@
           "G1": {
             "Time": "08:00 - 09:30",
             "Subject": "GL2",
-            "loc": "TPC4",
+            "loc": "TP.C4",
             "prof": "haddouche"
           },
           "G2": {
             "Time": "08:00 - 09:30",
             "Subject": "SI2",
-            "loc": "TPC5",
+            "loc": "TP.C5",
             "prof": "ANTRI"
           }
         }
@@ -343,19 +343,19 @@
           "G1": {
             "Time": "09:40 - 11:10",
             "Subject": "SI2",
-            "loc": "TPC4",
+            "loc": "TP.C4",
             "prof": "BACHEN"
           },
           "G2": {
             "Time": "09:40 - 11:10",
             "Subject": "GL2",
-            "loc": "TPC5",
+            "loc": "TP.C5",
             "prof": "haddouche"
           },
           "G3": {
             "Time": "09:40 - 11:10",
             "Subject": "COMPIL",
-            "loc": "TPC3B",
+            "loc": "TP.C3B",
             "prof": "AMROUS"
           }
         }
@@ -366,7 +366,7 @@
           "G2": {
             "Time": "11:20 - 12:50",
             "Subject": "COMPIL",
-            "loc": "TPC8",
+            "loc": "TP.C8",
             "prof": "El-Tanni"
           },
           "G3": {
@@ -383,13 +383,13 @@
           "G1": {
             "Time": "13:00 - 14:30",
             "Subject": "COMPIL",
-            "loc": "TPC4",
+            "loc": "TP.C4",
             "prof": "AMROUS"
           },
           "G4": {
             "Time": "13:00 - 14:30",
             "Subject": "COMPIL",
-            "loc": "TPC8",
+            "loc": "TP.C8",
             "prof": "El-Tanni"
           }
         }

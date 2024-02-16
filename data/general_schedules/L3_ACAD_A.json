@@ -56,7 +56,7 @@
           "G2": {
             "Time": "14:40 - 16:10",
             "Subject": "TH.GRAPH",
-            "loc": "TPC7",
+            "loc": "TP.C7",
             "prof": "BENKAOUHA"
           }
         }
@@ -253,7 +253,7 @@
           "G2": {
             "Time": "11:20 - 12:50",
             "Subject": "SYS.EXP2",
-            "loc": "TPC7",
+            "loc": "TP.C7",
             "prof": "BENZAID"
           },
           "G3": {
@@ -293,7 +293,7 @@
           "G3": {
             "Time": "14:40 - 16:10",
             "Subject": "SYS.EXP2",
-            "loc": "TPC4",
+            "loc": "TP.C4",
             "prof": "BENZAID"
           },
           "G4": {

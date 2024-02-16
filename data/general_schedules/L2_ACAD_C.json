@@ -10,7 +10,7 @@
           "G1": {
             "Time": "08:00 - 09:30",
             "Subject": "ALGO.S.D",
-            "loc": "TPC4",
+            "loc": "TP.C4",
             "prof": "SMAILI"
           }
         }
@@ -68,7 +68,7 @@
           "G3": {
             "Time": "14:40 - 16:10",
             "Subject": "ALGO.S.D",
-            "loc": "TPC4",
+            "loc": "TP.C4",
             "prof": "SMAILI"
           }
         }
@@ -109,7 +109,7 @@
           "G2": {
             "Time": "11:20 - 12:50",
             "Subject": "ALGO.S.D",
-            "loc": "TPC4",
+            "loc": "TP.C4",
             "prof": "SMAILI"
           }
         }
@@ -240,7 +240,7 @@
           "G2": {
             "Time": "13:00 - 14:30",
             "Subject": "PROB.STAT",
-            "loc": "TPC9",
+            "loc": "TP.C9",
             "prof": "BOUIBEDE"
           },
           "G4": {
@@ -257,7 +257,7 @@
           "G3": {
             "Time": "14:40 - 16:10",
             "Subject": "PROB.STAT",
-            "loc": "TPC9",
+            "loc": "TP.C9",
             "prof": "BOUIBEDE"
           }
         }

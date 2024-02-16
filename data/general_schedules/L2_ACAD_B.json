@@ -76,13 +76,13 @@
           "G3": {
             "Time": "09:40 - 11:10",
             "Subject": "ALGO.S.D",
-            "loc": "TPC4",
+            "loc": "TP.C4",
             "prof": "NIID"
           },
           "G4": {
             "Time": "09:40 - 11:10",
             "Subject": "ALGO.S.D",
-            "loc": "TPC5",
+            "loc": "TP.C5",
             "prof": "ABDELLAHOUM"
           }
         }
@@ -93,7 +93,7 @@
           "G1": {
             "Time": "11:20 - 12:50",
             "Subject": "ALGO.S.D",
-            "loc": "TPC3B",
+            "loc": "TP.C3B",
             "prof": "ABDELLAHOUM"
           },
           "G2": {
@@ -258,7 +258,7 @@
           "G3": {
             "Time": "14:40 - 16:10",
             "Subject": "SYS.INFO",
-            "loc": "TPC5",
+            "loc": "TP.C5",
             "prof": "DJIROUNE"
           }
         }

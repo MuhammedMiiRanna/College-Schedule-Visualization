@@ -51,7 +51,7 @@
           "G3": {
             "Time": "11:20 - 12:50",
             "Subject": "SYS.EXP2",
-            "loc": "TPC4",
+            "loc": "TP.C4",
             "prof": "NEMOUCHI"
           }
         }
@@ -197,13 +197,13 @@
           "G1": {
             "Time": "08:00 - 09:30",
             "Subject": "SYS.EXP2",
-            "loc": "TPC4",
+            "loc": "TP.C4",
             "prof": "NEMOUCHI"
           },
           "G3": {
             "Time": "08:00 - 09:30",
             "Subject": "COMPIL",
-            "loc": "TPC5",
+            "loc": "TP.C5",
             "prof": "MOULAI"
           },
           "G4": {
@@ -238,7 +238,7 @@
           "G2": {
             "Time": "13:00 - 14:30",
             "Subject": "COMPIL",
-            "loc": "TPC3A",
+            "loc": "TP.C3A",
             "prof": "MOULAI"
           }
         }

@@ -8,7 +8,7 @@ import data from "/data/schedulesFile.json" assert { type: "json" };
 //   2: M2_IV,
 // };
 const counter = {
-  navBtns: 0, // this will help in the repeated event issue
+  navBtns: false, // this will help in the repeated event issue
 };
 
 export const classrooms = {
@@ -32,16 +32,21 @@ export function getSessionsData(submitedData) {
   addNavButtons(navBtns, sessions.length); // adding the navigation buttons
   floatCard.style.visibility = "visible"; // making the float-card visible
 
-  if (counter.navBtns === 0) {
-    counter.navBtns++;
-    navBtns.addEventListener("click", (evt) => {
-      // add the EventListener
-      // const sessions = data[submitedData["year"]]["days"][submitedData["day"]];
-      submitedData["session"] = parseInt(evt.target.id[3]);
-      if (submitedData["session"] === 0 || Boolean(submitedData["session"])) {
-        fillFloatCard(submitedData, sessions);
-      }
-    });
+  if (counter.navBtns) {
+    // remove the EventListener if there is one
+    navBtns.removeEventListener("click", handleSessionSelect);
+    counter.navBtns = false;
+  }
+  // add the EventListener
+  navBtns.addEventListener("click", handleSessionSelect);
+  counter.navBtns = true;
+
+  function handleSessionSelect(evt) {
+    // const sessions = data[submitedData["year"]]["days"][submitedData["day"]];
+    submitedData["session"] = parseInt(evt.target.id[3]);
+    if (submitedData["session"] === 0 || Boolean(submitedData["session"])) {
+      fillFloatCard(submitedData, sessions);
+    }
   }
 }
 
@@ -189,10 +194,19 @@ function fillFloatCard(submitedData, sessions) {
   // }
   // fill card body
   cardBody.innerHTML =
-    "<ul>" + ' <li>Year: <span id="card-year">' + submitedData["year"] + "</span></li>" +
-    ' <li>Sem: <span id="card-sem">' + submitedData["semester"] + "</span></li>" +
-    ' <li>Day: <span id="card-day">' + submitedData["day"] + "</span></li>" +
-    ' <li>Session: <span id="card-hour">' + (parseInt(submitedData["session"]) + parseInt(1)) +"</span></li>" +
+    "<ul>" +
+    ' <li>Year: <span id="card-year">' +
+    submitedData["year"] +
+    "</span></li>" +
+    ' <li>Sem: <span id="card-sem">' +
+    submitedData["semester"] +
+    "</span></li>" +
+    ' <li>Day: <span id="card-day">' +
+    submitedData["day"] +
+    "</span></li>" +
+    ' <li>Session: <span id="card-hour">' +
+    (parseInt(submitedData["session"]) + parseInt(1)) +
+    "</span></li>" +
     "</ul>";
 
   // console.log(">> sessions", sessions);
@@ -206,10 +220,12 @@ function fillFloatCard(submitedData, sessions) {
 
     notAvailText =
       sessions.length === 0 ? "PS: Day's-off" : "PS: Done for today";
+    fillClassrooms([]);
     notAvail.innerText = notAvailText;
     cardBody.firstElementChild.appendChild(notAvail);
 
-    console.log(">> PS: Section is Not available"); // u can use alert
+    console.error();
+    (">> PS: Section is Not available"); // u can use alert
     return;
   }
 
@@ -258,15 +274,31 @@ function fillTeacherCard(
 ) {
   const cardBody = document.querySelector("#t-card-body");
   // fill card body
-  cardBody.innerHTML = 
-  "<ul>" + 
-    '  <li>Teacher: <span id="t-card-name">' + tName + "</span></li>" + 
-    '  <li>Day: <span id="t-card-day">' + sessionData[sessionIndex]["day"] +"</span></li>" +
-    '  <li>Session: <span id="t-card-session">' + tSessionIndex + "</span></li>" +
-    '  <li>Time: <span id="t-card-session">' + sessionData[sessionIndex]["session_num"] + " " +sessionData[sessionIndex]["session"] +"</span></li>" +
-    '  <li>classroom: <span id="t-card-classroom">' + sessionData[sessionIndex]["classroom"] +"</span></li>" +
-    '  <li>Section: <span id="t-card-section">' + sessionData[sessionIndex]["section"].split("_").join(" ") + "</span></li>" +
-    '  <li>Module: <span id="t-card-module">' + sessionData[sessionIndex]["module"] + "</span></li>" +
+  cardBody.innerHTML =
+    "<ul>" +
+    '  <li>Teacher: <span id="t-card-name">' +
+    tName +
+    "</span></li>" +
+    '  <li>Day: <span id="t-card-day">' +
+    sessionData[sessionIndex]["day"] +
+    "</span></li>" +
+    '  <li>Session: <span id="t-card-session">' +
+    tSessionIndex +
+    "</span></li>" +
+    '  <li>Time: <span id="t-card-session">' +
+    sessionData[sessionIndex]["session_num"] +
+    " " +
+    sessionData[sessionIndex]["session"] +
+    "</span></li>" +
+    '  <li>classroom: <span id="t-card-classroom">' +
+    sessionData[sessionIndex]["classroom"] +
+    "</span></li>" +
+    '  <li>Section: <span id="t-card-section">' +
+    sessionData[sessionIndex]["section"].split("_").join(" ") +
+    "</span></li>" +
+    '  <li>Module: <span id="t-card-module">' +
+    sessionData[sessionIndex]["module"] +
+    "</span></li>" +
     "</ul>";
   fillClassrooms([sessionData[sessionIndex]["classroom"]]);
 }
@@ -285,10 +317,24 @@ export function fillClassrooms(ids) {
   for (const id of ids) {
     // d3.select("[id='" + id + "']")[0][0].style = "fill: " + classrooms.fillColor;
     classroom = document.getElementById(id);
-    classroom.style = "fill: " + classrooms.fillColor;
-    classrooms.id.push(id);
-    console.log(id + " has been filled!");
+    if (classroom !== null) {
+      classroom.style = "fill: " + classrooms.fillColor;
+      classrooms.id.push(id);
+      console.log(id + " has been filled!");
+    } else {
+      console.error(`Classroom ${id} not found in the map`);
+      alert(`Classroom ${id} not found in the map.......`);
+    }
 
+    if (classroom !== null) {
+      let pathData = classroom.getAttribute("d");
+      let numericValues = pathToNumerical(pathData);
+      coords = [...coords, ...numericValues];
+      console.log(coords);
+      zoomTo(coords, 6);
+    } else {
+      console.error(`Classroom ${id} not found in the map to change it color!`);
+    }
     //
     function pathToNumerical(pathData) {
       const numericRegex = /[-+]?\d*\.?\d+/g;
@@ -302,12 +348,6 @@ export function fillClassrooms(ids) {
       }
       return numericValues;
     }
-
-    let pathData = classroom.getAttribute("d");
-    let numericValues = pathToNumerical(pathData);
-    coords = [...coords, ...numericValues];
-    console.log(coords);
-    zoomTo(coords, 6);
   }
 }
 

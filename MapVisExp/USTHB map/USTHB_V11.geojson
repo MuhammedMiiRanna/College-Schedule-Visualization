@@ -4264,7 +4264,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "TPC3A"
+        "name": "TP.C3A"
       },
       "geometry": {
         "coordinates": [
@@ -4282,7 +4282,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "TPC4"
+        "name": "TP.C4"
       },
       "geometry": {
         "coordinates": [
@@ -4300,7 +4300,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "TPC5"
+        "name": "TP.C5"
       },
       "geometry": {
         "coordinates": [
@@ -4318,7 +4318,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "TPC6"
+        "name": "TP.C6"
       },
       "geometry": {
         "coordinates": [
@@ -4336,7 +4336,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "TPC7"
+        "name": "TP.C7"
       },
       "geometry": {
         "coordinates": [

@@ -9,7 +9,7 @@
         "cours": {
           "Time": "08:00 - 09:30",
           "Subject": "MCA",
-          "loc": "TPC6",
+          "loc": "TP.C6",
           "prof": "GHARBI"
         },
         "groups": {}
@@ -75,7 +75,7 @@
           "G1": {
             "Time": "13:00 - 14:30",
             "Subject": "CalPar-Arch",
-            "loc": "TPC3A",
+            "loc": "TP.C3A",
             "prof": "MEHDI"
           }
         }
@@ -88,7 +88,7 @@
           "G1": {
             "Time": "08:00 - 09:30",
             "Subject": "RÃ©alitÃ©Virt",
-            "loc": "TPC4",
+            "loc": "TP.C4",
             "prof": "OURAHMOUNE"
           }
         }
@@ -117,7 +117,7 @@
           "G1": {
             "Time": "13:00 - 14:30",
             "Subject": "FouilleDeDonnÃ©es",
-            "loc": "TPC3A",
+            "loc": "TP.C3A",
             "prof": "Baba"
           }
         }
@@ -128,7 +128,7 @@
           "G1": {
             "Time": "14:40 - 16:10",
             "Subject": "FouilleDeDonnÃ©es",
-            "loc": "TPC3A",
+            "loc": "TP.C3A",
             "prof": "Baba"
           }
         }

@@ -10,7 +10,7 @@
           "G2": {
             "Time": "08:00 - 09:30",
             "Subject": "SI1",
-            "loc": "TPC9",
+            "loc": "TP.C9",
             "prof": "BENALI"
           },
           "G3": {
@@ -22,7 +22,7 @@
           "G4": {
             "Time": "08:00 - 09:30",
             "Subject": "POO",
-            "loc": "TPC5",
+            "loc": "TP.C5",
             "prof": "ZELLAL"
           }
         }
@@ -39,7 +39,7 @@
           "G3": {
             "Time": "09:40 - 11:10",
             "Subject": "POO",
-            "loc": "TPC5",
+            "loc": "TP.C5",
             "prof": "ZELLAL"
           }
         }
@@ -176,7 +176,7 @@
           "G4": {
             "Time": "13:00 - 14:30",
             "Subject": "ALGO2",
-            "loc": "TPC6",
+            "loc": "TP.C6",
             "prof": "BENSAOU"
           }
         }
@@ -187,7 +187,7 @@
           "G3": {
             "Time": "14:40 - 16:10",
             "Subject": "ALGO2",
-            "loc": "TPC3B",
+            "loc": "TP.C3B",
             "prof": "BENSAOU"
           }
         }
@@ -246,7 +246,7 @@
           "G1": {
             "Time": "11:20 - 12:50",
             "Subject": "ALGO2",
-            "loc": "TPC3A",
+            "loc": "TP.C3A",
             "prof": "BENSAOU"
           }
         }
@@ -322,7 +322,7 @@
           "G3": {
             "Time": "13:00 - 14:30",
             "Subject": "ALGO2",
-            "loc": "TPC7",
+            "loc": "TP.C7",
             "prof": "BENSAOU"
           }
         }

@@ -30,7 +30,7 @@
           "G1": {
             "Time": "11:20 - 12:50",
             "Subject": "Bio-Stat",
-            "loc": "TPC5",
+            "loc": "TP.C5",
             "prof": "SELMANE"
           }
         }
@@ -41,7 +41,7 @@
           "G2": {
             "Time": "13:00 - 14:30",
             "Subject": "Bio-Stat",
-            "loc": "TPC5",
+            "loc": "TP.C5",
             "prof": "SELMANE"
           }
         }
@@ -80,7 +80,7 @@
           "G1": {
             "Time": "11:20 - 12:50",
             "Subject": "SystProgScript",
-            "loc": "TPC5",
+            "loc": "TP.C5",
             "prof": "BENZAID"
           },
           "G2": {
@@ -110,7 +110,7 @@
           "G1": {
             "Time": "08:00 - 09:30",
             "Subject": "BIOGEN",
-            "loc": "TPC6",
+            "loc": "TP.C6",
             "prof": "KHEDIM"
           }
         }
@@ -167,7 +167,7 @@
           "G2": {
             "Time": "09:40 - 11:10",
             "Subject": "SystProgScript",
-            "loc": "TPC4",
+            "loc": "TP.C4",
             "prof": "BENZAID"
           }
         }
@@ -211,7 +211,7 @@
           "G1": {
             "Time": "11:20 - 12:50",
             "Subject": "Complexi",
-            "loc": "TPC4",
+            "loc": "TP.C4",
             "prof": "BOUKHEDOUMA"
           }
         }
@@ -230,7 +230,7 @@
           "G2": {
             "Time": "08:00 - 09:30",
             "Subject": "BIOGEN",
-            "loc": "TPC3A",
+            "loc": "TP.C3A",
             "prof": "ANTRI"
           }
         }

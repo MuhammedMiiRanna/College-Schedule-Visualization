@@ -73,7 +73,7 @@
         "day": "Thursday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "L2_ACAD_B G3",
         "module": "SYS.INFO"
       }
@@ -101,7 +101,7 @@
         "day": "Monday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M1_HPC",
         "module": "BaseDeDonnÃ©es"
       }
@@ -127,7 +127,7 @@
         "day": "Tuesday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M1_MIV G1",
         "module": "ABDD"
       }
@@ -137,7 +137,7 @@
         "day": "Sunday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "M1_IL G3",
         "module": "ASGBD"
       },
@@ -145,7 +145,7 @@
         "day": "Sunday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "M1_IL G4",
         "module": "ASGBD"
       },
@@ -153,7 +153,7 @@
         "day": "Sunday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "M1_IL G2",
         "module": "ASGBD"
       },
@@ -161,7 +161,7 @@
         "day": "Sunday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "M1_MIV G2",
         "module": "ABDD"
       }
@@ -283,7 +283,7 @@
         "day": "Tuesday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "L2_ACAD_A G2",
         "module": "ALGO.S.D"
       }
@@ -293,7 +293,7 @@
         "day": "Thursday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "L2_ACAD_A G4",
         "module": "ALGO.S.D"
       }
@@ -361,7 +361,7 @@
         "day": "Wednesday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "M1_BIOINFO G1",
         "module": "Complexi"
       }
@@ -499,7 +499,7 @@
         "day": "Thursday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "L3_ISIL_A G1",
         "module": "SI2"
       },
@@ -571,7 +571,7 @@
         "day": "Wednesday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M2_MIV G1",
         "module": "TH JEU"
       },
@@ -579,7 +579,7 @@
         "day": "Wednesday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "L3_GTR G1",
         "module": "T.I.C.T"
       },
@@ -587,7 +587,7 @@
         "day": "Wednesday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "L3_GTR G1",
         "module": "T.TM.IP"
       }
@@ -627,7 +627,7 @@
         "day": "Monday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "L3_ISIL_A G2",
         "module": "COMPIL"
       }
@@ -659,7 +659,7 @@
         "day": "Thursday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "L2_ACAD_A G3",
         "module": "ALGO.S.D"
       },
@@ -667,7 +667,7 @@
         "day": "Thursday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "L2_ACAD_A G1",
         "module": "ALGO.S.D"
       }
@@ -841,7 +841,7 @@
         "day": "Tuesday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "L3_ISIL_B G2",
         "module": "COMPIL"
       },
@@ -849,7 +849,7 @@
         "day": "Tuesday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M2_MIV G2",
         "module": "PROG RES"
       },
@@ -865,7 +865,7 @@
         "day": "Tuesday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M2_MIV G1",
         "module": "PROG RES"
       }
@@ -875,7 +875,7 @@
         "day": "Wednesday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "L3_GTR G2",
         "module": "T.TM.IP"
       },
@@ -883,7 +883,7 @@
         "day": "Wednesday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "L3_GTR G2",
         "module": "T.I.C.T"
       },
@@ -899,7 +899,7 @@
         "day": "Wednesday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "M2_MIV G2",
         "module": "TH JEU"
       }
@@ -909,7 +909,7 @@
         "day": "Thursday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "M1_BIOINFO G2",
         "module": "BIOGEN"
       },
@@ -953,7 +953,7 @@
         "day": "Sunday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "L2_ACAD_B G3",
         "module": "ALGO.S.D"
       }
@@ -983,7 +983,7 @@
         "day": "Tuesday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "L3_ISIL_B G3",
         "module": "COMPIL"
       },
@@ -991,7 +991,7 @@
         "day": "Tuesday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "M1_RSD G3",
         "module": "Algo.Av.et Compl"
       }
@@ -1009,7 +1009,7 @@
         "day": "Monday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "M1_SII G3",
         "module": "COMPIL"
       }
@@ -1021,7 +1021,7 @@
         "day": "Sunday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "L2_ACAD_B G4",
         "module": "ALGO.S.D"
       },
@@ -1029,7 +1029,7 @@
         "day": "Sunday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "L2_ACAD_B G1",
         "module": "ALGO.S.D"
       }
@@ -1067,7 +1067,7 @@
         "day": "Sunday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "M2_BIGDATA G2",
         "module": "SOLO"
       },
@@ -1101,7 +1101,7 @@
         "day": "Monday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "M1_SSI G2",
         "module": "ARITH.MOD"
       }
@@ -1233,7 +1233,7 @@
         "day": "Saturday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "L2_ACAD_C G1",
         "module": "ALGO.S.D"
       },
@@ -1257,7 +1257,7 @@
         "day": "Saturday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "L2_ACAD_C G3",
         "module": "ALGO.S.D"
       }
@@ -1283,7 +1283,7 @@
         "day": "Tuesday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "L2_ACAD_C G2",
         "module": "ALGO.S.D"
       },
@@ -1377,7 +1377,7 @@
         "day": "Thursday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "M1_SII G1",
         "module": "ASGBD"
       },
@@ -1395,7 +1395,7 @@
         "day": "Wednesday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M1_SSI G1",
         "module": "VTBDA"
       },
@@ -1403,7 +1403,7 @@
         "day": "Wednesday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M1_SSI G2",
         "module": "VTBDA"
       }
@@ -1495,7 +1495,7 @@
         "day": "Thursday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "L2_ACAD_C G2",
         "module": "PROB.STAT"
       },
@@ -1503,7 +1503,7 @@
         "day": "Thursday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "L2_ACAD_C G3",
         "module": "PROB.STAT"
       }
@@ -1679,7 +1679,7 @@
         "day": "Monday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "L2_GTR G2",
         "module": "EL.NUM"
       }
@@ -1823,7 +1823,7 @@
         "day": "Saturday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "L2_ISIL_A G3",
         "module": "PROB/STA"
       }
@@ -1835,7 +1835,7 @@
         "day": "Saturday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "L2_ISIL_A G3",
         "module": "LOGIQUE"
       }
@@ -1993,7 +1993,7 @@
         "day": "Sunday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "M2_BIGDATA G2",
         "module": "TBI-SIG"
       },
@@ -2001,7 +2001,7 @@
         "day": "Sunday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "M2_BIGDATA G1",
         "module": "TBI-SIG"
       }
@@ -2081,7 +2081,7 @@
         "day": "Tuesday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "M1_IL G3",
         "module": "COMPLEXITE"
       },
@@ -2089,7 +2089,7 @@
         "day": "Tuesday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "M1_IL G2",
         "module": "COMPLEXITE"
       }
@@ -2147,7 +2147,7 @@
         "day": "Monday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "M1_HPC G1",
         "module": "ANAL-Num"
       }
@@ -2181,7 +2181,7 @@
         "day": "Sunday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M1_HPC",
         "module": "ANAL-Num"
       },
@@ -2223,7 +2223,7 @@
         "day": "Saturday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "L2_ISIL_B G2",
         "module": "SI1"
       },
@@ -2259,7 +2259,7 @@
         "day": "Saturday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "L2_ISIL_B G4",
         "module": "POO"
       },
@@ -2267,7 +2267,7 @@
         "day": "Saturday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "L2_ISIL_B G3",
         "module": "POO"
       },
@@ -2345,7 +2345,7 @@
         "day": "Monday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "L2_ISIL_B G4",
         "module": "ALGO2"
       },
@@ -2353,7 +2353,7 @@
         "day": "Monday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "L2_ISIL_B G3",
         "module": "ALGO2"
       }
@@ -2379,7 +2379,7 @@
         "day": "Tuesday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "L2_ISIL_B G1",
         "module": "ALGO2"
       },
@@ -2413,7 +2413,7 @@
         "day": "Wednesday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "L2_ISIL_B G3",
         "module": "ALGO2"
       }
@@ -2505,7 +2505,7 @@
         "day": "Monday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M2_IL G1",
         "module": "CPT AVANC"
       },
@@ -2513,7 +2513,7 @@
         "day": "Monday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "M2_RSD G1",
         "module": "RES MOB"
       }
@@ -2547,7 +2547,7 @@
         "day": "Wednesday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M2_IL G2",
         "module": "CPT AVANC"
       }
@@ -2575,7 +2575,7 @@
         "day": "Saturday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "L3_ACAD_A G2",
         "module": "TH.GRAPH"
       }
@@ -2593,7 +2593,7 @@
         "day": "Monday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M2_RSD G2",
         "module": "RES S F"
       },
@@ -2601,7 +2601,7 @@
         "day": "Monday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "M2_RSD G4",
         "module": "RES S F"
       }
@@ -2793,7 +2793,7 @@
         "day": "Wednesday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M2_MIV G2",
         "module": "Connaissances et Raisonnement"
       }
@@ -2909,7 +2909,7 @@
         "day": "Wednesday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "L3_ACAD_A G2",
         "module": "SYS.EXP2"
       },
@@ -2917,7 +2917,7 @@
         "day": "Wednesday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "L3_ACAD_A G3",
         "module": "SYS.EXP2"
       }
@@ -2927,7 +2927,7 @@
         "day": "Sunday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M1_BIOINFO G1",
         "module": "SystProgScript"
       },
@@ -2963,7 +2963,7 @@
         "day": "Tuesday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "M1_BIOINFO G2",
         "module": "SystProgScript"
       }
@@ -3013,7 +3013,7 @@
         "day": "Monday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "M1_RSD G4",
         "module": "ASGBD"
       }
@@ -3147,7 +3147,7 @@
         "day": "Tuesday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M1_RSD G2",
         "module": "ASGBD"
       }
@@ -3213,7 +3213,7 @@
         "day": "Sunday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "L3_ACAD_B G3",
         "module": "SYS.EXP2"
       },
@@ -3249,7 +3249,7 @@
         "day": "Wednesday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "L3_ACAD_B G1",
         "module": "SYS.EXP2"
       }
@@ -3259,7 +3259,7 @@
         "day": "Monday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "M1_RSD G2",
         "module": "Algo.Av.et Compl"
       }
@@ -3279,7 +3279,7 @@
         "day": "Monday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "M2_MIV G1",
         "module": "Connaissances et Raisonnement"
       }
@@ -3443,7 +3443,7 @@
         "day": "Wednesday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "M1_SII G2",
         "module": "COMPIL"
       },
@@ -3459,7 +3459,7 @@
         "day": "Wednesday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "M1_SII G1",
         "module": "COMPIL"
       }
@@ -3471,7 +3471,7 @@
         "day": "Wednesday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "L3_ACAD_B G3",
         "module": "COMPIL"
       },
@@ -3479,7 +3479,7 @@
         "day": "Wednesday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "L3_ACAD_B G2",
         "module": "COMPIL"
       },
@@ -3531,7 +3531,7 @@
         "day": "Sunday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M2_SII G3",
         "module": "REP CON"
       },
@@ -3539,7 +3539,7 @@
         "day": "Sunday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "M2_SII G2",
         "module": "REP CON"
       },
@@ -3547,7 +3547,7 @@
         "day": "Sunday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M2_SII G1",
         "module": "REP CON"
       }
@@ -3625,7 +3625,7 @@
         "day": "Saturday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "L3_ISIL_B G3",
         "module": "RESEAUX"
       },
@@ -3699,7 +3699,7 @@
         "day": "Thursday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "L3_GTR G2",
         "module": "RES.S.FIL"
       },
@@ -3707,7 +3707,7 @@
         "day": "Thursday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "L3_GTR G1",
         "module": "RES.S.FIL"
       }
@@ -3767,7 +3767,7 @@
         "day": "Monday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "L3_ACAD_C G1",
         "module": "COMPIL"
       }
@@ -3915,7 +3915,7 @@
         "day": "Monday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "L3_ISIL_A G1",
         "module": "SYS02"
       }
@@ -3933,7 +3933,7 @@
         "day": "Tuesday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "L3_ISIL_A G3",
         "module": "SYS02"
       },
@@ -3941,7 +3941,7 @@
         "day": "Tuesday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "L3_ISIL_B G3",
         "module": "SYS02"
       }
@@ -3969,7 +3969,7 @@
         "day": "Thursday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "L3_ISIL_B G4",
         "module": "SYS02"
       },
@@ -4071,7 +4071,7 @@
         "day": "Thursday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "L3_GTR G1",
         "module": "S.C.A.N"
       },
@@ -4079,7 +4079,7 @@
         "day": "Thursday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "L3_GTR G2",
         "module": "S.C.A.N"
       }
@@ -4223,7 +4223,7 @@
         "day": "Tuesday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "M2_IL G1",
         "module": "MPDL"
       },
@@ -4231,7 +4231,7 @@
         "day": "Tuesday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M2_IL G2",
         "module": "MPDL"
       }
@@ -4343,7 +4343,7 @@
         "day": "Sunday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "L3_ISIL_A G4",
         "module": "BD2"
       }
@@ -4461,7 +4461,7 @@
         "day": "Sunday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M2_BIOINFO",
         "module": "MCA"
       },
@@ -4541,7 +4541,7 @@
         "day": "Thursday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "L3_ISIL_A G1",
         "module": "GL2"
       },
@@ -4549,7 +4549,7 @@
         "day": "Thursday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "L3_ISIL_A G2",
         "module": "GL2"
       }
@@ -4561,7 +4561,7 @@
         "day": "Thursday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "L3_ISIL_A G3",
         "module": "COMPIL"
       },
@@ -4569,7 +4569,7 @@
         "day": "Thursday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "L3_ISIL_A G1",
         "module": "COMPIL"
       },
@@ -4623,7 +4623,7 @@
         "day": "Thursday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "L3_ISIL_A G2",
         "module": "COMPIL"
       },
@@ -4631,7 +4631,7 @@
         "day": "Thursday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "L3_ISIL_A G4",
         "module": "COMPIL"
       }
@@ -4677,7 +4677,7 @@
         "day": "Tuesday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "L3_ISIL_B G2",
         "module": "BD2"
       },
@@ -4685,7 +4685,7 @@
         "day": "Tuesday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "L3_ISIL_B G3",
         "module": "BD2"
       },
@@ -4693,7 +4693,7 @@
         "day": "Tuesday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "L3_ISIL_B G4",
         "module": "BD2"
       },
@@ -4747,7 +4747,7 @@
         "day": "Thursday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "L3_ISIL_B G1",
         "module": "GL2"
       },
@@ -4755,7 +4755,7 @@
         "day": "Thursday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "L3_ISIL_B G2",
         "module": "GL2"
       },
@@ -4763,7 +4763,7 @@
         "day": "Thursday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "L3_ISIL_B G3",
         "module": "GL2"
       },
@@ -4771,7 +4771,7 @@
         "day": "Thursday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "L3_ISIL_B G4",
         "module": "GL2"
       }
@@ -4871,7 +4871,7 @@
         "day": "Monday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "M1_BIGDATA G2",
         "module": "SSAD"
       }
@@ -4897,7 +4897,7 @@
         "day": "Wednesday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "M1_BIGDATA G1",
         "module": "SSAD"
       },
@@ -4963,7 +4963,7 @@
         "day": "Thursday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "L3_ISIL_B G2",
         "module": "SI2"
       },
@@ -4971,7 +4971,7 @@
         "day": "Thursday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "L3_ISIL_B G1",
         "module": "SI2"
       },
@@ -4979,7 +4979,7 @@
         "day": "Thursday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "L3_ISIL_B G1",
         "module": "SI2"
       },
@@ -4987,7 +4987,7 @@
         "day": "Thursday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "L3_ISIL_B G3",
         "module": "SI2"
       }
@@ -5057,7 +5057,7 @@
         "day": "Monday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "M1_BIGDATA G1",
         "module": "GP"
       },
@@ -5065,7 +5065,7 @@
         "day": "Monday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "M1_BIGDATA G2",
         "module": "GP"
       },
@@ -5081,7 +5081,7 @@
         "day": "Monday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "M1_RSD G3",
         "module": "GP"
       }
@@ -5117,7 +5117,7 @@
         "day": "Tuesday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "M1_RSD G4",
         "module": "GP"
       },
@@ -5125,7 +5125,7 @@
         "day": "Tuesday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "M1_RSD G1",
         "module": "GP"
       }
@@ -5243,7 +5243,7 @@
         "day": "Monday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "M2_RSD G3",
         "module": "SYS.DISTR"
       }
@@ -5455,7 +5455,7 @@
         "day": "Saturday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M1_BIOINFO G1",
         "module": "Bio-Stat"
       },
@@ -5463,7 +5463,7 @@
         "day": "Saturday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M1_BIOINFO G2",
         "module": "Bio-Stat"
       }
@@ -5475,7 +5475,7 @@
         "day": "Monday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M1_BIOINFO G1",
         "module": "BIOGEN"
       },
@@ -5507,7 +5507,7 @@
         "day": "Sunday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M1_HPC G1",
         "module": "ComplexitÃ©"
       },
@@ -5515,7 +5515,7 @@
         "day": "Sunday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M1_HPC G1",
         "module": "ComplexitÃ©"
       }
@@ -5525,7 +5525,7 @@
         "day": "Monday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M1_HPC G1",
         "module": "ARCH-Av"
       },
@@ -5533,7 +5533,7 @@
         "day": "Monday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "M1_HPC G1",
         "module": "ARCH-Av"
       }
@@ -5555,7 +5555,7 @@
         "day": "Sunday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M1_HPC",
         "module": "ComplexitÃ©"
       }
@@ -5565,7 +5565,7 @@
         "day": "Monday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M1_HPC",
         "module": "ARCH-Av"
       }
@@ -5589,7 +5589,7 @@
         "day": "Wednesday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M1_HPC G1",
         "module": "SYSTM"
       },
@@ -5597,7 +5597,7 @@
         "day": "Wednesday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M1_HPC G1",
         "module": "SYSTM"
       }
@@ -5665,7 +5665,7 @@
         "day": "Thursday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M1_HPC",
         "module": "Mod-Sim"
       }
@@ -5687,7 +5687,7 @@
         "day": "Thursday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M1_HPC G1",
         "module": "Mod-Sim"
       }
@@ -5697,7 +5697,7 @@
         "day": "Tuesday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "M2_BIOINFO G1",
         "module": "FouilleDeDonnÃ©es"
       },
@@ -5705,7 +5705,7 @@
         "day": "Tuesday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "M2_BIOINFO G1",
         "module": "FouilleDeDonnÃ©es"
       }
@@ -5905,7 +5905,7 @@
         "day": "Sunday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "M1_MIV G1",
         "module": "TAI"
       }
@@ -5915,7 +5915,7 @@
         "day": "Monday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M1_MIV G2",
         "module": "TAI"
       }
@@ -5955,7 +5955,7 @@
         "day": "Monday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M2_MIV G2",
         "module": "Atelier CrÃ©atif"
       },
@@ -5963,7 +5963,7 @@
         "day": "Monday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M2_MIV G1",
         "module": "Atelier CrÃ©atif"
       }
@@ -6025,7 +6025,7 @@
         "day": "Wednesday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M1_MIV G2",
         "module": "MultimÃ©dia"
       },
@@ -6033,7 +6033,7 @@
         "day": "Wednesday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M1_MIV G1",
         "module": "MultimÃ©dia"
       }
@@ -6045,7 +6045,7 @@
         "day": "Monday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "M1_MIV G1",
         "module": "Syst"
       },
@@ -6111,7 +6111,7 @@
         "day": "Tuesday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "M1_MIV G2",
         "module": "Algo"
       },
@@ -6119,7 +6119,7 @@
         "day": "Tuesday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "M1_MIV G1",
         "module": "Algo"
       },
@@ -6127,7 +6127,7 @@
         "day": "Tuesday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "M1_RSD G1",
         "module": "Algo.Av.et Compl"
       }
@@ -6217,7 +6217,7 @@
         "day": "Monday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "M2_SII G2",
         "module": "D.MINING"
       },
@@ -6331,7 +6331,7 @@
         "day": "Wednesday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M1_RSD G2",
         "module": "SYST"
       },
@@ -6383,7 +6383,7 @@
         "day": "Monday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "M2_BIOINFO G1",
         "module": "CalPar-Arch"
       }
@@ -6495,7 +6495,7 @@
         "day": "Wednesday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "M1_SSI G1",
         "module": "SYST"
       },
@@ -6503,7 +6503,7 @@
         "day": "Wednesday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M1_SSI G2",
         "module": "SYST"
       },
@@ -6521,7 +6521,7 @@
         "day": "Tuesday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "M2_BIOINFO G1",
         "module": "RÃ©alitÃ©Virt"
       },
@@ -6537,7 +6537,7 @@
         "day": "Tuesday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M2_MIV G1",
         "module": "SystÃ¨me d'Exploitation Mobile"
       }
@@ -6563,7 +6563,7 @@
         "day": "Sunday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "M2_MIV G2",
         "module": "SystÃ¨me d'Exploitation Mobile"
       }
@@ -6613,7 +6613,7 @@
         "day": "Sunday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "M2_BIGDATA G2",
         "module": "TIAD"
       }
@@ -6631,7 +6631,7 @@
         "day": "Monday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC4",
+        "classroom": "TP.C4",
         "section": "M2_BIGDATA G1",
         "module": "TIAD"
       }
@@ -6765,7 +6765,7 @@
         "day": "Sunday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "M2_IL G2",
         "module": "ENT DON"
       },
@@ -6773,7 +6773,7 @@
         "day": "Sunday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M2_IL G4",
         "module": "ENT DON"
       },
@@ -6811,7 +6811,7 @@
         "day": "Sunday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "M2_IL G1",
         "module": "ASS QUAL"
       },
@@ -6819,7 +6819,7 @@
         "day": "Sunday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M2_IL G2",
         "module": "ASS QUAL"
       }
@@ -6853,7 +6853,7 @@
         "day": "Monday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "M2_IL G3",
         "module": "ASS QUAL"
       }
@@ -6863,7 +6863,7 @@
         "day": "Wednesday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "M2_IL G4",
         "module": "CPT AVANC"
       }
@@ -6909,7 +6909,7 @@
         "day": "Tuesday",
         "session_num": "N-2",
         "session": "09:40 - 11:10",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M2_IL G3",
         "module": "REP CON"
       },
@@ -6917,7 +6917,7 @@
         "day": "Tuesday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M2_IL G2",
         "module": "REP CON"
       },
@@ -6925,7 +6925,7 @@
         "day": "Tuesday",
         "session_num": "N-1",
         "session": "08:00 - 09:30",
-        "classroom": "TPC9",
+        "classroom": "TP.C9",
         "section": "M2_SII G3",
         "module": "P .CONTR"
       },
@@ -6951,7 +6951,7 @@
         "day": "Sunday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "M2_SII G1",
         "module": "P .CONTR"
       },
@@ -6959,7 +6959,7 @@
         "day": "Sunday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "M2_SII G2",
         "module": "P .CONTR"
       }
@@ -7009,7 +7009,7 @@
         "day": "Tuesday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC7",
+        "classroom": "TP.C7",
         "section": "M2_MIV G1",
         "module": "GP-"
       }
@@ -7143,7 +7143,7 @@
         "day": "Wednesday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "M2_RSD G2",
         "module": "CAR"
       },
@@ -7151,7 +7151,7 @@
         "day": "Wednesday",
         "session_num": "N-6",
         "session": "14:40 - 16:10",
-        "classroom": "TPC8",
+        "classroom": "TP.C8",
         "section": "M2_RSD G2",
         "module": "CAR"
       }
@@ -7185,7 +7185,7 @@
         "day": "Sunday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC5",
+        "classroom": "TP.C5",
         "section": "M2_RSD G1",
         "module": "ING-RES"
       }
@@ -7223,7 +7223,7 @@
         "day": "Sunday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC3A",
+        "classroom": "TP.C3A",
         "section": "M2_SII G1",
         "module": "D.MINING"
       },
@@ -7231,7 +7231,7 @@
         "day": "Sunday",
         "session_num": "N-4",
         "session": "13:00 - 14:30",
-        "classroom": "TPC6",
+        "classroom": "TP.C6",
         "section": "M2_SII G3",
         "module": "D.MINING"
       }
@@ -7303,7 +7303,7 @@
         "day": "Wednesday",
         "session_num": "N-3",
         "session": "11:20 - 12:50",
-        "classroom": "TPC3B",
+        "classroom": "TP.C3B",
         "section": "M2_SII G2",
         "module": "TAL"
       }

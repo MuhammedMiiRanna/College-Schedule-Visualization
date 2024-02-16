@@ -29,7 +29,7 @@
           "G3": {
             "Time": "11:20 - 12:50",
             "Subject": "ASGBD",
-            "loc": "TPC8",
+            "loc": "TP.C8",
             "prof": "KESSI"
           },
           "G4": {
@@ -58,7 +58,7 @@
           "G4": {
             "Time": "13:00 - 14:30",
             "Subject": "ASGBD",
-            "loc": "TPC8",
+            "loc": "TP.C8",
             "prof": "KESSI"
           }
         }
@@ -69,7 +69,7 @@
           "G2": {
             "Time": "14:40 - 16:10",
             "Subject": "ASGBD",
-            "loc": "TPC8",
+            "loc": "TP.C8",
             "prof": "KESSI"
           },
           "G3": {
@@ -183,7 +183,7 @@
           "G3": {
             "Time": "13:00 - 14:30",
             "Subject": "COMPLEXITE",
-            "loc": "TPC3B",
+            "loc": "TP.C3B",
             "prof": "HEDJAZI-DELLAL"
           },
           "G4": {
@@ -206,7 +206,7 @@
           "G2": {
             "Time": "14:40 - 16:10",
             "Subject": "COMPLEXITE",
-            "loc": "TPC3B",
+            "loc": "TP.C3B",
             "prof": "HEDJAZI-DELLAL"
           },
           "G4": {

@@ -22,6 +22,7 @@ var svg = d3
 
 // d3.json("/MapVisExp/USTHB map/usthbBrut2.geojson", function (json) {
 // d3.json("MapVisExp/USTHB map/USTHB_V11.geojson", function (json) {
+// d3.json("MapVisExp/USTHB map/usthbBrut2.geojson", function (json) {
 d3.json("MapVisExp/USTHB map/usthb-f.geojson", function (json) {
   var b = path.bounds(json);
   s = 0.99 / Math.max((b[1][0] - b[0][0]) / W, (b[1][1] - b[0][1]) / H);
