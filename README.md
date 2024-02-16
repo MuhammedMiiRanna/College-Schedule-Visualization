@@ -2,6 +2,13 @@
 
 Data visualization project where you can see the reserved classroomsin which the students are using for their classes using the D3.js library.
 
+- How to use it?
+- Screenshots
+- USAGE
+- Mentions
+- Todo/to-add
+- issues to fix for the next version
+
 # How to use it?
 
 For now, you can visualize the schedule of The Computer Science faculty in The University of Science and Technology Houari Boumediene, Algeria.
