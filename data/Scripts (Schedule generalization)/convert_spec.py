@@ -1,7 +1,7 @@
 import json
 
 """_summary_
-    This script will take an object that contains the name of the 
+    This script will take an object that contains the name of all of the 
     available specialties, and their schedule source file.
     Then it converts it into one object.
 """

@@ -1,6 +1,6 @@
 import teachersData from "/data/teachersSchedule/FacTeachersData.json" assert { type: "json" };
 import schedules from "/data/schedulesFileNames.json" assert { type: "json" };
-import eventsData from "/data/eventsData.json" assert { type: "json" };
+// import eventsData from "/data/eventsData/eventsData.json" assert { type: "json" };
 import { showsBy, fillSelectedTypeList } from "/scripts/events.js";
 
 // [ 'radius', 1 ]

@@ -12,7 +12,8 @@ ready_classrooms_set = set()
 
 #
 schedule_files = Path("data/schedulesFile.json")
-geojson = Path("MapVisExp/USTHB map/USTHB_V11.geojson")
+geojson = Path("Map/USTHB_V11.geojson")
+# PS: Path changed to Map/USTHB_V11.geojson
 #
 schedule_files = json.load(open(schedule_files, "r", encoding="UTF-8"))
 geojson = json.load(open(geojson, "r", encoding="UTF-8"))
@@ -49,7 +50,7 @@ Path("data/Scripts (Schedule generalization)/ready_classrooms_set.json").write_t
     json.dumps(dict(zip([index for index in range(len(ready_classrooms_set))], ready_classrooms_set))), encoding="UTF-8")
 Path("data/Scripts (Schedule generalization)/classrooms_set.json").write_text(
     json.dumps(dict(zip([index for index in range(len(classrooms_set))], classrooms_set))), encoding="UTF-8")
-Path("data/Scripts (Schedule generalization)/needed_classrooms_set.json").write_text(
+Path("data/Scripts (Schedule generalization)/classrooms_set_needed.json").write_text(
     json.dumps(dict(zip([index for index in range(len(needed_classrooms_set))], needed_classrooms_set)), ), encoding="UTF-8")
 
 

@@ -1,4 +1,4 @@
-import eventsData from "/data/eventsData.json" assert { type: "json" };
+import eventsData from "/data/eventsData/eventsData.json" assert { type: "json" };
 import { fillClassrooms } from "./formsLib.js";
 
 // we may need to move this into addDynamicData to be filled there

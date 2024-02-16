@@ -1,6 +1,6 @@
 import { removeChilds, getTeachersData } from "./formsLib.js";
 import { getSessionsData, fillClassrooms } from "./formsLib.js";
-import eventsData from "/data/eventsData.json" assert { type: "json" };
+import eventsData from "/data/eventsData/eventsData.json" assert { type: "json" };
 import { getEventsData, fillSelectedTypeList } from "./events.js";
 
 // SVGs :

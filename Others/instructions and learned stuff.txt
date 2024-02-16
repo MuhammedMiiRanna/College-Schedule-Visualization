@@ -1,0 +1,10 @@
+
+functions learned and used:
+- Array.isArray()
+- Object.keys()
+- Object... nsitha fakrona
+- 
+
+Concepts:
+-  fall-through feature of the switch statement
+

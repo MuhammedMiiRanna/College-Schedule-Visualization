@@ -20,10 +20,9 @@ var svg = d3
   )
   .append("g");
 
-// d3.json("/MapVisExp/USTHB map/usthbBrut2.geojson", function (json) {
-// d3.json("MapVisExp/USTHB map/USTHB_V11.geojson", function (json) {
-// d3.json("MapVisExp/USTHB map/usthbBrut2.geojson", function (json) {
-d3.json("MapVisExp/USTHB map/usthb-f.geojson", function (json) {
+// d3.json("Map/USTHB_V11.geojson", function (json) {
+// d3.json("Map/usthbBrut2.geojson", function (json) {
+d3.json("Map/usthb-f.geojson", function (json) {
   var b = path.bounds(json);
   s = 0.99 / Math.max((b[1][0] - b[0][0]) / W, (b[1][1] - b[0][1]) / H);
   t = [(W - s * (b[1][0] + b[0][0])) / 2, (H - s * (b[1][1] + b[0][1])) / 2];
@@ -39,10 +38,12 @@ d3.json("MapVisExp/USTHB map/usthb-f.geojson", function (json) {
     .append("path")
     .attr("d", path)
     .attr("class", "cl1")
-    .attr("id", (d) => d.properties.name)
+    .attr("id", (data) => {
+      return data.properties.name ? data.properties.name : "";
+    })
     .on("mouseover", function (d) {
       if (d.properties.name != "") {
-        var locLabel = "<b>Name :" + d.properties.name + " </b>";
+        var locLabel = "<b>Name: " + d.properties.name + " </b>";
         d3.select("#loc-label")
           .attr("class", "map-tooltip")
           .html(locLabel)
@@ -57,42 +58,7 @@ d3.json("MapVisExp/USTHB map/usthb-f.geojson", function (json) {
     });
 });
 
-// /////////////////////////////////////////////////////////////////////////
-// Zoom test
-// scale 1
-// Reset Zoom: zoomTo([305.07681305610026, 165.2429846466185], 1)
-
-function zoomTo(points, scale) {
-  const zoom = d3
-    .zoom()
-    .scaleExtent([1, 25])
-    .translateExtent([
-      [-100, -100],
-      [1000, 900],
-    ])
-    .on("zoom", zoomed);
-
-  function zoomed() {
-    svg.selectAll("path").attr("transform", d3.event.transform);
-    //console.log(d3.event.transform)
-  }
-
-  let point = centroid(points);
-  //convert long lat to cartesian coordinates
-  console.log("cartesian point is:", point);
-  svg
-    .transition()
-    .duration(2500)
-    .call(
-      zoom.transform,
-      d3.zoomIdentity
-        .translate(W / 2 - point[0] * scale, H / 2 - point[1] * scale)
-        .scale(scale)
-    );
-}
-
-// /////////////////////////////////////////////////////////////////////////
-
+// for the zoom feature
 function centroid(coord) {
   // Initialize sum of coordinates
   let sumX = 0;
@@ -112,8 +78,3 @@ function centroid(coord) {
   // Return the center as an array [avgX, avgY]
   return [avgX, avgY];
 }
-
-// test
-// let coord = [[3.180923130640224, 36.71239204594566]];
-// zoomTo(coord, 5);
-// console.log(centroid(coord));
